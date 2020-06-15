@@ -1,0 +1,22 @@
+#projectlogo img {
+  margin: 1rem; 
+  height: 80px;
+}
+
+div.line {
+  /*line-height: 1.2;*/
+  margin: 0.25rem;
+}
+
+div.fragment {
+  padding: 0.5rem;
+}
+
+img.footer {
+  display: None;
+}
+
+* {
+  text-shadow: None!Important;
+  box-shadow: None!Important;
+}

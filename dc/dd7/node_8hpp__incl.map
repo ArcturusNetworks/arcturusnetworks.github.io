@@ -1,0 +1,16 @@
+<map id="/usr/local/include/streamproc/node.hpp" name="/usr/local/include/streamproc/node.hpp">
+<area shape="rect" id="node4" href="$d3/ddc/bus_8hpp.html" title="streamproc/bus.hpp" alt="" coords="1511,102,1662,129"/>
+<area shape="rect" id="node32" href="$d9/d0f/stream_8hpp.html" title="streamproc/stream.hpp" alt="" coords="1770,191,1945,218"/>
+<area shape="rect" id="node41" href="$d7/df5/process__profiler_8hpp.html" title="streamproc/tools/process\l_profiler.hpp" alt="" coords="2101,95,2288,136"/>
+<area shape="rect" id="node8" href="$d2/dfe/client_8hpp.html" title="streamproc/influxdb\l/client.hpp" alt="" coords="1339,184,1491,225"/>
+<area shape="rect" id="node9" href="$d9/d55/database__config_8hpp.html" title="streamproc/influxdb\l/database_config.hpp" alt="" coords="1521,273,1681,315"/>
+<area shape="rect" id="node16" href="$d0/de4/point_8hpp.html" title="streamproc/influxdb\l/point.hpp" alt="" coords="1095,273,1247,315"/>
+<area shape="rect" id="node19" href="$d4/d51/http_8hpp.html" title="streamproc/tools/http.hpp" alt="" coords="630,281,821,307"/>
+<area shape="rect" id="node28" href="$d0/da9/logging_8hpp.html" title="streamproc/logging.hpp" alt="" coords="1321,281,1497,307"/>
+<area shape="rect" id="node10" href="$d8/d5b/streamproc_2utils_8hpp.html" title="streamproc/utils.hpp" alt="" coords="1774,370,1930,397"/>
+<area shape="rect" id="node18" href="$d9/d99/error_8hpp.html" title="streamproc/error.hpp" alt="" coords="1187,370,1346,397"/>
+<area shape="rect" id="node34" href="$dc/d6b/streamproc_2models_8hpp.html" title="streamproc/models.hpp" alt="" coords="2191,281,2367,307"/>
+<area shape="rect" id="node35" href="$d1/d3c/frame_8hpp.html" title="streamproc/models/frame.hpp" alt="" coords="2441,370,2660,397"/>
+<area shape="rect" id="node37" href="$d6/da0/detections_8hpp.html" title="streamproc/models/detections.hpp" alt="" coords="2684,370,2932,397"/>
+<area shape="rect" id="node39" href="$da/d4c/embeddings_8hpp.html" title="streamproc/models/embeddings.hpp" alt="" coords="2057,370,2317,397"/>
+</map>

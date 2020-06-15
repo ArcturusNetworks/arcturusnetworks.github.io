@@ -1,0 +1,11 @@
+<map id="/usr/local/include/deepvision/embed/mobilenet_v1_triplet_loss.hpp" name="/usr/local/include/deepvision/embed/mobilenet_v1_triplet_loss.hpp">
+<area shape="rect" id="node2" href="$d7/db7/embed_8hpp.html" title="/usr/local/include\l/deepvision/embed.hpp" alt="" coords="295,109,470,151"/>
+<area shape="rect" id="node3" href="$dd/d24/deepvision_2models_8hpp.html" title="/usr/local/include\l/deepvision/models.hpp" alt="" coords="294,199,471,240"/>
+<area shape="rect" id="node4" href="$d8/df4/dvconfig_8hpp.html" title="/usr/local/include\l/streamproc/dvconfig.hpp" alt="" coords="188,288,375,329"/>
+<area shape="rect" id="node10" href="$da/d7b/debug_8hpp.html" title="/usr/local/include\l/deepvision/debug.hpp" alt="" coords="399,288,569,329"/>
+<area shape="rect" id="node5" href="$d4/de6/analytics__sink_8hpp.html" title="/usr/local/include\l/streamproc/analytics\l_sink.hpp" alt="" coords="5,377,168,433"/>
+<area shape="rect" id="node8" href="$d7/daf/embedding__filter_8hpp.html" title="/usr/local/include\l/streamproc/embedding\l_filter.hpp" alt="" coords="193,377,370,433"/>
+<area shape="rect" id="node9" href="$d6/d30/inference__filter_8hpp.html" title="/usr/local/include\l/streamproc/inference\l_filter.hpp" alt="" coords="395,377,560,433"/>
+<area shape="rect" id="node6" href="$de/dc1/streamproc_8hpp.html" title="/usr/local/include\l/streamproc/streamproc.hpp" alt="" coords="178,481,385,523"/>
+<area shape="rect" id="node7" href="$dc/dcd/builder_8hpp.html" title="/usr/local/include\l/streamproc/builder.hpp" alt="" coords="193,571,369,612"/>
+</map>

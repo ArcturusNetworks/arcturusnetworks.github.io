@@ -1,0 +1,7 @@
+<map id="streamproc::Filter" name="streamproc::Filter">
+<area shape="rect" id="node3" href="$d3/d64/classstreamproc_1_1EmbeddingFilter.html" title="Filter node performing neural network embeddings on video frames. " alt="" coords="376,5,585,32"/>
+<area shape="rect" id="node4" href="$d7/d15/classstreamproc_1_1FaceRecFilter.html" title="streamproc::FaceRecFilter" alt="" coords="387,56,575,83"/>
+<area shape="rect" id="node5" href="$d3/dc3/classstreamproc_1_1InferenceFilter.html" title="Filter node performing object detection on video frames. " alt="" coords="382,107,579,133"/>
+<area shape="rect" id="node6" href="$d4/da9/classstreamproc_1_1TrackingFilter.html" title="streamproc::TrackingFilter" alt="" coords="385,157,576,184"/>
+<area shape="rect" id="node2" href="$dd/d01/classstreamproc_1_1Node.html" title="Base class for node. " alt="" coords="5,81,144,108"/>
+</map>

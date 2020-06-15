@@ -1,0 +1,4 @@
+<map id="streamproc::Stream" name="streamproc::Stream">
+<area shape="rect" id="node2" href="$d9/daa/classstreamproc_1_1IncomingStream.html" title="Interface to receive data from nodes in a network. " alt="" coords="5,80,216,107"/>
+<area shape="rect" id="node3" href="$db/dca/classstreamproc_1_1OutgoingStream.html" title="Interface to send data to nodes in a network. " alt="" coords="240,80,451,107"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="streamproc::Sink" name="streamproc::Sink">
+<area shape="rect" id="node3" href="$df/dfa/classstreamproc_1_1AnalyticsSink.html" title="streamproc::AnalyticsSink" alt="" coords="5,155,197,181"/>
+<area shape="rect" id="node4" href="$da/db3/classstreamproc_1_1VideoSink.html" title="Sink node which consumes video frames. " alt="" coords="222,155,391,181"/>
+<area shape="rect" id="node2" href="$dd/d01/classstreamproc_1_1Node.html" title="Base class for node. " alt="" coords="135,5,273,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="streamproc::videowriter::VideoWriter" name="streamproc::videowriter::VideoWriter">
+<area shape="rect" id="node2" href="$df/d45/classstreamproc_1_1videowriter_1_1LocalDisplay.html" title="streamproc::videowriter\l::LocalDisplay" alt="" coords="232,5,411,47"/>
+<area shape="rect" id="node3" href="$d1/d22/classstreamproc_1_1videowriter_1_1MJPEGStream.html" title="streamproc::videowriter\l::MJPEGStream" alt="" coords="232,71,411,112"/>
+<area shape="rect" id="node4" href="$dd/d2c/classstreamproc_1_1videowriter_1_1VideoFile.html" title="streamproc::videowriter\l::VideoFile" alt="" coords="232,136,411,177"/>
+</map>

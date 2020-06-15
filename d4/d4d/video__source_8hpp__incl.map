@@ -1,0 +1,17 @@
+<map id="/usr/local/include/streamproc/video_source.hpp" name="/usr/local/include/streamproc/video_source.hpp">
+<area shape="rect" id="node2" href="$d3/d09/node_8hpp.html" title="streamproc/node.hpp" alt="" coords="1507,95,1667,121"/>
+<area shape="rect" id="node5" href="$d3/ddc/bus_8hpp.html" title="streamproc/bus.hpp" alt="" coords="1511,177,1662,203"/>
+<area shape="rect" id="node33" href="$d9/d0f/stream_8hpp.html" title="streamproc/stream.hpp" alt="" coords="1770,266,1945,293"/>
+<area shape="rect" id="node42" href="$d7/df5/process__profiler_8hpp.html" title="streamproc/tools/process\l_profiler.hpp" alt="" coords="2101,169,2288,211"/>
+<area shape="rect" id="node9" href="$d2/dfe/client_8hpp.html" title="streamproc/influxdb\l/client.hpp" alt="" coords="1339,259,1491,300"/>
+<area shape="rect" id="node10" href="$d9/d55/database__config_8hpp.html" title="streamproc/influxdb\l/database_config.hpp" alt="" coords="1521,348,1681,389"/>
+<area shape="rect" id="node17" href="$d0/de4/point_8hpp.html" title="streamproc/influxdb\l/point.hpp" alt="" coords="1095,348,1247,389"/>
+<area shape="rect" id="node20" href="$d4/d51/http_8hpp.html" title="streamproc/tools/http.hpp" alt="" coords="630,355,821,382"/>
+<area shape="rect" id="node29" href="$d0/da9/logging_8hpp.html" title="streamproc/logging.hpp" alt="" coords="1321,355,1497,382"/>
+<area shape="rect" id="node11" href="$d8/d5b/streamproc_2utils_8hpp.html" title="streamproc/utils.hpp" alt="" coords="1774,445,1930,471"/>
+<area shape="rect" id="node19" href="$d9/d99/error_8hpp.html" title="streamproc/error.hpp" alt="" coords="1187,445,1346,471"/>
+<area shape="rect" id="node35" href="$dc/d6b/streamproc_2models_8hpp.html" title="streamproc/models.hpp" alt="" coords="2191,355,2367,382"/>
+<area shape="rect" id="node36" href="$d1/d3c/frame_8hpp.html" title="streamproc/models/frame.hpp" alt="" coords="2441,445,2660,471"/>
+<area shape="rect" id="node38" href="$d6/da0/detections_8hpp.html" title="streamproc/models/detections.hpp" alt="" coords="2684,445,2932,471"/>
+<area shape="rect" id="node40" href="$da/d4c/embeddings_8hpp.html" title="streamproc/models/embeddings.hpp" alt="" coords="2057,445,2317,471"/>
+</map>

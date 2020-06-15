@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['armnn',['armnn',['../d7/db3/namespacedeepvision_1_1armnn.html',1,'deepvision']]],
+  ['classify',['classify',['../d3/db4/namespacedeepvision_1_1classify.html',1,'deepvision']]],
+  ['data',['Data',['../d4/ddb/classdeepvision_1_1armnn_1_1ArmNNTensor.html#a1a63a7c627f5f5a4e771e57a56ee4814',1,'deepvision::armnn::ArmNNTensor::Data()'],['../d3/dc5/classdeepvision_1_1Image.html#a80c07323462d6b98b9329291874cbe2a',1,'deepvision::Image::Data()'],['../dd/d4a/classdeepvision_1_1Tensor.html#a2fd3267d7cd0b4dcf5ccf6fd66c57c01',1,'deepvision::Tensor::Data()'],['../d5/d3b/classdeepvision_1_1tflite_1_1TfLiteTensor.html#a39d8d09abc7aba333268c93d43c8ecf9',1,'deepvision::tflite::TfLiteTensor::Data()'],['../d7/d89/structstreamproc_1_1models_1_1Detections.html#a9f729f9ba3fa94cb80f9ed33e13d94fc',1,'streamproc::models::Detections::data()'],['../dd/df6/structstreamproc_1_1models_1_1Embeddings.html#a1defce26bcdcc404f2d6f50d37bf4ed4',1,'streamproc::models::Embeddings::data()']]],
+  ['database',['database',['../dd/dbb/structstreamproc_1_1influxdb_1_1DatabaseConfig.html#a5864c8b83fb80062dff267f3b6b15a65',1,'streamproc::influxdb::DatabaseConfig']]],
+  ['database_5fconfig_2ehpp',['database_config.hpp',['../d9/d55/database__config_8hpp.html',1,'']]],
+  ['databaseconfig',['DatabaseConfig',['../dd/dbb/structstreamproc_1_1influxdb_1_1DatabaseConfig.html',1,'streamproc::influxdb::DatabaseConfig'],['../dd/dbb/structstreamproc_1_1influxdb_1_1DatabaseConfig.html#af37817a34c08065d72b3620fcff5fd68',1,'streamproc::influxdb::DatabaseConfig::DatabaseConfig()']]],
+  ['datatype',['DataType',['../dd/dc9/namespacedeepvision.html#a60d7573d141d9e12a59e1b7a94de6160',1,'deepvision']]],
+  ['datatypetostr',['DataTypeToStr',['../dd/dc9/namespacedeepvision.html#aefc98360454779c6f1709c8506c512ed',1,'deepvision']]],
+  ['debug_2ehpp',['debug.hpp',['../db/d01/armnn_2debug_8hpp.html',1,'(Global Namespace)'],['../dd/d66/classify_2debug_8hpp.html',1,'(Global Namespace)'],['../da/d7b/debug_8hpp.html',1,'(Global Namespace)'],['../d0/d01/objdet_2debug_8hpp.html',1,'(Global Namespace)']]],
+  ['decode',['Decode',['../d7/d77/namespacestreamproc.html#a1d3eaefd9ad3710298f3aae2141135c7',1,'streamproc::Decode()'],['../d2/d23/namespacestreamproc_1_1models.html#a25fd03749774b579f133ddd920556c3b',1,'streamproc::models::Decode(Detections &amp;detections, zmq::message_t &amp;message)'],['../d2/d23/namespacestreamproc_1_1models.html#ae63b712b703b146f5ca295f81fff01b5',1,'streamproc::models::Decode(Embeddings &amp;embeddings, zmq::message_t &amp;message)'],['../d2/d23/namespacestreamproc_1_1models.html#ab9056f3d9ed63978e4cd6f7af0be00dc',1,'streamproc::models::Decode(Frame &amp;frame, zmq::message_t &amp;message)']]],
+  ['deepvision',['deepvision',['../dd/dc9/namespacedeepvision.html',1,'']]],
+  ['detection',['Detection',['../dc/d3d/structdeepvision_1_1objdet_1_1Detection.html',1,'deepvision::objdet::Detection'],['../db/d2c/structstreamproc_1_1models_1_1Detection.html',1,'streamproc::models::Detection'],['../db/d2c/structstreamproc_1_1models_1_1Detection.html#a0149824029364edfd53a6b26ccaa29cf',1,'streamproc::models::Detection::Detection(uint64_t id=0, float conf=0.0f, std::string label=&quot;&quot;, cv::Rect bbox=cv::Rect())'],['../db/d2c/structstreamproc_1_1models_1_1Detection.html#a00f3a809eafd0309aca34f1ae63c8881',1,'streamproc::models::Detection::Detection(float conf, std::string label, cv::Rect bbox)'],['../dc/d3d/structdeepvision_1_1objdet_1_1Detection.html#a7e17b2e2ae90be829bc05f4b4823dcb3',1,'deepvision::objdet::Detection::Detection()']]],
+  ['detections',['Detections',['../d7/d89/structstreamproc_1_1models_1_1Detections.html',1,'streamproc::models::Detections'],['../d7/d89/structstreamproc_1_1models_1_1Detections.html#a4ac2d8dcf1a4054571fc07d6739e313f',1,'streamproc::models::Detections::Detections()']]],
+  ['detections_2ehpp',['detections.hpp',['../d6/da0/detections_8hpp.html',1,'']]],
+  ['detector',['Detector',['../dc/d81/classdeepvision_1_1objdet_1_1Detector.html',1,'deepvision::objdet']]],
+  ['dropdatabase',['DropDatabase',['../d8/dde/classstreamproc_1_1influxdb_1_1Client.html#a59dbc75d94103fc720e44771f32504e1',1,'streamproc::influxdb::Client']]],
+  ['dvconfig_2ehpp',['dvconfig.hpp',['../d8/df4/dvconfig_8hpp.html',1,'']]],
+  ['embed',['embed',['../dd/d60/namespacedeepvision_1_1embed.html',1,'deepvision']]],
+  ['mobilenetv1',['MobileNetV1',['../d1/d69/namespacedeepvision_1_1classify_1_1MobileNetV1.html',1,'deepvision::classify']]],
+  ['mobilenetv2',['MobileNetV2',['../d7/de5/namespacedeepvision_1_1classify_1_1MobileNetV2.html',1,'deepvision::classify']]],
+  ['objdet',['objdet',['../da/dc7/namespacedeepvision_1_1objdet.html',1,'deepvision']]],
+  ['tflite',['tflite',['../da/d94/namespacedeepvision_1_1tflite.html',1,'deepvision']]],
+  ['utils',['utils',['../d8/d3b/namespacedeepvision_1_1utils.html',1,'deepvision']]]
+];

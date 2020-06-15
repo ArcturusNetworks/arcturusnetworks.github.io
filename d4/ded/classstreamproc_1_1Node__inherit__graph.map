@@ -1,0 +1,12 @@
+<map id="streamproc::Node" name="streamproc::Node">
+<area shape="rect" id="node2" href="$d6/d49/classstreamproc_1_1Filter.html" title="Node which filters data. " alt="" coords="198,107,334,133"/>
+<area shape="rect" id="node7" href="$d2/d2b/classstreamproc_1_1Sink.html" title="Node which consumes data. " alt="" coords="200,220,332,247"/>
+<area shape="rect" id="node10" href="$db/d95/classstreamproc_1_1Source.html" title="Node which generates data. " alt="" coords="192,296,340,323"/>
+<area shape="rect" id="node3" href="$d3/d64/classstreamproc_1_1EmbeddingFilter.html" title="Filter node performing neural network embeddings on video frames. " alt="" coords="388,5,597,32"/>
+<area shape="rect" id="node4" href="$d7/d15/classstreamproc_1_1FaceRecFilter.html" title="streamproc::FaceRecFilter" alt="" coords="399,56,587,83"/>
+<area shape="rect" id="node5" href="$d3/dc3/classstreamproc_1_1InferenceFilter.html" title="Filter node performing object detection on video frames. " alt="" coords="394,107,591,133"/>
+<area shape="rect" id="node6" href="$d4/da9/classstreamproc_1_1TrackingFilter.html" title="streamproc::TrackingFilter" alt="" coords="397,157,588,184"/>
+<area shape="rect" id="node8" href="$df/dfa/classstreamproc_1_1AnalyticsSink.html" title="streamproc::AnalyticsSink" alt="" coords="397,208,589,235"/>
+<area shape="rect" id="node9" href="$da/db3/classstreamproc_1_1VideoSink.html" title="Sink node which consumes video frames. " alt="" coords="408,259,577,285"/>
+<area shape="rect" id="node11" href="$d6/dba/classstreamproc_1_1VideoSource.html" title="Source node which generates video frames. " alt="" coords="400,309,585,336"/>
+</map>
