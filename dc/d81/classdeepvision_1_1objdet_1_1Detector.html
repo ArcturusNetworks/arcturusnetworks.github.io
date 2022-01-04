@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="../../logo-dark.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">streamproc
-   &#160;<span id="projectnumber">v.0.0.1</span>
+   &#160;<span id="projectnumber">v.1.1.0</span>
    </div>
    <div id="projectbrief">Distributed Computing for Machine Vision</div>
   </td>
@@ -94,14 +94,15 @@ $(document).ready(function(){initNavTree('dc/d81/classdeepvision_1_1objdet_1_1De
 <p>Generic interface for classes which perform object detection on an image.  
  <a href="../../dc/d81/classdeepvision_1_1objdet_1_1Detector.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../dd/d47/objdet_2types_8hpp_source.html">types.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d5/daf/deepvision_2objdet_2types_8hpp_source.html">types.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for deepvision::objdet::Detector:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/db5/classdeepvision_1_1objdet_1_1Detector__inherit__graph.png" border="0" usemap="#deepvision_1_1objdet_1_1Detector_inherit__map" alt="Inheritance graph"/></div>
 <map name="deepvision_1_1objdet_1_1Detector_inherit__map" id="deepvision_1_1objdet_1_1Detector_inherit__map">
-<area shape="rect" id="node2" href="../../de/d3f/classdeepvision_1_1objdet_1_1GeneralSSD.html" title="A Detector which can run any SSD model exported for Tensorflow Lite by https://github.com/tensorflow/models/blob/master/research/object_detection/export_tflite_ssd_graph.py with option &#39;–add_postprocessing_op=True&#39;. " alt="" coords="5,95,148,136"/>
-<area shape="rect" id="node3" href="../../dc/d6e/classdeepvision_1_1objdet_1_1YoloV3.html" title="deepvision::objdet\l::YoloV3" alt="" coords="172,95,315,136"/>
+<area shape="rect" id="node2" href="../../de/d3f/classdeepvision_1_1objdet_1_1GeneralSSD.html" title="A Detector which can run any SSD model exported for Tensorflow Lite by https://github.com/tensorflow/models/blob/master/research/object_detection/export_tflite_ssd_graph.py with option &#39;–add_postprocessing_op=True&#39;. " alt="" coords="196,5,339,47"/>
+<area shape="rect" id="node3" href="../../d4/dca/classdeepvision_1_1objdet_1_1TensorRT.html" title="deepvision::objdet\l::TensorRT" alt="" coords="196,71,339,112"/>
+<area shape="rect" id="node4" href="../../dc/d6e/classdeepvision_1_1objdet_1_1YoloV3.html" title="deepvision::objdet\l::YoloV3" alt="" coords="196,136,339,177"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -109,6 +110,8 @@ Inheritance diagram for deepvision::objdet::Detector:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af28362b69e2c2fad414a8e585141f245"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="../../dc/d3d/structdeepvision_1_1objdet_1_1Detection.html">Detection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d81/classdeepvision_1_1objdet_1_1Detector.html#af28362b69e2c2fad414a8e585141f245">Run</a> (const cv::Mat &amp;mat)=0</td></tr>
 <tr class="separator:af28362b69e2c2fad414a8e585141f245"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad422691d0d86363f3f735318abf4b011"><td class="memItemLeft" align="right" valign="top">virtual uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d81/classdeepvision_1_1objdet_1_1Detector.html#ad422691d0d86363f3f735318abf4b011">GetInferTime</a> () const =0</td></tr>
+<tr class="separator:ad422691d0d86363f3f735318abf4b011"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe1e13225c463eb4f296b8cc67b0ef96"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d81/classdeepvision_1_1objdet_1_1Detector.html#afe1e13225c463eb4f296b8cc67b0ef96">~Detector</a> ()</td></tr>
 <tr class="separator:afe1e13225c463eb4f296b8cc67b0ef96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -141,6 +144,33 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad422691d0d86363f3f735318abf4b011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad422691d0d86363f3f735318abf4b011">&#9670;&nbsp;</a></span>GetInferTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual uint64_t deepvision::objdet::Detector::GetInferTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../de/d3f/classdeepvision_1_1objdet_1_1GeneralSSD.html#a08b912daf894ea700f370a8548468a21">deepvision::objdet::GeneralSSD</a>, <a class="el" href="../../dc/d6e/classdeepvision_1_1objdet_1_1YoloV3.html#af35f17a098b811a3ebfc3b71f9e6dd61">deepvision::objdet::YoloV3</a>, and <a class="el" href="../../d4/dca/classdeepvision_1_1objdet_1_1TensorRT.html#a98274b4b5d0b087fbdca7be51b3eb441">deepvision::objdet::TensorRT</a>.</p>
+
+</div>
+</div>
 <a id="af28362b69e2c2fad414a8e585141f245"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af28362b69e2c2fad414a8e585141f245">&#9670;&nbsp;</a></span>Run()</h2>
 
@@ -165,12 +195,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../de/d3f/classdeepvision_1_1objdet_1_1GeneralSSD.html#af96242ef8c350c96aa5c6ba808374d78">deepvision::objdet::GeneralSSD</a>, and <a class="el" href="../../dc/d6e/classdeepvision_1_1objdet_1_1YoloV3.html#ab03f854b3c205807da3d8da45594c945">deepvision::objdet::YoloV3</a>.</p>
+<p>Implemented in <a class="el" href="../../de/d3f/classdeepvision_1_1objdet_1_1GeneralSSD.html#af96242ef8c350c96aa5c6ba808374d78">deepvision::objdet::GeneralSSD</a>, <a class="el" href="../../dc/d6e/classdeepvision_1_1objdet_1_1YoloV3.html#ab03f854b3c205807da3d8da45594c945">deepvision::objdet::YoloV3</a>, and <a class="el" href="../../d4/dca/classdeepvision_1_1objdet_1_1TensorRT.html#aff16667463fd50019c0cc39fddf0e9e0">deepvision::objdet::TensorRT</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/usr/local/include/deepvision/objdet/<a class="el" href="../../dd/d47/objdet_2types_8hpp_source.html">types.hpp</a></li>
+<li>/usr/local/include/deepvision/objdet/<a class="el" href="../../d5/daf/deepvision_2objdet_2types_8hpp_source.html">types.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

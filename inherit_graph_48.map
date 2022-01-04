@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d6/d95/classstreamproc_1_1Stream.html" title="Base clase for stream. " alt="" coords="5,31,156,57"/>
+<area shape="rect" id="node2" href="$d9/daa/classstreamproc_1_1IncomingStream.html" title="Interface to receive data from nodes in a network. " alt="" coords="204,5,415,32"/>
+<area shape="rect" id="node3" href="$db/dca/classstreamproc_1_1OutgoingStream.html" title="Interface to send data to nodes in a network. " alt="" coords="204,56,415,83"/>
+</map>

@@ -1,9 +1,9 @@
 <map id="/usr/local/include/deepvision/objdet.hpp" name="/usr/local/include/deepvision/objdet.hpp">
 <area shape="rect" id="node2" href="$de/da8/general__ssd_8hpp.html" title="deepvision/objdet/general\l_ssd.hpp" alt="" coords="1065,95,1255,136"/>
-<area shape="rect" id="node26" href="$d1/d0e/labels_8hpp.html" title="deepvision/objdet/labels.hpp" alt="" coords="1265,191,1474,218"/>
-<area shape="rect" id="node27" href="$dd/d47/objdet_2types_8hpp.html" title="deepvision/objdet/types.hpp" alt="" coords="1498,191,1705,218"/>
+<area shape="rect" id="node26" href="$d3/d92/objdet_2labels_8hpp.html" title="deepvision/objdet/labels.hpp" alt="" coords="1265,191,1474,218"/>
+<area shape="rect" id="node27" href="$d5/daf/deepvision_2objdet_2types_8hpp.html" title="deepvision/objdet/types.hpp" alt="" coords="1498,191,1705,218"/>
 <area shape="rect" id="node29" href="$da/df9/yolo__v3_8hpp.html" title="deepvision/objdet/yolo\l_v3.hpp" alt="" coords="1280,95,1451,136"/>
-<area shape="rect" id="node30" href="$d0/d01/objdet_2debug_8hpp.html" title="deepvision/objdet/debug.hpp" alt="" coords="1576,102,1787,129"/>
+<area shape="rect" id="node30" href="$d2/d56/deepvision_2objdet_2debug_8hpp.html" title="deepvision/objdet/debug.hpp" alt="" coords="1576,102,1787,129"/>
 <area shape="rect" id="node3" href="$d3/dd7/armnn__executor_8hpp.html" title="deepvision/armnn/armnn\l_executor.hpp" alt="" coords="733,184,918,225"/>
 <area shape="rect" id="node24" href="$d3/d42/image_8hpp.html" title="deepvision/image.hpp" alt="" coords="1074,191,1241,218"/>
 <area shape="rect" id="node4" href="$db/d6c/armnn__tensor_8hpp.html" title="deepvision/armnn/armnn\l_tensor.hpp" alt="" coords="545,273,730,315"/>

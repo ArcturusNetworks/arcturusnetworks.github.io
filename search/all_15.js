@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['vectostr',['VecToStr',['../d8/d3b/namespacedeepvision_1_1utils.html#a0077967a26e21f49005df977fa6704b9',1,'deepvision::utils']]],
-  ['video_5ffile_2ehpp',['video_file.hpp',['../d5/d1e/video__file_8hpp.html',1,'']]],
-  ['video_5fsink_2ehpp',['video_sink.hpp',['../da/d40/video__sink_8hpp.html',1,'']]],
-  ['video_5fsink_2ejson',['video_sink.json',['../da/d16/video__sink_8json.html',1,'']]],
-  ['video_5fsource_2ehpp',['video_source.hpp',['../d6/d3d/video__source_8hpp.html',1,'']]],
-  ['video_5fsource_2ejson',['video_source.json',['../d8/d81/video__source_8json.html',1,'']]],
-  ['video_5fwriter_2ehpp',['video_writer.hpp',['../d5/deb/video__writer_8hpp.html',1,'']]],
-  ['video_5fwriters_2ehpp',['video_writers.hpp',['../dd/de6/video__writers_8hpp.html',1,'']]],
-  ['videofile',['VideoFile',['../dd/d2c/classstreamproc_1_1videowriter_1_1VideoFile.html',1,'streamproc::videowriter::VideoFile'],['../dd/d2c/classstreamproc_1_1videowriter_1_1VideoFile.html#ac0bff3541ce6760e14cc83b81c23a6d4',1,'streamproc::videowriter::VideoFile::VideoFile()']]],
-  ['videosink',['VideoSink',['../da/db3/classstreamproc_1_1VideoSink.html',1,'streamproc::VideoSink'],['../da/db3/classstreamproc_1_1VideoSink.html#a075ebe56f265815a7d0b746743fc8f02',1,'streamproc::VideoSink::VideoSink(const json &amp;incomingFrame, std::vector&lt; std::unique_ptr&lt; videowriter::VideoWriter &gt;&gt; writers, const uint64_t numFrames)'],['../da/db3/classstreamproc_1_1VideoSink.html#a73913c3f599813971d09d25bbd76be67',1,'streamproc::VideoSink::VideoSink(const json &amp;incomingFrame, const json &amp;incomingDetections, std::vector&lt; std::unique_ptr&lt; videowriter::VideoWriter &gt;&gt; writers, const uint64_t numFrames)']]],
-  ['videosource',['VideoSource',['../d6/dba/classstreamproc_1_1VideoSource.html',1,'streamproc::VideoSource'],['../d6/dba/classstreamproc_1_1VideoSource.html#a76efa1bddd1491faccc671285730851b',1,'streamproc::VideoSource::VideoSource()']]],
-  ['videowriter',['VideoWriter',['../dc/dbd/classstreamproc_1_1videowriter_1_1VideoWriter.html',1,'streamproc::videowriter']]]
+  ['u',['u',['../d7/d77/namespacestreamproc.html#ae432916d2dd2071e27aeefb5210c1e9ca7b774effe4a349c6dd82ad4f4f21d34c',1,'streamproc']]],
+  ['uint8',['UINT8',['../dd/dc9/namespacedeepvision.html#a60d7573d141d9e12a59e1b7a94de6160aecfc091ed2a607335524c8389cfa41b5',1,'deepvision']]],
+  ['unixtime',['UnixTime',['../d8/d3b/namespacedeepvision_1_1utils.html#ad599b0ce030425e4328753bf80f424fd',1,'deepvision::utils']]],
+  ['unmatched_5fdetections',['unmatched_detections',['../d8/d25/structdeepsort_1_1tracker__matches__t.html#add1ea46511fb9d85ab753f52b1315bdc',1,'deepsort::tracker_matches_t']]],
+  ['unmatched_5ftracks',['unmatched_tracks',['../d8/d25/structdeepsort_1_1tracker__matches__t.html#a515e061628acb745bb01114adc90ba1a',1,'deepsort::tracker_matches_t']]],
+  ['update',['Update',['../d5/d8a/classdeepsort_1_1KalmanFilter.html#a5bd0fc7c05fca1fbac47a4f428df2b94',1,'deepsort::KalmanFilter::Update()'],['../df/d0a/classdeepsort_1_1Track.html#ac6d68a93c9885020e79156d5933dba27',1,'deepsort::Track::Update()'],['../d6/d12/classdeepsort_1_1Tracker.html#a5a1eaa881c32394f368ba40f3020a446',1,'deepsort::Tracker::Update()'],['../d9/dc8/classvideoanalytics_1_1count_1_1Counter.html#a56392d5b6ee5e8a63dc6626c3cd3fdb1',1,'videoanalytics::count::Counter::Update()'],['../d1/d1b/classvideoanalytics_1_1count_1_1PeopleCounter.html#ab1368229fa7b3cca1806a2f55c3db7a2',1,'videoanalytics::count::PeopleCounter::Update()'],['../d8/d48/classvideoanalytics_1_1count_1_1PackageCounter.html#ab1c17763085932ea5ae3059a36bc1c1b',1,'videoanalytics::count::PackageCounter::Update()'],['../db/d53/classvideoanalytics_1_1Object.html#ac9fe87959b16981c1fc533cf07b34c45',1,'videoanalytics::Object::Update()'],['../d6/da9/classvideoanalytics_1_1Package.html#af4ed8ab245e37248eaedd5e7a8f96b2d',1,'videoanalytics::Package::Update()']]],
+  ['updatestatus',['UpdateStatus',['../d7/d02/classvideoanalytics_1_1Analytic.html#a715a75ee7eb1a5f18b11636fd9f790c6',1,'videoanalytics::Analytic::UpdateStatus(std::shared_ptr&lt; AnalyticData &gt; data, const AnalyticStatus &amp;status, const std::vector&lt; uint64_t &gt; &amp;ids)'],['../d7/d02/classvideoanalytics_1_1Analytic.html#ae7056151233ac7792d261f07aa5d925a',1,'videoanalytics::Analytic::UpdateStatus(std::shared_ptr&lt; AnalyticData &gt; data, const AnalyticStatus &amp;status)'],['../d7/d02/classvideoanalytics_1_1Analytic.html#a12437e9ec587a1d1c64e2cfbc5f18097',1,'videoanalytics::Analytic::UpdateStatus(std::shared_ptr&lt; AnalyticData &gt; data, const AnalyticStatus &amp;status, const uint64_t &amp;num)']]],
+  ['upper',['upper',['../d5/d1d/structstreamproc_1_1WatchlistCharacter.html#a74d1d4201430adee59e2ffd294332849',1,'streamproc::WatchlistCharacter']]],
+  ['uri',['Uri',['../dd/dbb/structstreamproc_1_1influxdb_1_1DatabaseConfig.html#a5f0839ddee3ec2cc6303357447de44c8',1,'streamproc::influxdb::DatabaseConfig']]],
+  ['urlencode',['UrlEncode',['../d1/dec/namespacestreamproc_1_1http.html#a51f05f48e2b34bd6d0c1c3fe20f33b18',1,'streamproc::http']]],
+  ['user',['user',['../dd/dbb/structstreamproc_1_1influxdb_1_1DatabaseConfig.html#ac80a85de450949d254d0f85727019b85',1,'streamproc::influxdb::DatabaseConfig']]],
+  ['utils_2ehpp',['utils.hpp',['../d8/d5b/streamproc_2utils_8hpp.html',1,'(Global Namespace)'],['../d2/dfa/deepvision_2utils_8hpp.html',1,'(Global Namespace)'],['../d8/d69/videoanalytics_2utils_2utils_8hpp.html',1,'(Global Namespace)']]]
 ];

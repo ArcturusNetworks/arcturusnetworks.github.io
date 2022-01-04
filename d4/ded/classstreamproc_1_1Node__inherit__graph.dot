@@ -1,0 +1,39 @@
+digraph "streamproc::Node"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="streamproc::Node",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="streamproc::Filter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d49/classstreamproc_1_1Filter.html",tooltip="Node which filters data. "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="streamproc::AnalyticsFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd3/classstreamproc_1_1AnalyticsFilter.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="streamproc::Characterize\lFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d6d/classstreamproc_1_1CharacterizeFilter.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="streamproc::DvNnFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d6f/classstreamproc_1_1DvNnFilter.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="streamproc::EmbeddingFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d64/classstreamproc_1_1EmbeddingFilter.html",tooltip="Filter node performing neural network embeddings on video frames. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="streamproc::FaceRecFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d15/classstreamproc_1_1FaceRecFilter.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="streamproc::InferenceFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dc3/classstreamproc_1_1InferenceFilter.html",tooltip="Filter node performing object detection on video frames. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="streamproc::Segmentation\lFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d75/classstreamproc_1_1SegmentationFilter.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="streamproc::SnapshotFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d73/classstreamproc_1_1SnapshotFilter.html"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="streamproc::TrackingFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/da9/classstreamproc_1_1TrackingFilter.html"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="streamproc::WatchlistFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dca/classstreamproc_1_1WatchlistFilter.html"];
+  Node0 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="streamproc::Sink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2b/classstreamproc_1_1Sink.html",tooltip="Node which consumes data. "];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="streamproc::AnalyticsSink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dfa/classstreamproc_1_1AnalyticsSink.html"];
+  Node12 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="streamproc::VideoSink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/db3/classstreamproc_1_1VideoSink.html",tooltip="Sink node which consumes video frames. "];
+  Node0 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="streamproc::Source",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d95/classstreamproc_1_1Source.html",tooltip="Node which generates data. "];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="streamproc::VideoSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dba/classstreamproc_1_1VideoSource.html",tooltip="Source node which generates video frames. "];
+}

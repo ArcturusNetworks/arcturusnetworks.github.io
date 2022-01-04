@@ -1,9 +1,9 @@
 <map id="/usr/local/include/streamproc/bus.hpp" name="/usr/local/include/streamproc/bus.hpp">
-<area shape="rect" id="node5" href="$d2/dfe/client_8hpp.html" title="streamproc/influxdb\l/client.hpp" alt="" coords="323,95,475,136"/>
+<area shape="rect" id="node5" href="$d2/dfe/client_8hpp.html" title="streamproc/influxdb\l/client.hpp" alt="" coords="171,95,323,136"/>
 <area shape="rect" id="node7" href="$d9/d55/database__config_8hpp.html" title="streamproc/influxdb\l/database_config.hpp" alt="" coords="248,184,408,225"/>
 <area shape="rect" id="node14" href="$d0/de4/point_8hpp.html" title="streamproc/influxdb\l/point.hpp" alt="" coords="432,184,584,225"/>
-<area shape="rect" id="node17" href="$d4/d51/http_8hpp.html" title="streamproc/tools/http.hpp" alt="" coords="913,191,1103,218"/>
-<area shape="rect" id="node26" href="$d0/da9/logging_8hpp.html" title="streamproc/logging.hpp" alt="" coords="1607,191,1783,218"/>
-<area shape="rect" id="node8" href="$d8/d5b/streamproc_2utils_8hpp.html" title="streamproc/utils.hpp" alt="" coords="250,281,406,307"/>
-<area shape="rect" id="node16" href="$d9/d99/error_8hpp.html" title="streamproc/error.hpp" alt="" coords="506,281,665,307"/>
+<area shape="rect" id="node17" href="$d4/d51/http_8hpp.html" title="streamproc/tools/http.hpp" alt="" coords="963,191,1154,218"/>
+<area shape="rect" id="node26" href="$db/d24/streamproc_2logging_8hpp.html" title="streamproc/logging.hpp" alt="" coords="1717,191,1893,218"/>
+<area shape="rect" id="node8" href="$d8/d5b/streamproc_2utils_8hpp.html" title="streamproc/utils.hpp" alt="" coords="301,281,457,307"/>
+<area shape="rect" id="node16" href="$da/d32/streamproc_2error_8hpp.html" title="streamproc/error.hpp" alt="" coords="557,281,715,307"/>
 </map>

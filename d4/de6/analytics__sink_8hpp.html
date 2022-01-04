@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="../../logo-dark.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">streamproc
-   &#160;<span id="projectnumber">v.0.0.1</span>
+   &#160;<span id="projectnumber">v.1.1.0</span>
    </div>
    <div id="projectbrief">Distributed Computing for Machine Vision</div>
   </td>
@@ -87,64 +87,19 @@ $(document).ready(function(){initNavTree('d4/de6/analytics__sink_8hpp.html','../
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">analytics_sink.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d3/d09/node_8hpp_source.html">streamproc/node.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/df4/dvconfig_8hpp_source.html">streamproc/dvconfig.hpp</a>&quot;</code><br />
-<code>#include &lt;videoanalytics/analytic_executor.hpp&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d8/d5f/analytic__executor_8hpp_source.html">videoanalytics/analytic_executor.hpp</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for analytics_sink.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/da3/analytics__sink_8hpp__incl.png" border="0" usemap="#_2usr_2local_2include_2streamproc_2analytics__sink_8hpp" alt=""/></div>
-<map name="_2usr_2local_2include_2streamproc_2analytics__sink_8hpp" id="_2usr_2local_2include_2streamproc_2analytics__sink_8hpp">
-<area shape="rect" id="node2" href="../../d3/d09/node_8hpp.html" title="streamproc/node.hpp" alt="" coords="1203,117,1363,143"/>
-<area shape="rect" id="node31" href="../../d8/df4/dvconfig_8hpp.html" title="streamproc/dvconfig.hpp" alt="" coords="2119,117,2302,143"/>
-<area shape="rect" id="node5" href="../../d3/ddc/bus_8hpp.html" title="streamproc/bus.hpp" alt="" coords="943,206,1094,233"/>
-<area shape="rect" id="node24" href="../../d9/d0f/stream_8hpp.html" title="streamproc/stream.hpp" alt="" coords="1130,295,1305,322"/>
-<area shape="rect" id="node30" href="../../d7/df5/process__profiler_8hpp.html" title="streamproc/tools/process\l_profiler.hpp" alt="" coords="1255,199,1441,240"/>
-<area shape="rect" id="node9" href="../../d2/dfe/client_8hpp.html" title="streamproc/influxdb\l/client.hpp" alt="" coords="619,288,771,329"/>
-<area shape="rect" id="node10" href="../../d9/d55/database__config_8hpp.html" title="streamproc/influxdb\l/database_config.hpp" alt="" coords="708,377,868,419"/>
-<area shape="rect" id="node17" href="../../d0/de4/point_8hpp.html" title="streamproc/influxdb\l/point.hpp" alt="" coords="532,377,684,419"/>
-<area shape="rect" id="node19" href="../../d4/d51/http_8hpp.html" title="streamproc/tools/http.hpp" alt="" coords="117,385,307,411"/>
-<area shape="rect" id="node20" href="../../d0/da9/logging_8hpp.html" title="streamproc/logging.hpp" alt="" coords="332,385,508,411"/>
-<area shape="rect" id="node11" href="../../d8/d5b/streamproc_2utils_8hpp.html" title="streamproc/utils.hpp" alt="" coords="831,474,987,501"/>
-<area shape="rect" id="node18" href="../../d9/d99/error_8hpp.html" title="streamproc/error.hpp" alt="" coords="649,474,807,501"/>
-<area shape="rect" id="node26" href="../../dc/d6b/streamproc_2models_8hpp.html" title="streamproc/models.hpp" alt="" coords="1428,385,1604,411"/>
-<area shape="rect" id="node27" href="../../d1/d3c/frame_8hpp.html" title="streamproc/models/frame.hpp" alt="" coords="1720,474,1939,501"/>
-<area shape="rect" id="node28" href="../../d6/da0/detections_8hpp.html" title="streamproc/models/detections.hpp" alt="" coords="1115,474,1363,501"/>
-<area shape="rect" id="node29" href="../../da/d4c/embeddings_8hpp.html" title="streamproc/models/embeddings.hpp" alt="" coords="1386,474,1646,501"/>
-<area shape="rect" id="node32" href="../../dd/d24/deepvision_2models_8hpp.html" title="deepvision/models.hpp" alt="" coords="2953,206,3127,233"/>
-<area shape="rect" id="node33" href="../../d7/db7/embed_8hpp.html" title="deepvision/embed.hpp" alt="" coords="3312,295,3483,322"/>
-<area shape="rect" id="node35" href="../../d3/dd7/armnn__executor_8hpp.html" title="deepvision/armnn/armnn\l_executor.hpp" alt="" coords="3225,467,3410,508"/>
-<area shape="rect" id="node39" href="../../da/d81/objdet_8hpp.html" title="deepvision/objdet.hpp" alt="" coords="2385,295,2551,322"/>
-<area shape="rect" id="node45" href="../../df/d75/classify_8hpp.html" title="deepvision/classify.hpp" alt="" coords="2857,295,3031,322"/>
-<area shape="rect" id="node49" href="../../db/d9a/tflite__executor_8hpp.html" title="deepvision/tflite/tflite\l_executor.hpp" alt="" coords="3055,288,3217,329"/>
-<area shape="rect" id="node34" href="../../d5/d3d/mobilenet__v1__triplet__loss_8hpp.html" title="deepvision/embed/mobilenet\l_v1_triplet_loss.hpp" alt="" coords="3291,377,3503,419"/>
-<area shape="rect" id="node38" href="../../d1/d73/embed_2types_8hpp.html" title="deepvision/embed/types.hpp" alt="" coords="3435,474,3645,501"/>
-<area shape="rect" id="node36" href="../../db/d6c/armnn__tensor_8hpp.html" title="deepvision/armnn/armnn\l_tensor.hpp" alt="" coords="3263,556,3449,597"/>
-<area shape="rect" id="node37" href="../../d7/d76/executor_8hpp.html" title="deepvision/executor.hpp" alt="" coords="3057,563,3239,590"/>
-<area shape="rect" id="node40" href="../../de/da8/general__ssd_8hpp.html" title="deepvision/objdet/general\l_ssd.hpp" alt="" coords="2259,377,2450,419"/>
-<area shape="rect" id="node41" href="../../d1/d0e/labels_8hpp.html" title="deepvision/objdet/labels.hpp" alt="" coords="2137,474,2346,501"/>
-<area shape="rect" id="node42" href="../../dd/d47/objdet_2types_8hpp.html" title="deepvision/objdet/types.hpp" alt="" coords="2423,474,2630,501"/>
-<area shape="rect" id="node43" href="../../da/df9/yolo__v3_8hpp.html" title="deepvision/objdet/yolo\l_v3.hpp" alt="" coords="2013,377,2184,419"/>
-<area shape="rect" id="node44" href="../../d0/d01/objdet_2debug_8hpp.html" title="deepvision/objdet/debug.hpp" alt="" coords="2475,385,2685,411"/>
-<area shape="rect" id="node46" href="../../d4/dd5/general__classifier_8hpp.html" title="deepvision/classify\l/general_classifier.hpp" alt="" coords="2982,377,3149,419"/>
-<area shape="rect" id="node47" href="../../d7/d0a/classify_2types_8hpp.html" title="deepvision/classify\l/types.hpp" alt="" coords="2871,467,3017,508"/>
-<area shape="rect" id="node48" href="../../dd/d66/classify_2debug_8hpp.html" title="deepvision/classify\l/debug.hpp" alt="" coords="2760,377,2907,419"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dd/d5c/analytics__sink_8hpp__dep__incl.png" border="0" usemap="#_2usr_2local_2include_2streamproc_2analytics__sink_8hppdep" alt=""/></div>
-<map name="_2usr_2local_2include_2streamproc_2analytics__sink_8hppdep" id="_2usr_2local_2include_2streamproc_2analytics__sink_8hppdep">
-<area shape="rect" id="node2" href="../../de/dc1/streamproc_8hpp.html" title="/usr/local/include\l/streamproc/streamproc.hpp" alt="" coords="5,109,212,151"/>
-<area shape="rect" id="node3" href="../../dc/dcd/builder_8hpp.html" title="/usr/local/include\l/streamproc/builder.hpp" alt="" coords="21,199,197,240"/>
-</map>
+<!-- MAP 0 -->
 </div>
 </div>
 <p><a href="../../d4/de6/analytics__sink_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -179,11 +134,6 @@ Functions</h2></td></tr>
 <tr class="separator:a3714cf3c749b85e601f25c7bee3ee9e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f561a90a1b62297e3c503bc2f4fb650"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d77/namespacestreamproc.html#a9f561a90a1b62297e3c503bc2f4fb650">streamproc::TagPersonFromId</a> (const std::string name, const std::vector&lt; uint64_t &gt; &amp;ids, std::vector&lt; influxdb::Point &gt; &amp;points)</td></tr>
 <tr class="separator:a9f561a90a1b62297e3c503bc2f4fb650"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a8002673660c6d3f679a6136440b38263"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; AnalyticMetric, std::function&lt; void(va::executor::AnalyticExecutor &amp;, std::vector&lt; influxdb::Point &gt; &amp;)&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d77/namespacestreamproc.html#a8002673660c6d3f679a6136440b38263">streamproc::AnalyticsTagMap</a></td></tr>
-<tr class="separator:a8002673660c6d3f679a6136440b38263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

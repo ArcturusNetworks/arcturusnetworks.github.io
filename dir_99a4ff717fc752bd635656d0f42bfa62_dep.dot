@@ -1,0 +1,11 @@
+digraph "/usr/local/include/streamproc/influxdb" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_10fa85060218a74579f66e385fca5f68 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="streamproc" fontname="Helvetica", fontsize="10", URL="dir_10fa85060218a74579f66e385fca5f68.html"]
+  dir_99a4ff717fc752bd635656d0f42bfa62 [shape=box, label="influxdb", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_99a4ff717fc752bd635656d0f42bfa62.html"];
+  }
+  dir_833e3a13fb69365bfe2898209cdcc409 [shape=box label="tools" URL="dir_833e3a13fb69365bfe2898209cdcc409.html"];
+  dir_99a4ff717fc752bd635656d0f42bfa62->dir_833e3a13fb69365bfe2898209cdcc409 [headlabel="1", labeldistance=1.5 headhref="dir_000015_000019.html"];
+}

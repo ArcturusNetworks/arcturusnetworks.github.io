@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="../../logo-dark.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">streamproc
-   &#160;<span id="projectnumber">v.0.0.1</span>
+   &#160;<span id="projectnumber">v.1.1.0</span>
    </div>
    <div id="projectbrief">Distributed Computing for Machine Vision</div>
   </td>
@@ -120,6 +120,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa9192849b691326488a7850e797631b7"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d20/classdeepvision_1_1tflite_1_1TfLiteExecutor.html#aa9192849b691326488a7850e797631b7">GetNumOutputs</a> () const override</td></tr>
 <tr class="memdesc:aa9192849b691326488a7850e797631b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of output tensors.  <a href="#aa9192849b691326488a7850e797631b7">More...</a><br /></td></tr>
 <tr class="separator:aa9192849b691326488a7850e797631b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcc30c03bc46044c658be98c5fc3e4e4"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d20/classdeepvision_1_1tflite_1_1TfLiteExecutor.html#abcc30c03bc46044c658be98c5fc3e4e4">GetInferTime</a> () const override</td></tr>
+<tr class="memdesc:abcc30c03bc46044c658be98c5fc3e4e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the execution time of neural network.  <a href="#abcc30c03bc46044c658be98c5fc3e4e4">More...</a><br /></td></tr>
+<tr class="separator:abcc30c03bc46044c658be98c5fc3e4e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a91369ae048c73b549180838eae6660"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d4a/classdeepvision_1_1Tensor.html">deepvision::Tensor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d20/classdeepvision_1_1tflite_1_1TfLiteExecutor.html#a5a91369ae048c73b549180838eae6660">GetInput</a> (unsigned int i) override</td></tr>
 <tr class="memdesc:a5a91369ae048c73b549180838eae6660"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain a reference to an input <a class="el" href="../../dd/d4a/classdeepvision_1_1Tensor.html" title="Abstract typed tensor with optional quantization. ">deepvision::Tensor</a> object.  <a href="#a5a91369ae048c73b549180838eae6660">More...</a><br /></td></tr>
 <tr class="separator:a5a91369ae048c73b549180838eae6660"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,6 +210,35 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcc30c03bc46044c658be98c5fc3e4e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcc30c03bc46044c658be98c5fc3e4e4">&#9670;&nbsp;</a></span>GetInferTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t deepvision::tflite::TfLiteExecutor::GetInferTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the execution time of neural network. </p>
+
+<p>Implements <a class="el" href="../../d5/d55/classdeepvision_1_1Executor.html#adb6e073920b6d280326f43092514a911">deepvision::Executor</a>.</p>
 
 </div>
 </div>

@@ -1,8 +1,8 @@
 <map id="/usr/local/include/deepvision/objdet/yolo_v3.hpp" name="/usr/local/include/deepvision/objdet/yolo_v3.hpp">
 <area shape="rect" id="node2" href="$d7/d76/executor_8hpp.html" title="deepvision/executor.hpp" alt="" coords="879,109,1060,136"/>
 <area shape="rect" id="node19" href="$d3/d42/image_8hpp.html" title="deepvision/image.hpp" alt="" coords="1255,109,1422,136"/>
-<area shape="rect" id="node21" href="$d1/d0e/labels_8hpp.html" title="deepvision/objdet/labels.hpp" alt="" coords="1161,259,1370,285"/>
-<area shape="rect" id="node22" href="$dd/d47/objdet_2types_8hpp.html" title="deepvision/objdet/types.hpp" alt="" coords="1446,109,1653,136"/>
+<area shape="rect" id="node21" href="$d3/d92/objdet_2labels_8hpp.html" title="deepvision/objdet/labels.hpp" alt="" coords="1161,259,1370,285"/>
+<area shape="rect" id="node22" href="$d5/daf/deepvision_2objdet_2types_8hpp.html" title="deepvision/objdet/types.hpp" alt="" coords="1446,109,1653,136"/>
 <area shape="rect" id="node3" href="$d3/d8b/tensor_8hpp.html" title="deepvision/tensor.hpp" alt="" coords="792,184,957,211"/>
 <area shape="rect" id="node4" href="$d2/dfa/deepvision_2utils_8hpp.html" title="deepvision/utils.hpp" alt="" coords="798,259,951,285"/>
 </map>

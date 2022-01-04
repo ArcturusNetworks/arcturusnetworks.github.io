@@ -22,10 +22,12 @@ var NAVTREE =
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
+        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", null ],
         [ "Variables", "namespacemembers_vars.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ]
+        [ "Typedefs", "namespacemembers_type.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ],
+        [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -35,7 +37,9 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ],
+        [ "Variables", "functions_vars.html", "functions_vars" ],
+        [ "Enumerations", "functions_enum.html", null ],
+        [ "Enumerator", "functions_eval.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ],
@@ -43,7 +47,11 @@ var NAVTREE =
       [ "File List", "files.html", "files" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -53,9 +61,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d5/def/tflite__model_8hpp.html#a40ad821d566e8730f5cfd357df5ffbfe",
-"db/d2c/structstreamproc_1_1models_1_1Detection.html#a51a59eddb39650a7e3558735559880d3",
-"functions_func_s.html"
+"d4/d51/http_8hpp.html",
+"d7/d15/classstreamproc_1_1FaceRecFilter.html#afc81a9ee289ea6db199472012f3e2f72",
+"da/db3/classstreamproc_1_1VideoSink.html#a0d5b73165038a4bf181a9fb813d5d5b0",
+"dd/d24/deepvision_2models_8hpp.html#a5ec17f462a0ca9d92f1c96fce5777e48",
+"df/dfa/classstreamproc_1_1AnalyticsSink.html#a60f83103879923ae569f9e88262b686d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

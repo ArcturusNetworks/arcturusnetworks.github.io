@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d5/d4e/classstreamproc_1_1Builder.html" title="streamproc::Builder" alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node1" href="$dc/d7a/classdeepvision_1_1characterize_1_1KnnClassifier.html" title="deepvision::characterize\l::KnnClassifier" alt="" coords="5,39,187,80"/>
+<area shape="rect" id="node2" href="$d7/dc2/classdeepvision_1_1characterize_1_1KnnCustom.html" title="deepvision::characterize\l::KnnCustom" alt="" coords="235,5,416,47"/>
+<area shape="rect" id="node3" href="$d6/d5b/classdeepvision_1_1characterize_1_1KnnOpencv.html" title="deepvision::characterize\l::KnnOpencv" alt="" coords="235,71,416,112"/>
 </map>

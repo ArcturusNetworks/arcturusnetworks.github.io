@@ -1,0 +1,21 @@
+digraph "/usr/local/include/streamproc/dvconfig.hpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node49 [label="/usr/local/include\l/streamproc/dvconfig.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node49 -> Node50 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node50 [label="/usr/local/include\l/streamproc/analytics\l_sink.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/de6/analytics__sink_8hpp.html"];
+  Node49 -> Node51 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node51 [label="/usr/local/include\l/streamproc/characterize\l_filter.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de5/characterize__filter_8hpp.html"];
+  Node49 -> Node52 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 [label="/usr/local/include\l/streamproc/embedding\l_filter.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/daf/embedding__filter_8hpp.html"];
+  Node52 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="/usr/local/include\l/streamproc/streamproc.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dc1/streamproc_8hpp.html"];
+  Node53 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="/usr/local/include\l/streamproc/builder.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dcd/builder_8hpp.html"];
+  Node49 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="/usr/local/include\l/streamproc/inference\l_filter.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d30/inference__filter_8hpp.html"];
+  Node55 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node49 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="/usr/local/include\l/streamproc/segmentation\l_filter.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d7e/segmentation__filter_8hpp.html"];
+}

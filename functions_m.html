@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo-dark.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">streamproc
-   &#160;<span id="projectnumber">v.0.0.1</span>
+   &#160;<span id="projectnumber">v.1.1.0</span>
    </div>
    <div id="projectbrief">Distributed Computing for Machine Vision</div>
   </td>
@@ -86,14 +86,52 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_m"></a>- m -</h3><ul>
+<li>magnitude
+: <a class="el" href="d2/de1/structvideoanalytics_1_1ObjectStatus.html#aa5dee77f677965063973ede2346cb4e5">videoanalytics::ObjectStatus</a>
+</li>
+<li>MarkMissed()
+: <a class="el" href="df/d0a/classdeepsort_1_1Track.html#aaa606d9791332f70cf3df3ad0da8dde9">deepsort::Track</a>
+</li>
 <li>mat
 : <a class="el" href="da/d06/structstreamproc_1_1models_1_1Frame.html#a711a18bb06c55aa79de658ce03211381">streamproc::models::Frame</a>
+, <a class="el" href="da/db3/classstreamproc_1_1VideoSink.html#a72698d043ed29dc3652485568bb35030">streamproc::VideoSink</a>
+</li>
+<li>match_thresh
+: <a class="el" href="dd/d4e/classdeepsort_1_1NearestNeighborDistanceMetric.html#a90a401a1b58931763968a554aa3fe73d">deepsort::NearestNeighborDistanceMetric</a>
+</li>
+<li>matches
+: <a class="el" href="d8/d25/structdeepsort_1_1tracker__matches__t.html#a77b7740aae76d679a738bdeda84db496">deepsort::tracker_matches_t</a>
+</li>
+<li>MatchingCascade()
+: <a class="el" href="df/d6b/classdeepsort_1_1LinearAssignment.html#a99c5c70878c0ad7e7c2356028ab93c6a">deepsort::LinearAssignment</a>
+</li>
+<li>max_age
+: <a class="el" href="df/d0a/classdeepsort_1_1Track.html#a255c39a4320e8f55d01d4df2bdd1a3eb">deepsort::Track</a>
+, <a class="el" href="d6/d12/classdeepsort_1_1Tracker.html#a9d886f5441d1ccafadbfb87df05d9e17">deepsort::Tracker</a>
+</li>
+<li>max_iou_dist
+: <a class="el" href="d6/d12/classdeepsort_1_1Tracker.html#abbac6edc9f57313bbdbdb9fd78865345">deepsort::Tracker</a>
+</li>
+<li>mean
+: <a class="el" href="df/d0a/classdeepsort_1_1Track.html#a92e00cdc1eb332ad19a9fa8371b54b70">deepsort::Track</a>
+</li>
+<li>metadata
+: <a class="el" href="d2/d27/structvideoanalytics_1_1EventToLog.html#a18443aea2efc1ea60802e2124d3d182d">videoanalytics::EventToLog</a>
 </li>
 <li>metaMap
 : <a class="el" href="da/db3/classstreamproc_1_1VideoSink.html#a035298e39bc64c5a3f4369167c7938f6">streamproc::VideoSink</a>
 </li>
+<li>metric
+: <a class="el" href="d6/d12/classdeepsort_1_1Tracker.html#a594bbf4aa451dd18a83576e73b555853">deepsort::Tracker</a>
+</li>
 <li>metrics
 : <a class="el" href="df/dfa/classstreamproc_1_1AnalyticsSink.html#a60f83103879923ae569f9e88262b686d">streamproc::AnalyticsSink</a>
+</li>
+<li>metricsToTrack
+: <a class="el" href="da/dd3/classstreamproc_1_1AnalyticsFilter.html#ae6efea85803561c97123243d9ada3f3a">streamproc::AnalyticsFilter</a>
+</li>
+<li>MinCostMatching()
+: <a class="el" href="df/d6b/classdeepsort_1_1LinearAssignment.html#ad72ac672f062e1bfd94915f0dbda0533">deepsort::LinearAssignment</a>
 </li>
 <li>MJPEGStream()
 : <a class="el" href="d1/d22/classstreamproc_1_1videowriter_1_1MJPEGStream.html#ae1a2e9576d179a88a7733a2fd30cf519">streamproc::videowriter::MJPEGStream</a>
@@ -104,6 +142,34 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>modelBuilder
 : <a class="el" href="d6/d49/classstreamproc_1_1Filter.html#aaada00c047c1c4945a4b57484e58f3d1">streamproc::Filter</a>
 , <a class="el" href="db/d95/classstreamproc_1_1Source.html#a9ca2e9b72cb81c0d8956fabffe8b3eea">streamproc::Source</a>
+</li>
+<li>motion_alarm_reset
+: <a class="el" href="db/d53/classvideoanalytics_1_1Object.html#a20508399919016fd43c3fd84930f1a5b">videoanalytics::Object</a>
+</li>
+<li>motion_mean
+: <a class="el" href="db/d53/classvideoanalytics_1_1Object.html#a64e1bab7d7f36e6ed8e9df42f1bd81fe">videoanalytics::Object</a>
+</li>
+<li>motion_outliers
+: <a class="el" href="db/d53/classvideoanalytics_1_1Object.html#acd3cd24227e606f0a0fa61331ef206a2">videoanalytics::Object</a>
+</li>
+<li>motion_tracks
+: <a class="el" href="db/d53/classvideoanalytics_1_1Object.html#a3673dee9c5f82d39cc9dac2318d0f281">videoanalytics::Object</a>
+</li>
+<li>Motionless()
+: <a class="el" href="d6/da4/classvideoanalytics_1_1direction_1_1Motionless.html#a4b21eebd25acf3a13d18c9b52d753baa">videoanalytics::direction::Motionless</a>
+</li>
+<li>motionless
+: <a class="el" href="db/d53/classvideoanalytics_1_1Object.html#ad7fac1cbcd8ac093e8b7c51c483e1bc4">videoanalytics::Object</a>
+, <a class="el" href="d2/de1/structvideoanalytics_1_1ObjectStatus.html#a9aeb65329e8ec030f04c1c6c0d5af479">videoanalytics::ObjectStatus</a>
+</li>
+<li>motionless_end
+: <a class="el" href="db/d53/classvideoanalytics_1_1Object.html#a7351a78319783c4d116803b2e1cb8201">videoanalytics::Object</a>
+</li>
+<li>motionless_start
+: <a class="el" href="db/d53/classvideoanalytics_1_1Object.html#a1f7ccc0dbed02059a702f80e2c5a54ce">videoanalytics::Object</a>
+</li>
+<li>motionlessIds
+: <a class="el" href="d0/d02/structstreamproc_1_1models_1_1Analytics.html#a71ea6cedcd43007023e423457794127d">streamproc::models::Analytics</a>
 </li>
 </ul>
 </div><!-- contents -->

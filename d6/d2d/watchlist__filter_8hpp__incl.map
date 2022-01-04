@@ -1,0 +1,19 @@
+<map id="/usr/local/include/streamproc/watchlist_filter.hpp" name="/usr/local/include/streamproc/watchlist_filter.hpp">
+<area shape="rect" id="node2" href="$dc/d6b/streamproc_2models_8hpp.html" title="streamproc/models.hpp" alt="" coords="1128,370,1304,397"/>
+<area shape="rect" id="node21" href="$d3/d09/node_8hpp.html" title="streamproc/node.hpp" alt="" coords="2331,109,2491,136"/>
+<area shape="rect" id="node5" href="$d8/d5b/streamproc_2utils_8hpp.html" title="streamproc/utils.hpp" alt="" coords="2015,459,2171,486"/>
+<area shape="rect" id="node11" href="$d1/d3c/frame_8hpp.html" title="streamproc/models/frame.hpp" alt="" coords="5,459,224,486"/>
+<area shape="rect" id="node13" href="$d6/da0/detections_8hpp.html" title="streamproc/models/detections.hpp" alt="" coords="248,459,496,486"/>
+<area shape="rect" id="node15" href="$d3/df3/characters_8hpp.html" title="streamproc/models/characters.hpp" alt="" coords="520,459,768,486"/>
+<area shape="rect" id="node17" href="$da/d4c/embeddings_8hpp.html" title="streamproc/models/embeddings.hpp" alt="" coords="791,459,1051,486"/>
+<area shape="rect" id="node19" href="$d9/d90/analytics_8hpp.html" title="streamproc/models/analytics.hpp" alt="" coords="1075,459,1314,486"/>
+<area shape="rect" id="node23" href="$d3/ddc/bus_8hpp.html" title="streamproc/bus.hpp" alt="" coords="2363,191,2514,218"/>
+<area shape="rect" id="node43" href="$d9/d0f/stream_8hpp.html" title="streamproc/stream.hpp" alt="" coords="1878,281,2053,307"/>
+<area shape="rect" id="node48" href="$d7/df5/process__profiler_8hpp.html" title="streamproc/tools/process\l_profiler.hpp" alt="" coords="1508,184,1695,225"/>
+<area shape="rect" id="node26" href="$d2/dfe/client_8hpp.html" title="streamproc/influxdb\l/client.hpp" alt="" coords="2549,273,2701,315"/>
+<area shape="rect" id="node27" href="$d9/d55/database__config_8hpp.html" title="streamproc/influxdb\l/database_config.hpp" alt="" coords="2343,363,2503,404"/>
+<area shape="rect" id="node28" href="$d0/de4/point_8hpp.html" title="streamproc/influxdb\l/point.hpp" alt="" coords="2527,363,2679,404"/>
+<area shape="rect" id="node31" href="$d4/d51/http_8hpp.html" title="streamproc/tools/http.hpp" alt="" coords="2743,370,2934,397"/>
+<area shape="rect" id="node38" href="$db/d24/streamproc_2logging_8hpp.html" title="streamproc/logging.hpp" alt="" coords="1953,370,2129,397"/>
+<area shape="rect" id="node30" href="$da/d32/streamproc_2error_8hpp.html" title="streamproc/error.hpp" alt="" coords="2195,459,2354,486"/>
+</map>

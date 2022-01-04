@@ -1,0 +1,27 @@
+digraph "/usr/local/include/streamproc" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_965469e30c00765877c0bb3dc3271ac9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_965469e30c00765877c0bb3dc3271ac9.html"]
+  subgraph clusterdir_10fa85060218a74579f66e385fca5f68 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_10fa85060218a74579f66e385fca5f68.html"];
+    dir_10fa85060218a74579f66e385fca5f68 [shape=plaintext label="streamproc"];
+    dir_99a4ff717fc752bd635656d0f42bfa62 [shape=box label="influxdb" color="black" fillcolor="white" style="filled" URL="dir_99a4ff717fc752bd635656d0f42bfa62.html"];
+    dir_060ef353870f987918ae1b30b1eed81f [shape=box label="json" color="red" fillcolor="white" style="filled" URL="dir_060ef353870f987918ae1b30b1eed81f.html"];
+    dir_75897ef0e7448c2fef3a827e1e427260 [shape=box label="models" color="black" fillcolor="white" style="filled" URL="dir_75897ef0e7448c2fef3a827e1e427260.html"];
+    dir_833e3a13fb69365bfe2898209cdcc409 [shape=box label="tools" color="black" fillcolor="white" style="filled" URL="dir_833e3a13fb69365bfe2898209cdcc409.html"];
+    dir_fb975785a5cc3bb2ff908dcdd661db71 [shape=box label="video_writers" color="black" fillcolor="white" style="filled" URL="dir_fb975785a5cc3bb2ff908dcdd661db71.html"];
+  }
+  }
+  dir_1d2fbc76cd2f0ff1c26c651684d4875a [shape=box label="videoanalytics" fillcolor="white" style="filled" color="red" URL="dir_1d2fbc76cd2f0ff1c26c651684d4875a.html"];
+  dir_d72db6f9b16262d234de46bc36044bbd [shape=box label="deepvision" fillcolor="white" style="filled" color="red" URL="dir_d72db6f9b16262d234de46bc36044bbd.html"];
+  dir_37ece1ddd3eee85022e189dbfdb44897 [shape=box label="deepsort" fillcolor="white" style="filled" color="red" URL="dir_37ece1ddd3eee85022e189dbfdb44897.html"];
+  dir_10fa85060218a74579f66e385fca5f68->dir_1d2fbc76cd2f0ff1c26c651684d4875a [headlabel="2", labeldistance=1.5 headhref="dir_000014_000009.html"];
+  dir_10fa85060218a74579f66e385fca5f68->dir_d72db6f9b16262d234de46bc36044bbd [headlabel="2", labeldistance=1.5 headhref="dir_000014_000004.html"];
+  dir_10fa85060218a74579f66e385fca5f68->dir_75897ef0e7448c2fef3a827e1e427260 [headlabel="5", labeldistance=1.5 headhref="dir_000014_000018.html"];
+  dir_10fa85060218a74579f66e385fca5f68->dir_fb975785a5cc3bb2ff908dcdd661db71 [headlabel="3", labeldistance=1.5 headhref="dir_000014_000020.html"];
+  dir_10fa85060218a74579f66e385fca5f68->dir_37ece1ddd3eee85022e189dbfdb44897 [headlabel="1", labeldistance=1.5 headhref="dir_000014_000003.html"];
+  dir_10fa85060218a74579f66e385fca5f68->dir_99a4ff717fc752bd635656d0f42bfa62 [headlabel="1", labeldistance=1.5 headhref="dir_000014_000015.html"];
+  dir_99a4ff717fc752bd635656d0f42bfa62->dir_833e3a13fb69365bfe2898209cdcc409 [headlabel="1", labeldistance=1.5 headhref="dir_000015_000019.html"];
+}

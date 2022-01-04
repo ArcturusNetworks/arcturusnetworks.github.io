@@ -1,0 +1,7 @@
+<map id="streamproc::WatchlistFilter" name="streamproc::WatchlistFilter">
+<area shape="rect" id="node2" href="$d6/d49/classstreamproc_1_1Filter.html" title="Node which filters data. " alt="" coords="37,178,173,205"/>
+<area shape="rect" id="node3" href="$dd/d01/classstreamproc_1_1Node.html" title="Base class for node. " alt="" coords="36,95,175,121"/>
+<area shape="rect" id="node4" href="$d0/d42/classstreamproc_1_1ProcessProfiler.html" title="streamproc::ProcessProfiler" alt="" coords="5,5,205,32"/>
+<area shape="rect" id="node5" href="$d0/db2/structstreamproc_1_1models_1_1Characters.html" title="streamproc::models\l::Characters" alt="" coords="197,171,349,212"/>
+<area shape="rect" id="node6" href="$d7/d89/structstreamproc_1_1models_1_1Detections.html" title="Model of object detections within a video frame. " alt="" coords="373,171,525,212"/>
+</map>

@@ -1,11 +1,13 @@
 var searchData=
 [
-  ['makebuiltinopresolver',['MakeBuiltinOpResolver',['../da/d94/namespacedeepvision_1_1tflite.html#a40ad821d566e8730f5cfd357df5ffbfe',1,'deepvision::tflite']]],
-  ['maptostr',['MapToStr',['../d8/d3b/namespacedeepvision_1_1utils.html#ae81c707b8125c112873c2111b7cf3f86',1,'deepvision::utils']]],
-  ['matchanneltype',['MatChannelType',['../d8/d3b/namespacedeepvision_1_1utils.html#a7669fcee86f033d74b85709d0c341dc4',1,'deepvision::utils']]],
-  ['matsequal',['MatsEqual',['../d2/d53/namespacestreamproc_1_1utils.html#a52c81185b8a343faa78fa9c8d70b30c4',1,'streamproc::utils']]],
-  ['mattype',['MatType',['../d8/d3b/namespacedeepvision_1_1utils.html#a4874043d4516b07038bd38a7eab47850',1,'deepvision::utils']]],
-  ['mjpegstream',['MJPEGStream',['../d1/d22/classstreamproc_1_1videowriter_1_1MJPEGStream.html#ae1a2e9576d179a88a7733a2fd30cf519',1,'streamproc::videowriter::MJPEGStream']]],
-  ['mobilenetv1tripletloss',['MobilenetV1TripletLoss',['../d9/dd3/classdeepvision_1_1embed_1_1MobilenetV1TripletLoss.html#abf9297bb484eb987fb433ddd4a2208ff',1,'deepvision::embed::MobilenetV1TripletLoss']]],
-  ['modeltostr',['ModelToStr',['../dd/dc9/namespacedeepvision.html#ae8ebfc02cfdfcc70af53c42ce7a37afb',1,'deepvision']]]
+  ['linearassignment',['LinearAssignment',['../df/d6b/classdeepsort_1_1LinearAssignment.html#a42c55624be5d7868e4c0abc706f2eaf5',1,'deepsort::LinearAssignment']]],
+  ['lineincursion',['LineIncursion',['../df/d17/classvideoanalytics_1_1threat_1_1LineIncursion.html#ab27b9dcc4f534e6b9a325053e8fdde27',1,'videoanalytics::threat::LineIncursion']]],
+  ['listdirs',['ListDirs',['../d8/d3b/namespacedeepvision_1_1utils.html#a030dc7bfff5a49c57421f3ddc5fa5636',1,'deepvision::utils']]],
+  ['listentries',['ListEntries',['../d8/d3b/namespacedeepvision_1_1utils.html#a66602879ed664a4db17c82b31c94389f',1,'deepvision::utils']]],
+  ['listfiles',['ListFiles',['../d8/d3b/namespacedeepvision_1_1utils.html#ace53cb11e9aec6a1bbdc4b67e92357b2',1,'deepvision::utils']]],
+  ['loadimages',['LoadImages',['../d8/d3b/namespacedeepvision_1_1utils.html#add783f0bb295c8585ee53a40b34f9fe2',1,'deepvision::utils']]],
+  ['localdisplay',['LocalDisplay',['../df/d45/classstreamproc_1_1videowriter_1_1LocalDisplay.html#aa643cc9ce88b9312405638cbd82301f2',1,'streamproc::videowriter::LocalDisplay']]],
+  ['lognewevent',['LogNewEvent',['../d7/d02/classvideoanalytics_1_1Analytic.html#a45e3a0a763071ad851751862f06eb015',1,'videoanalytics::Analytic']]],
+  ['logtoconsole',['LogToConsole',['../dd/d9f/deepsort_2utils_2debug_8hpp.html#adb6271fbe3f175b0aa4e4cbd5843e3d2',1,'debug.hpp']]],
+  ['loitering',['Loitering',['../dd/d7b/classvideoanalytics_1_1threat_1_1Loitering.html#ac2aa979ec4c7caec709224d475769780',1,'videoanalytics::threat::Loitering']]]
 ];

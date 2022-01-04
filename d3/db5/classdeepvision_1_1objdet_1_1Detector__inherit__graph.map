@@ -1,4 +1,5 @@
 <map id="deepvision::objdet::Detector" name="deepvision::objdet::Detector">
-<area shape="rect" id="node2" href="$de/d3f/classdeepvision_1_1objdet_1_1GeneralSSD.html" title="A Detector which can run any SSD model exported for Tensorflow Lite by https://github.com/tensorflow/models/blob/master/research/object_detection/export_tflite_ssd_graph.py with option &#39;–add_postprocessing_op=True&#39;. " alt="" coords="5,95,148,136"/>
-<area shape="rect" id="node3" href="$dc/d6e/classdeepvision_1_1objdet_1_1YoloV3.html" title="deepvision::objdet\l::YoloV3" alt="" coords="172,95,315,136"/>
+<area shape="rect" id="node2" href="$de/d3f/classdeepvision_1_1objdet_1_1GeneralSSD.html" title="A Detector which can run any SSD model exported for Tensorflow Lite by https://github.com/tensorflow/models/blob/master/research/object_detection/export_tflite_ssd_graph.py with option &#39;–add_postprocessing_op=True&#39;. " alt="" coords="196,5,339,47"/>
+<area shape="rect" id="node3" href="$d4/dca/classdeepvision_1_1objdet_1_1TensorRT.html" title="deepvision::objdet\l::TensorRT" alt="" coords="196,71,339,112"/>
+<area shape="rect" id="node4" href="$dc/d6e/classdeepvision_1_1objdet_1_1YoloV3.html" title="deepvision::objdet\l::YoloV3" alt="" coords="196,136,339,177"/>
 </map>

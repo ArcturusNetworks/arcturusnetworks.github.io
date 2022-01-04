@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="../../logo-dark.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">streamproc
-   &#160;<span id="projectnumber">v.0.0.1</span>
+   &#160;<span id="projectnumber">v.1.1.0</span>
    </div>
    <div id="projectbrief">Distributed Computing for Machine Vision</div>
   </td>
@@ -124,6 +124,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ab40696442c7d82607f64940285ed5fb0 inherit pro_methods_classstreamproc_1_1Node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d01/classstreamproc_1_1Node.html#ab40696442c7d82607f64940285ed5fb0">SetUp</a> ()</td></tr>
 <tr class="memdesc:ab40696442c7d82607f64940285ed5fb0 inherit pro_methods_classstreamproc_1_1Node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares the node for its worker routine.  <a href="../../dd/d01/classstreamproc_1_1Node.html#ab40696442c7d82607f64940285ed5fb0">More...</a><br /></td></tr>
 <tr class="separator:ab40696442c7d82607f64940285ed5fb0 inherit pro_methods_classstreamproc_1_1Node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1810904bed9a4c884543aa10dabe8fcb inherit pro_methods_classstreamproc_1_1Node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d01/classstreamproc_1_1Node.html#a1810904bed9a4c884543aa10dabe8fcb">RecvData</a> ()</td></tr>
+<tr class="memdesc:a1810904bed9a4c884543aa10dabe8fcb inherit pro_methods_classstreamproc_1_1Node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receives data for processing.  <a href="../../dd/d01/classstreamproc_1_1Node.html#a1810904bed9a4c884543aa10dabe8fcb">More...</a><br /></td></tr>
+<tr class="separator:a1810904bed9a4c884543aa10dabe8fcb inherit pro_methods_classstreamproc_1_1Node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9915c250c52703ba52f47a19b5444c65 inherit pro_methods_classstreamproc_1_1Node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d01/classstreamproc_1_1Node.html#a9915c250c52703ba52f47a19b5444c65">Process</a> ()=0</td></tr>
 <tr class="memdesc:a9915c250c52703ba52f47a19b5444c65 inherit pro_methods_classstreamproc_1_1Node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes data.  <a href="../../dd/d01/classstreamproc_1_1Node.html#a9915c250c52703ba52f47a19b5444c65">More...</a><br /></td></tr>
 <tr class="separator:a9915c250c52703ba52f47a19b5444c65 inherit pro_methods_classstreamproc_1_1Node"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,6 +162,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac4573828fc1d81e714b61964da8ab37f inherit pro_attribs_classstreamproc_1_1Node"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d01/classstreamproc_1_1Node.html#ac4573828fc1d81e714b61964da8ab37f">name</a></td></tr>
 <tr class="memdesc:ac4573828fc1d81e714b61964da8ab37f inherit pro_attribs_classstreamproc_1_1Node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique identifier for logging.  <a href="../../dd/d01/classstreamproc_1_1Node.html#ac4573828fc1d81e714b61964da8ab37f">More...</a><br /></td></tr>
 <tr class="separator:ac4573828fc1d81e714b61964da8ab37f inherit pro_attribs_classstreamproc_1_1Node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ef5e8800b4f20016df44d10510204ce inherit pro_attribs_classstreamproc_1_1Node"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d01/classstreamproc_1_1Node.html#a2ef5e8800b4f20016df44d10510204ce">throttleFps</a> = 24</td></tr>
+<tr class="memdesc:a2ef5e8800b4f20016df44d10510204ce inherit pro_attribs_classstreamproc_1_1Node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Throttle processing rate to this value.  <a href="../../dd/d01/classstreamproc_1_1Node.html#a2ef5e8800b4f20016df44d10510204ce">More...</a><br /></td></tr>
+<tr class="separator:a2ef5e8800b4f20016df44d10510204ce inherit pro_attribs_classstreamproc_1_1Node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad43a406eee44c41b0b479363b1cab5a2 inherit pro_attribs_classstreamproc_1_1Node"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; logging::logger &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d01/classstreamproc_1_1Node.html#ad43a406eee44c41b0b479363b1cab5a2">logger</a></td></tr>
 <tr class="memdesc:ad43a406eee44c41b0b479363b1cab5a2 inherit pro_attribs_classstreamproc_1_1Node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log file for node This log file is also shared with the node's streams and bus.  <a href="../../dd/d01/classstreamproc_1_1Node.html#ad43a406eee44c41b0b479363b1cab5a2">More...</a><br /></td></tr>
 <tr class="separator:ad43a406eee44c41b0b479363b1cab5a2 inherit pro_attribs_classstreamproc_1_1Node"><td class="memSeparator" colspan="2">&#160;</td></tr>

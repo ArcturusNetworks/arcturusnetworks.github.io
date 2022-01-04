@@ -1,4 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$de/d07/classdeepvision_1_1classify_1_1Classifier.html" title="Generic interface for classes which perform classification on an image. " alt="" coords="5,5,156,47"/>
-<area shape="rect" id="node2" href="$de/df7/classdeepvision_1_1classify_1_1GeneralClassifier.html" title="A Classifier which can run any classification model exported for Tensorflow Lite. ..." alt="" coords="204,5,355,47"/>
+<area shape="rect" id="node1" href="$d5/d0c/classdeepsort_1_1Hungarian.html" title="deepsort::Hungarian" alt="" coords="5,5,160,32"/>
 </map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['exclusionzone',['ExclusionZone',['../d7/d77/namespacestreamproc.html#aa492dbdac9f1e836f3d6247756575892aa93c60bb9b2911191309d0213cb156dd',1,'streamproc']]]
+  ['confirmed',['Confirmed',['../d9/df7/namespacedeepsort.html#a234310c14d3f1795ce7cb91b36bd2c9ba619057514657382677a427a63567ae04',1,'deepsort']]]
 ];

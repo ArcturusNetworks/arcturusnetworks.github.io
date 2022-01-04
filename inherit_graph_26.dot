@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="streamproc::models\l::Analytics",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d02/structstreamproc_1_1models_1_1Analytics.html",tooltip="Model of analytics data on a a single frame. "];
+}

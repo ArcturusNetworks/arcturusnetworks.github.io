@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo-dark.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">streamproc
-   &#160;<span id="projectnumber">v.0.0.1</span>
+   &#160;<span id="projectnumber">v.1.1.0</span>
    </div>
    <div id="projectbrief">Distributed Computing for Machine Vision</div>
   </td>
@@ -133,16 +133,23 @@ Configuration</h2>
 <p>Nodes are configured using JSON files. The streamproc binary <code>sp</code> searches for json files in the current working directory and attempts to automatically build streamproc nodes from the configurations. Each streamproc node is equipped with a JSON schema which follows the JSON schema standard. The schemas are located in <code>streamproc/json/schema</code>.</p>
 <h2><a class="anchor" id="autotoc_md10"></a>
 Environment</h2>
-<p>Pull the <em>streamproc</em> docker image from docker hub</p>
-<div class="fragment"><div class="line">$ docker pull arcturusnetworks/streamproc:distributed</div></div><!-- fragment --><p> Clone the workspace and bring up the backend stack consisting of an influxdb time-series database and grafana analytics. Run the <code>sp</code> binary within a container using the distributed image. </p><div class="fragment"><div class="line">$ cd distributed</div><div class="line">$ docker-compose -f backend.yml up -d</div><div class="line">$ docker run -it --rm -v $(pwd)/streamproc:/src --net host arcturusnetworks/streamproc:distributed /bin/bash -c &quot;sp&quot;</div></div><!-- fragment --><p> The default configuration will create an mjpegstream at localhost:7000. The stream will show a video with annotations of object detections, people count, and node fps.</p>
-<p>View the grafana dashboard at localhost:3000 to see different metrics. The default dashboards display node fps, person count, and detection confidence.</p>
-<h2><a class="anchor" id="autotoc_md11"></a>
+<p>Clone the repo, build, and bring up the entire stack (backend, db, frontend).</p>
+<blockquote class="doxtable">
+<p><code>docker-compose</code> for aarch64 is available <a href="https://github.com/ubiquiti/docker-compose-aarch64">here</a> (binary and Dockerfile). </p>
+</blockquote>
+<div class="fragment"><div class="line">git clone https://&lt;username&gt;:&lt;authkey&gt;@github.com/arcturusnetworks/streamproc</div><div class="line">cd streamproc</div><div class="line">git submodule update --init</div><div class="line"></div><div class="line"># Build depedencies (speeds up subsequent builds)</div><div class="line">docker-compose -f docker-compose.init.yml build</div><div class="line"></div><div class="line"># Build and run the entire stack (streamproc, influxdb, grafana, watchman)</div><div class="line">docker-compose up -d --build</div></div><!-- fragment --><p>You can also use the following convenience script to automate the above two commands:</p>
+<div class="fragment"><div class="line">./tools/docker/build.sh</div></div><!-- fragment --><p>Watchman analytics interface will be available at <a href="http://">http://</a>&lt;ip_address&gt;.</p>
+<p>The default configuration may also create an mjpegstream at &lt;ip_address&gt;:7000. The stream will show a video with annotations of object detections, people count, and node fps.</p>
+<p>View the grafana dashboard at &lt;ip_address&gt;:3030 to see different metrics. The default dashboards display node fps, person count, and detection confidence.</p>
+<p>Check the status of the running containers, and view logs by</p>
+<div class="fragment"><div class="line"># check status</div><div class="line">docker-compose ps</div><div class="line"></div><div class="line"># View logs in real-time</div><div class="line">docker-compose logs -f</div></div><!-- fragment --><h2><a class="anchor" id="autotoc_md11"></a>
 Rebuilding</h2>
-<p>After making changes to the source code you need to rebuild the <code>streamproc:distributed</code> container.</p>
-<div class="fragment"><div class="line">$ cd distributed</div><div class="line">$ docker-compose -f streamproc.yml build</div></div><!-- fragment --><h2><a class="anchor" id="autotoc_md12"></a>
+<p>After making changes to the source code you need to rebuild.</p>
+<div class="fragment"><div class="line">docker-compose up --build</div></div><!-- fragment --><p>NOTE: If any of the dependencies are updated (example: <code>deepvision</code>) their corresponding images also need to be updated before rebuilding. To make your life easy just re-run the following script which will ensure everything is built and kept up to date.</p>
+<div class="fragment"><div class="line">./tools/docker/build.sh</div></div><!-- fragment --><h2><a class="anchor" id="autotoc_md12"></a>
 Documentation</h2>
-<p>To generate documentation, issue the following commands inside the <code>streamproc:distributed container</code>:</p>
-<div class="fragment"><div class="line">$ cd /usr/local/share/streamproc</div><div class="line">$ sudo doxygen Doxyfile</div></div><!-- fragment --><p>The docs will be generated in the <code>/usr/local/share/streamproc/html</code> folder.</p>
+<p>To generate documentation, issue the following commands inside the <code>streamproc</code> container:</p>
+<div class="fragment"><div class="line">cd /usr/local/share/streamproc</div><div class="line">sudo doxygen Doxyfile</div></div><!-- fragment --><p>The docs will be generated in the <code>/usr/local/share/streamproc/html</code> folder.</p>
 <h2><a class="anchor" id="autotoc_md13"></a>
 Video Demo</h2>
 <p>Check out <a href="https://www.youtube.com/watch?v=8M-xwwHS1j4">https://www.youtube.com/watch?v=8M-xwwHS1j4</a> for a video introduction to streamproc. </p>

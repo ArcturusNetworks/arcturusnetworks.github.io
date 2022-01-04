@@ -10,6 +10,5 @@ var analytics__sink_8hpp =
       [ "PackageCount", "d4/de6/analytics__sink_8hpp.html#aa492dbdac9f1e836f3d6247756575892aa7055c46e97c18265a41aa94a9f695e0", null ]
     ] ],
     [ "TagPersonFromId", "d4/de6/analytics__sink_8hpp.html#a9f561a90a1b62297e3c503bc2f4fb650", null ],
-    [ "ToPoints", "d4/de6/analytics__sink_8hpp.html#a3714cf3c749b85e601f25c7bee3ee9e2", null ],
-    [ "AnalyticsTagMap", "d4/de6/analytics__sink_8hpp.html#a8002673660c6d3f679a6136440b38263", null ]
+    [ "ToPoints", "d4/de6/analytics__sink_8hpp.html#a3714cf3c749b85e601f25c7bee3ee9e2", null ]
 ];

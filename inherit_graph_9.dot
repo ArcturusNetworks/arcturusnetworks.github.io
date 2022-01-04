@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="deepvision::classify\l::Classification",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d27/structdeepvision_1_1classify_1_1Classification.html",tooltip="An image level classification&#39;s label and confidence. "];
+}

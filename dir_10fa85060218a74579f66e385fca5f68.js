@@ -5,16 +5,21 @@ var dir_10fa85060218a74579f66e385fca5f68 =
     [ "models", "dir_75897ef0e7448c2fef3a827e1e427260.html", "dir_75897ef0e7448c2fef3a827e1e427260" ],
     [ "tools", "dir_833e3a13fb69365bfe2898209cdcc409.html", "dir_833e3a13fb69365bfe2898209cdcc409" ],
     [ "video_writers", "dir_fb975785a5cc3bb2ff908dcdd661db71.html", "dir_fb975785a5cc3bb2ff908dcdd661db71" ],
+    [ "analytics_filter.hpp", "dd/d43/analytics__filter_8hpp.html", "dd/d43/analytics__filter_8hpp" ],
     [ "analytics_sink.hpp", "d4/de6/analytics__sink_8hpp.html", "d4/de6/analytics__sink_8hpp" ],
     [ "builder.hpp", "dc/dcd/builder_8hpp.html", [
       [ "Builder", "d5/d4e/classstreamproc_1_1Builder.html", "d5/d4e/classstreamproc_1_1Builder" ]
     ] ],
     [ "bus.hpp", "d3/ddc/bus_8hpp.html", "d3/ddc/bus_8hpp" ],
+    [ "characterize_filter.hpp", "d6/de5/characterize__filter_8hpp.html", "d6/de5/characterize__filter_8hpp" ],
+    [ "dv_nn_filter.hpp", "df/dc0/dv__nn__filter_8hpp.html", [
+      [ "DvNnFilter", "d3/d6f/classstreamproc_1_1DvNnFilter.html", "d3/d6f/classstreamproc_1_1DvNnFilter" ]
+    ] ],
     [ "dvconfig.hpp", "d8/df4/dvconfig_8hpp.html", "d8/df4/dvconfig_8hpp" ],
     [ "embedding_filter.hpp", "d7/daf/embedding__filter_8hpp.html", [
       [ "EmbeddingFilter", "d3/d64/classstreamproc_1_1EmbeddingFilter.html", "d3/d64/classstreamproc_1_1EmbeddingFilter" ]
     ] ],
-    [ "error.hpp", "d9/d99/error_8hpp.html", [
+    [ "error.hpp", "da/d32/streamproc_2error_8hpp.html", [
       [ "Stopped", "de/d79/classstreamproc_1_1error_1_1Stopped.html", "de/d79/classstreamproc_1_1error_1_1Stopped" ],
       [ "InfluxDb", "dc/d25/classstreamproc_1_1error_1_1InfluxDb.html", "dc/d25/classstreamproc_1_1error_1_1InfluxDb" ]
     ] ],
@@ -22,10 +27,16 @@ var dir_10fa85060218a74579f66e385fca5f68 =
     [ "inference_filter.hpp", "d6/d30/inference__filter_8hpp.html", [
       [ "InferenceFilter", "d3/dc3/classstreamproc_1_1InferenceFilter.html", "d3/dc3/classstreamproc_1_1InferenceFilter" ]
     ] ],
-    [ "logging.hpp", "d0/da9/logging_8hpp.html", "d0/da9/logging_8hpp" ],
+    [ "logging.hpp", "db/d24/streamproc_2logging_8hpp.html", "db/d24/streamproc_2logging_8hpp" ],
     [ "manager.hpp", "da/d04/manager_8hpp.html", null ],
     [ "models.hpp", "dc/d6b/streamproc_2models_8hpp.html", null ],
     [ "node.hpp", "d3/d09/node_8hpp.html", "d3/d09/node_8hpp" ],
+    [ "segmentation_filter.hpp", "d8/d7e/segmentation__filter_8hpp.html", [
+      [ "SegmentationFilter", "da/d75/classstreamproc_1_1SegmentationFilter.html", "da/d75/classstreamproc_1_1SegmentationFilter" ]
+    ] ],
+    [ "snapshot_filter.hpp", "d1/db5/snapshot__filter_8hpp.html", [
+      [ "SnapshotFilter", "d7/d73/classstreamproc_1_1SnapshotFilter.html", "d7/d73/classstreamproc_1_1SnapshotFilter" ]
+    ] ],
     [ "stream.hpp", "d9/d0f/stream_8hpp.html", "d9/d0f/stream_8hpp" ],
     [ "streamproc.hpp", "de/dc1/streamproc_8hpp.html", "de/dc1/streamproc_8hpp" ],
     [ "tracking_filter.hpp", "d1/d2c/tracking__filter_8hpp.html", [
@@ -36,5 +47,6 @@ var dir_10fa85060218a74579f66e385fca5f68 =
     [ "video_source.hpp", "d6/d3d/video__source_8hpp.html", [
       [ "VideoSource", "d6/dba/classstreamproc_1_1VideoSource.html", "d6/dba/classstreamproc_1_1VideoSource" ]
     ] ],
-    [ "video_writers.hpp", "dd/de6/video__writers_8hpp.html", null ]
+    [ "video_writers.hpp", "dd/de6/video__writers_8hpp.html", null ],
+    [ "watchlist_filter.hpp", "d6/dc3/watchlist__filter_8hpp.html", "d6/dc3/watchlist__filter_8hpp" ]
 ];

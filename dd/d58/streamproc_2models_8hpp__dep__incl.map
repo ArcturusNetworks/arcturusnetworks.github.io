@@ -1,13 +1,18 @@
 <map id="/usr/local/include/streamproc/models.hpp" name="/usr/local/include/streamproc/models.hpp">
-<area shape="rect" id="node2" href="$d9/d0f/stream_8hpp.html" title="/usr/local/include\l/streamproc/stream.hpp" alt="" coords="571,95,749,136"/>
-<area shape="rect" id="node3" href="$d3/d09/node_8hpp.html" title="/usr/local/include\l/streamproc/node.hpp" alt="" coords="578,184,742,225"/>
-<area shape="rect" id="node4" href="$d4/de6/analytics__sink_8hpp.html" title="/usr/local/include\l/streamproc/analytics\l_sink.hpp" alt="" coords="5,273,168,329"/>
-<area shape="rect" id="node7" href="$d7/daf/embedding__filter_8hpp.html" title="/usr/local/include\l/streamproc/embedding\l_filter.hpp" alt="" coords="193,273,370,329"/>
-<area shape="rect" id="node8" href="$dc/db4/face__rec__filter_8hpp.html" title="/usr/local/include\l/streamproc/face_rec\l_filter.hpp" alt="" coords="394,273,553,329"/>
-<area shape="rect" id="node9" href="$d6/d30/inference__filter_8hpp.html" title="/usr/local/include\l/streamproc/inference\l_filter.hpp" alt="" coords="577,273,743,329"/>
-<area shape="rect" id="node10" href="$d1/d2c/tracking__filter_8hpp.html" title="/usr/local/include\l/streamproc/tracking\l_filter.hpp" alt="" coords="767,273,924,329"/>
-<area shape="rect" id="node11" href="$da/d40/video__sink_8hpp.html" title="/usr/local/include\l/streamproc/video_sink.hpp" alt="" coords="948,281,1151,322"/>
-<area shape="rect" id="node12" href="$d6/d3d/video__source_8hpp.html" title="/usr/local/include\l/streamproc/video_source.hpp" alt="" coords="1175,281,1393,322"/>
-<area shape="rect" id="node5" href="$de/dc1/streamproc_8hpp.html" title="/usr/local/include\l/streamproc/streamproc.hpp" alt="" coords="649,377,855,419"/>
-<area shape="rect" id="node6" href="$dc/dcd/builder_8hpp.html" title="/usr/local/include\l/streamproc/builder.hpp" alt="" coords="664,467,840,508"/>
+<area shape="rect" id="node2" href="$dd/d43/analytics__filter_8hpp.html" title="/usr/local/include\l/streamproc/analytics\l_filter.hpp" alt="" coords="5,273,168,329"/>
+<area shape="rect" id="node5" href="$d9/d0f/stream_8hpp.html" title="/usr/local/include\l/streamproc/stream.hpp" alt="" coords="1067,95,1245,136"/>
+<area shape="rect" id="node17" href="$d6/dc3/watchlist__filter_8hpp.html" title="/usr/local/include\l/streamproc/watchlist\l_filter.hpp" alt="" coords="2217,273,2380,329"/>
+<area shape="rect" id="node3" href="$de/dc1/streamproc_8hpp.html" title="/usr/local/include\l/streamproc/streamproc.hpp" alt="" coords="1257,377,1463,419"/>
+<area shape="rect" id="node4" href="$dc/dcd/builder_8hpp.html" title="/usr/local/include\l/streamproc/builder.hpp" alt="" coords="1272,467,1448,508"/>
+<area shape="rect" id="node6" href="$d3/d09/node_8hpp.html" title="/usr/local/include\l/streamproc/node.hpp" alt="" coords="1074,184,1238,225"/>
+<area shape="rect" id="node7" href="$d4/de6/analytics__sink_8hpp.html" title="/usr/local/include\l/streamproc/analytics\l_sink.hpp" alt="" coords="192,273,355,329"/>
+<area shape="rect" id="node8" href="$d6/de5/characterize__filter_8hpp.html" title="/usr/local/include\l/streamproc/characterize\l_filter.hpp" alt="" coords="379,273,563,329"/>
+<area shape="rect" id="node9" href="$d7/daf/embedding__filter_8hpp.html" title="/usr/local/include\l/streamproc/embedding\l_filter.hpp" alt="" coords="587,273,765,329"/>
+<area shape="rect" id="node10" href="$dc/db4/face__rec__filter_8hpp.html" title="/usr/local/include\l/streamproc/face_rec\l_filter.hpp" alt="" coords="789,273,947,329"/>
+<area shape="rect" id="node11" href="$d6/d30/inference__filter_8hpp.html" title="/usr/local/include\l/streamproc/inference\l_filter.hpp" alt="" coords="972,273,1137,329"/>
+<area shape="rect" id="node12" href="$d8/d7e/segmentation__filter_8hpp.html" title="/usr/local/include\l/streamproc/segmentation\l_filter.hpp" alt="" coords="1161,273,1356,329"/>
+<area shape="rect" id="node13" href="$d1/db5/snapshot__filter_8hpp.html" title="/usr/local/include\l/streamproc/snapshot\l_filter.hpp" alt="" coords="1380,273,1543,329"/>
+<area shape="rect" id="node14" href="$d1/d2c/tracking__filter_8hpp.html" title="/usr/local/include\l/streamproc/tracking\l_filter.hpp" alt="" coords="1567,273,1724,329"/>
+<area shape="rect" id="node15" href="$da/d40/video__sink_8hpp.html" title="/usr/local/include\l/streamproc/video_sink.hpp" alt="" coords="1748,281,1951,322"/>
+<area shape="rect" id="node16" href="$d6/d3d/video__source_8hpp.html" title="/usr/local/include\l/streamproc/video_source.hpp" alt="" coords="1975,281,2193,322"/>
 </map>

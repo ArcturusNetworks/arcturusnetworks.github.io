@@ -1,11 +1,25 @@
 var searchData=
 [
-  ['objdetmodelmap',['ObjdetModelMap',['../d2/d92/namespacestreamproc_1_1dvconfig.html#acf3ce2b64ebfb9777cdf6de6c79cde55',1,'streamproc::dvconfig']]],
-  ['offset',['offset',['../d3/dda/structdeepvision_1_1Quantization.html#ae073f9de6fd47f0a75ea15922a37ed47',1,'deepvision::Quantization']]],
-  ['oid_5fperson_5fand_5fpackages',['OID_PERSON_AND_PACKAGES',['../da/dc7/namespacedeepvision_1_1objdet.html#a9b3ae897a9b33c70ccc0b1948d9a2453',1,'deepvision::objdet']]],
-  ['out_5flen',['OUT_LEN',['../d9/dd3/classdeepvision_1_1embed_1_1MobilenetV1TripletLoss.html#a6f42e8bc552dad257e4c276867d3d77e',1,'deepvision::embed::MobilenetV1TripletLoss']]],
-  ['out_5fnames',['OUT_NAMES',['../d9/dd3/classdeepvision_1_1embed_1_1MobilenetV1TripletLoss.html#a9667e2a6da2354752893c60c87fa8158',1,'deepvision::embed::MobilenetV1TripletLoss::OUT_NAMES()'],['../de/d3f/classdeepvision_1_1objdet_1_1GeneralSSD.html#aaae24f00e728bde4b2fff1c7e0b3a8a6',1,'deepvision::objdet::GeneralSSD::OUT_NAMES()'],['../dc/d6e/classdeepvision_1_1objdet_1_1YoloV3.html#ae80c83b1b39b589de6133e11cd036640',1,'deepvision::objdet::YoloV3::OUT_NAMES()'],['../d1/d69/namespacedeepvision_1_1classify_1_1MobileNetV1.html#a5e8c62cdedb513463357c70230ddc6ad',1,'deepvision::classify::MobileNetV1::OUT_NAMES()'],['../d7/de5/namespacedeepvision_1_1classify_1_1MobileNetV2.html#ab0f69c574dd92066892aa79d489e670e',1,'deepvision::classify::MobileNetV2::OUT_NAMES()']]],
-  ['outbuf',['outbuf',['../da/d81/structstreamproc_1_1videowriter_1_1clientFrame.html#a1306c80a0115629f9c3e3f1d6690daa5',1,'streamproc::videowriter::clientFrame']]],
-  ['outgoingstreams',['outgoingStreams',['../dd/d01/classstreamproc_1_1Node.html#a82395b3da51fe8f045fd0bc9389a4a27',1,'streamproc::Node']]],
-  ['outlen',['outlen',['../da/d81/structstreamproc_1_1videowriter_1_1clientFrame.html#a79cadc42c18094bb7341c5d4b19d67af',1,'streamproc::videowriter::clientFrame']]]
+  ['magnitude',['magnitude',['../d2/de1/structvideoanalytics_1_1ObjectStatus.html#aa5dee77f677965063973ede2346cb4e5',1,'videoanalytics::ObjectStatus']]],
+  ['mat',['mat',['../da/d06/structstreamproc_1_1models_1_1Frame.html#a711a18bb06c55aa79de658ce03211381',1,'streamproc::models::Frame::mat()'],['../da/db3/classstreamproc_1_1VideoSink.html#a72698d043ed29dc3652485568bb35030',1,'streamproc::VideoSink::mat()']]],
+  ['match_5fthresh',['match_thresh',['../dd/d4e/classdeepsort_1_1NearestNeighborDistanceMetric.html#a90a401a1b58931763968a554aa3fe73d',1,'deepsort::NearestNeighborDistanceMetric']]],
+  ['matches',['matches',['../d8/d25/structdeepsort_1_1tracker__matches__t.html#a77b7740aae76d679a738bdeda84db496',1,'deepsort::tracker_matches_t']]],
+  ['max_5fage',['max_age',['../df/d0a/classdeepsort_1_1Track.html#a255c39a4320e8f55d01d4df2bdd1a3eb',1,'deepsort::Track::max_age()'],['../d6/d12/classdeepsort_1_1Tracker.html#a9d886f5441d1ccafadbfb87df05d9e17',1,'deepsort::Tracker::max_age()']]],
+  ['max_5fiou_5fdist',['max_iou_dist',['../d6/d12/classdeepsort_1_1Tracker.html#abbac6edc9f57313bbdbdb9fd78865345',1,'deepsort::Tracker']]],
+  ['mean',['mean',['../df/d0a/classdeepsort_1_1Track.html#a92e00cdc1eb332ad19a9fa8371b54b70',1,'deepsort::Track']]],
+  ['metadata',['metadata',['../d2/d27/structvideoanalytics_1_1EventToLog.html#a18443aea2efc1ea60802e2124d3d182d',1,'videoanalytics::EventToLog']]],
+  ['metamap',['metaMap',['../da/db3/classstreamproc_1_1VideoSink.html#a035298e39bc64c5a3f4369167c7938f6',1,'streamproc::VideoSink']]],
+  ['metric',['metric',['../d6/d12/classdeepsort_1_1Tracker.html#a594bbf4aa451dd18a83576e73b555853',1,'deepsort::Tracker']]],
+  ['metrics',['metrics',['../df/dfa/classstreamproc_1_1AnalyticsSink.html#a60f83103879923ae569f9e88262b686d',1,'streamproc::AnalyticsSink']]],
+  ['metricstotrack',['metricsToTrack',['../da/dd3/classstreamproc_1_1AnalyticsFilter.html#ae6efea85803561c97123243d9ada3f3a',1,'streamproc::AnalyticsFilter']]],
+  ['modelbuilder',['modelBuilder',['../db/d95/classstreamproc_1_1Source.html#a9ca2e9b72cb81c0d8956fabffe8b3eea',1,'streamproc::Source::modelBuilder()'],['../d6/d49/classstreamproc_1_1Filter.html#aaada00c047c1c4945a4b57484e58f3d1',1,'streamproc::Filter::modelBuilder()']]],
+  ['motion_5falarm_5freset',['motion_alarm_reset',['../db/d53/classvideoanalytics_1_1Object.html#a20508399919016fd43c3fd84930f1a5b',1,'videoanalytics::Object']]],
+  ['motion_5fmean',['motion_mean',['../db/d53/classvideoanalytics_1_1Object.html#a64e1bab7d7f36e6ed8e9df42f1bd81fe',1,'videoanalytics::Object']]],
+  ['motion_5foutliers',['motion_outliers',['../db/d53/classvideoanalytics_1_1Object.html#acd3cd24227e606f0a0fa61331ef206a2',1,'videoanalytics::Object']]],
+  ['motion_5ftracks',['motion_tracks',['../db/d53/classvideoanalytics_1_1Object.html#a3673dee9c5f82d39cc9dac2318d0f281',1,'videoanalytics::Object']]],
+  ['motionless',['motionless',['../d2/de1/structvideoanalytics_1_1ObjectStatus.html#a9aeb65329e8ec030f04c1c6c0d5af479',1,'videoanalytics::ObjectStatus::motionless()'],['../db/d53/classvideoanalytics_1_1Object.html#ad7fac1cbcd8ac093e8b7c51c483e1bc4',1,'videoanalytics::Object::motionless()']]],
+  ['motionless_5fend',['motionless_end',['../db/d53/classvideoanalytics_1_1Object.html#a7351a78319783c4d116803b2e1cb8201',1,'videoanalytics::Object']]],
+  ['motionless_5fstart',['motionless_start',['../db/d53/classvideoanalytics_1_1Object.html#a1f7ccc0dbed02059a702f80e2c5a54ce',1,'videoanalytics::Object']]],
+  ['motionlessids',['motionlessIds',['../d0/d02/structstreamproc_1_1models_1_1Analytics.html#a71ea6cedcd43007023e423457794127d',1,'streamproc::models::Analytics']]],
+  ['multiped_5fperson_5fand_5fbaggage',['MULTIPED_PERSON_AND_BAGGAGE',['../da/dc7/namespacedeepvision_1_1objdet.html#a69660b7f824191f59fc4a1f1d0734a9c',1,'deepvision::objdet']]]
 ];

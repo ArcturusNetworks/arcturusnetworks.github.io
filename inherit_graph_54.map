@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d7/d02/classvideoanalytics_1_1Analytic.html" title="videoanalytics::Analytic" alt="" coords="5,177,184,203"/>
+<area shape="rect" id="node2" href="$d5/dc6/classvideoanalytics_1_1count_1_1ObjectCounter.html" title="videoanalytics::count\l::ObjectCounter" alt="" coords="243,5,404,47"/>
+<area shape="rect" id="node3" href="$d6/da4/classvideoanalytics_1_1direction_1_1Motionless.html" title="videoanalytics::direction\l::Motionless" alt="" coords="232,71,415,112"/>
+<area shape="rect" id="node4" href="$d2/d64/classvideoanalytics_1_1threat_1_1AbandonedPackage.html" title="videoanalytics::threat\l::AbandonedPackage" alt="" coords="241,136,405,177"/>
+<area shape="rect" id="node5" href="$d9/d51/classvideoanalytics_1_1threat_1_1Intrusion.html" title="videoanalytics::threat\l::Intrusion" alt="" coords="241,201,405,243"/>
+<area shape="rect" id="node6" href="$df/d17/classvideoanalytics_1_1threat_1_1LineIncursion.html" title="videoanalytics::threat\l::LineIncursion" alt="" coords="241,267,405,308"/>
+<area shape="rect" id="node7" href="$dd/d7b/classvideoanalytics_1_1threat_1_1Loitering.html" title="videoanalytics::threat\l::Loitering" alt="" coords="241,332,405,373"/>
+</map>

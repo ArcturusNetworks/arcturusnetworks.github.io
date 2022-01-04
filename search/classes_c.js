@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['point',['Point',['../d8/da8/classstreamproc_1_1influxdb_1_1Point.html',1,'streamproc::influxdb']]],
-  ['processprofiler',['ProcessProfiler',['../d0/d42/classstreamproc_1_1ProcessProfiler.html',1,'streamproc']]]
+  ['nearestneighbordistancemetric',['NearestNeighborDistanceMetric',['../dd/d4e/classdeepsort_1_1NearestNeighborDistanceMetric.html',1,'deepsort']]],
+  ['node',['Node',['../dd/d01/classstreamproc_1_1Node.html',1,'streamproc']]],
+  ['null_5fdeleter',['null_deleter',['../de/daa/structstreamproc_1_1videowriter_1_1null__deleter.html',1,'streamproc::videowriter']]]
 ];

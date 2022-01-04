@@ -1,0 +1,14 @@
+digraph "/usr/local/include/deepsort" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_965469e30c00765877c0bb3dc3271ac9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_965469e30c00765877c0bb3dc3271ac9.html"]
+  subgraph clusterdir_37ece1ddd3eee85022e189dbfdb44897 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_37ece1ddd3eee85022e189dbfdb44897.html"];
+    dir_37ece1ddd3eee85022e189dbfdb44897 [shape=plaintext label="deepsort"];
+    dir_9f7b0d36d12656420ad095ad6b800113 [shape=box label="utils" color="black" fillcolor="white" style="filled" URL="dir_9f7b0d36d12656420ad095ad6b800113.html"];
+  }
+  }
+  dir_37ece1ddd3eee85022e189dbfdb44897->dir_9f7b0d36d12656420ad095ad6b800113 [headlabel="4", labeldistance=1.5 headhref="dir_000003_000008.html"];
+}

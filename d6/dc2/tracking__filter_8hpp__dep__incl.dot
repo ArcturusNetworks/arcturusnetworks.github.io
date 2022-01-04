@@ -1,0 +1,10 @@
+digraph "/usr/local/include/streamproc/tracking_filter.hpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node69 [label="/usr/local/include\l/streamproc/tracking\l_filter.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node69 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node70 [label="/usr/local/include\l/streamproc/streamproc.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dc1/streamproc_8hpp.html"];
+  Node70 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 [label="/usr/local/include\l/streamproc/builder.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dcd/builder_8hpp.html"];
+}

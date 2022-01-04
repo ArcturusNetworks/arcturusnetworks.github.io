@@ -1,6 +1,6 @@
 <map id="/usr/local/include/deepvision/embed.hpp" name="/usr/local/include/deepvision/embed.hpp">
 <area shape="rect" id="node2" href="$d5/d3d/mobilenet__v1__triplet__loss_8hpp.html" title="deepvision/embed/mobilenet\l_v1_triplet_loss.hpp" alt="" coords="651,95,863,136"/>
-<area shape="rect" id="node24" href="$d1/d73/embed_2types_8hpp.html" title="deepvision/embed/types.hpp" alt="" coords="794,191,1005,218"/>
+<area shape="rect" id="node24" href="$d1/d87/deepvision_2embed_2types_8hpp.html" title="deepvision/embed/types.hpp" alt="" coords="794,191,1005,218"/>
 <area shape="rect" id="node3" href="$d3/dd7/armnn__executor_8hpp.html" title="deepvision/armnn/armnn\l_executor.hpp" alt="" coords="549,184,735,225"/>
 <area shape="rect" id="node4" href="$db/d6c/armnn__tensor_8hpp.html" title="deepvision/armnn/armnn\l_tensor.hpp" alt="" coords="213,273,399,315"/>
 <area shape="rect" id="node6" href="$d2/dfa/deepvision_2utils_8hpp.html" title="deepvision/utils.hpp" alt="" coords="565,437,719,464"/>

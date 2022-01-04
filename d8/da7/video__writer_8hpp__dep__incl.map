@@ -1,9 +1,10 @@
 <map id="/usr/local/include/streamproc/video_writers/video_writer.hpp" name="/usr/local/include/streamproc/video_writers/video_writer.hpp">
-<area shape="rect" id="node2" href="$d4/d90/local__display_8hpp.html" title="/usr/local/include\l/streamproc/video_writers\l/local_display.hpp" alt="" coords="5,109,197,165"/>
-<area shape="rect" id="node7" href="$d7/d60/mjpeg__stream_8hpp.html" title="/usr/local/include\l/streamproc/video_writers\l/mjpeg_stream.hpp" alt="" coords="221,109,413,165"/>
-<area shape="rect" id="node8" href="$d5/d1e/video__file_8hpp.html" title="/usr/local/include\l/streamproc/video_writers\l/video_file.hpp" alt="" coords="437,109,629,165"/>
-<area shape="rect" id="node3" href="$dd/de6/video__writers_8hpp.html" title="/usr/local/include\l/streamproc/video_writers.hpp" alt="" coords="207,213,427,255"/>
-<area shape="rect" id="node4" href="$da/d40/video__sink_8hpp.html" title="/usr/local/include\l/streamproc/video_sink.hpp" alt="" coords="216,303,419,344"/>
-<area shape="rect" id="node5" href="$de/dc1/streamproc_8hpp.html" title="/usr/local/include\l/streamproc/streamproc.hpp" alt="" coords="214,392,421,433"/>
-<area shape="rect" id="node6" href="$dc/dcd/builder_8hpp.html" title="/usr/local/include\l/streamproc/builder.hpp" alt="" coords="229,481,405,523"/>
+<area shape="rect" id="node2" href="$db/db5/continuous__video_8hpp.html" title="/usr/local/include\l/streamproc/video_writers\l/continuous_video.hpp" alt="" coords="5,109,197,165"/>
+<area shape="rect" id="node7" href="$d4/d90/local__display_8hpp.html" title="/usr/local/include\l/streamproc/video_writers\l/local_display.hpp" alt="" coords="221,109,413,165"/>
+<area shape="rect" id="node8" href="$d7/d60/mjpeg__stream_8hpp.html" title="/usr/local/include\l/streamproc/video_writers\l/mjpeg_stream.hpp" alt="" coords="437,109,629,165"/>
+<area shape="rect" id="node9" href="$d5/d1e/video__file_8hpp.html" title="/usr/local/include\l/streamproc/video_writers\l/video_file.hpp" alt="" coords="653,109,845,165"/>
+<area shape="rect" id="node3" href="$dd/de6/video__writers_8hpp.html" title="/usr/local/include\l/streamproc/video_writers.hpp" alt="" coords="315,213,535,255"/>
+<area shape="rect" id="node4" href="$da/d40/video__sink_8hpp.html" title="/usr/local/include\l/streamproc/video_sink.hpp" alt="" coords="324,303,527,344"/>
+<area shape="rect" id="node5" href="$de/dc1/streamproc_8hpp.html" title="/usr/local/include\l/streamproc/streamproc.hpp" alt="" coords="322,392,529,433"/>
+<area shape="rect" id="node6" href="$dc/dcd/builder_8hpp.html" title="/usr/local/include\l/streamproc/builder.hpp" alt="" coords="337,481,513,523"/>
 </map>

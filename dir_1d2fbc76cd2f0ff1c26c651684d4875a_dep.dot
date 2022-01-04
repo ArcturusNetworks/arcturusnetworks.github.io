@@ -1,0 +1,21 @@
+digraph "/usr/local/include/videoanalytics" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_965469e30c00765877c0bb3dc3271ac9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_965469e30c00765877c0bb3dc3271ac9.html"]
+  subgraph clusterdir_1d2fbc76cd2f0ff1c26c651684d4875a {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_1d2fbc76cd2f0ff1c26c651684d4875a.html"];
+    dir_1d2fbc76cd2f0ff1c26c651684d4875a [shape=plaintext label="videoanalytics"];
+    dir_6d4645e395cd682b037c7bd186b2e88f [shape=box label="count" color="black" fillcolor="white" style="filled" URL="dir_6d4645e395cd682b037c7bd186b2e88f.html"];
+    dir_eb49fd782158734410aa3f17cf087122 [shape=box label="direction" color="black" fillcolor="white" style="filled" URL="dir_eb49fd782158734410aa3f17cf087122.html"];
+    dir_774e09eac22bef505eb85c9d7324366e [shape=box label="json" color="black" fillcolor="white" style="filled" URL="dir_774e09eac22bef505eb85c9d7324366e.html"];
+    dir_a897d51e1dc5c733072f63ad5f984369 [shape=box label="threat" color="black" fillcolor="white" style="filled" URL="dir_a897d51e1dc5c733072f63ad5f984369.html"];
+    dir_e7decc6bb1b5127f7bdd403263a3dce4 [shape=box label="utils" color="black" fillcolor="white" style="filled" URL="dir_e7decc6bb1b5127f7bdd403263a3dce4.html"];
+  }
+  }
+  dir_1d2fbc76cd2f0ff1c26c651684d4875a->dir_a897d51e1dc5c733072f63ad5f984369 [headlabel="4", labeldistance=1.5 headhref="dir_000009_000024.html"];
+  dir_1d2fbc76cd2f0ff1c26c651684d4875a->dir_6d4645e395cd682b037c7bd186b2e88f [headlabel="1", labeldistance=1.5 headhref="dir_000009_000021.html"];
+  dir_1d2fbc76cd2f0ff1c26c651684d4875a->dir_eb49fd782158734410aa3f17cf087122 [headlabel="1", labeldistance=1.5 headhref="dir_000009_000022.html"];
+  dir_eb49fd782158734410aa3f17cf087122->dir_e7decc6bb1b5127f7bdd403263a3dce4 [headlabel="1", labeldistance=1.5 headhref="dir_000022_000010.html"];
+}

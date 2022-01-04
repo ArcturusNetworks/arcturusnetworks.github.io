@@ -1,0 +1,11 @@
+digraph "/usr/local/include/deepvision/embed" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d72db6f9b16262d234de46bc36044bbd {
+    graph [ bgcolor="#ddddee", pencolor="black", label="deepvision" fontname="Helvetica", fontsize="10", URL="dir_d72db6f9b16262d234de46bc36044bbd.html"]
+  dir_5e572e260f4dd4735f63326c5db168c8 [shape=box, label="embed", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5e572e260f4dd4735f63326c5db168c8.html"];
+  }
+  dir_d8985568f8ab439297a2bb70051aeca7 [shape=box label="armnn" URL="dir_d8985568f8ab439297a2bb70051aeca7.html"];
+  dir_5e572e260f4dd4735f63326c5db168c8->dir_d8985568f8ab439297a2bb70051aeca7 [headlabel="1", labeldistance=1.5 headhref="dir_000011_000005.html"];
+}

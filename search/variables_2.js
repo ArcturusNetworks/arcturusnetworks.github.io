@@ -2,13 +2,21 @@ var searchData=
 [
   ['capture',['capture',['../d6/dba/classstreamproc_1_1VideoSource.html#aa3eb943563d924d714d3c25e05f585c4',1,'streamproc::VideoSource']]],
   ['cf',['cf',['../dc/df0/structstreamproc_1_1videowriter_1_1clientPayload.html#ae9cbfc7faa189ef33219dd3341d435de',1,'streamproc::videowriter::clientPayload']]],
+  ['characterizations',['characterizations',['../db/d2c/structstreamproc_1_1models_1_1Detection.html#ad0fb82992c078abddec6075d925b306d',1,'streamproc::models::Detection']]],
+  ['characters',['characters',['../dc/dca/classstreamproc_1_1WatchlistFilter.html#a9fa5a8e97250fc2c8ab717b63a1f717a',1,'streamproc::WatchlistFilter']]],
+  ['chi2inv95',['Chi2Inv95',['../d5/d8a/classdeepsort_1_1KalmanFilter.html#ac82970c26e4c179b67c26c3f1dafe702',1,'deepsort::KalmanFilter']]],
   ['client',['client',['../da/d81/structstreamproc_1_1videowriter_1_1clientFrame.html#a312652a63ddaafe8374c86f8bc2635e1',1,'streamproc::videowriter::clientFrame']]],
   ['coco_5fall_5fclasses',['COCO_ALL_CLASSES',['../da/dc7/namespacedeepvision_1_1objdet.html#ae8f4305a68e23c70ea70b2084fe2cf35',1,'deepvision::objdet']]],
+  ['coco_5fall_5ftrt_5fclasses',['COCO_ALL_TRT_CLASSES',['../da/dc7/namespacedeepvision_1_1objdet.html#aa54835bfecc6dcc1367aa6b53ca49f1e',1,'deepvision::objdet']]],
   ['coco_5fperson_5fonly',['COCO_PERSON_ONLY',['../da/dc7/namespacedeepvision_1_1objdet.html#a58a5060a9066e355fce94eb6231f6f2f',1,'deepvision::objdet']]],
-  ['conf',['conf',['../db/d2c/structstreamproc_1_1models_1_1Detection.html#ad36b26ee0365e72e7b09df9dab84c403',1,'streamproc::models::Detection::conf()'],['../df/d27/structdeepvision_1_1classify_1_1Classification.html#a7a4ef6c4ad7fb6b04929b437730af21d',1,'deepvision::classify::Classification::conf()'],['../dc/d3d/structdeepvision_1_1objdet_1_1Detection.html#ae5492e7e463059be24e4383d965323de',1,'deepvision::objdet::Detection::conf()']]],
+  ['conf',['conf',['../db/d2c/structstreamproc_1_1models_1_1Detection.html#ad36b26ee0365e72e7b09df9dab84c403',1,'streamproc::models::Detection::conf()'],['../df/d27/structdeepvision_1_1classify_1_1Classification.html#a7a4ef6c4ad7fb6b04929b437730af21d',1,'deepvision::classify::Classification::conf()'],['../dc/d3d/structdeepvision_1_1objdet_1_1Detection.html#ae5492e7e463059be24e4383d965323de',1,'deepvision::objdet::Detection::conf()'],['../df/d0a/classdeepsort_1_1Track.html#ada3cf5200e0305b5a4cc4987ffe00dfc',1,'deepsort::Track::conf()'],['../db/d53/classvideoanalytics_1_1Object.html#a9d492ececda4660482fd0872708f68ae',1,'videoanalytics::Object::conf()'],['../d6/da9/classvideoanalytics_1_1Package.html#a267388763da5a7eaa12a6cd0456ba4b2',1,'videoanalytics::Package::conf()'],['../d9/d3c/structvideoanalytics_1_1TrackData.html#a4a296722682ba15736ee4253ef0ca13c',1,'videoanalytics::TrackData::conf()']]],
+  ['confidence',['confidence',['../dc/db3/classdeepsort_1_1Detection.html#a5c8ffd26cbef679c0fbc1e62a63ce962',1,'deepsort::Detection']]],
   ['connected',['connected',['../d9/daa/classstreamproc_1_1IncomingStream.html#a5deb071814dd16ba98a6f94607d325e1',1,'streamproc::IncomingStream']]],
   ['connectionretries',['connectionRetries',['../dd/dbb/structstreamproc_1_1influxdb_1_1DatabaseConfig.html#a332657a5334d6745ff996eb4b8375e03',1,'streamproc::influxdb::DatabaseConfig']]],
   ['connectiontimeout',['connectionTimeout',['../dd/dbb/structstreamproc_1_1influxdb_1_1DatabaseConfig.html#acecb7f6589435df4ddbfe8bf6c7459a2',1,'streamproc::influxdb::DatabaseConfig']]],
   ['context',['context',['../d6/d95/classstreamproc_1_1Stream.html#a2f4d6a907d8416c7fec4f949a0d08837',1,'streamproc::Stream::context()'],['../dc/df0/structstreamproc_1_1videowriter_1_1clientPayload.html#ad9dda223326dfc7871c75ea5ad94765d',1,'streamproc::videowriter::clientPayload::context()']]],
-  ['createnodemap',['CreateNodeMap',['../d7/d77/namespacestreamproc.html#a9ec4b13aa81a4f5b8a68cc2f1d836d7e',1,'streamproc']]]
+  ['count',['count',['../d9/dc8/classvideoanalytics_1_1count_1_1Counter.html#a73be819c066487dec2fcfe7a7cf17bb8',1,'videoanalytics::count::Counter']]],
+  ['covar',['covar',['../df/d0a/classdeepsort_1_1Track.html#af22132f3d57bb97de44707bebf9025aa',1,'deepsort::Track']]],
+  ['createnodemap',['CreateNodeMap',['../d7/d77/namespacestreamproc.html#a9ec4b13aa81a4f5b8a68cc2f1d836d7e',1,'streamproc']]],
+  ['current_5fids',['current_ids',['../d7/d02/classvideoanalytics_1_1Analytic.html#adcadbe00ea0a839a3e507f3e069f2895',1,'videoanalytics::Analytic']]]
 ];

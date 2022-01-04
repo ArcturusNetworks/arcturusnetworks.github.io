@@ -1,0 +1,19 @@
+digraph "/usr/local/include" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_476cfaf7cbe66e1ec423d3fc663ddd2f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="local" fontname="Helvetica", fontsize="10", URL="dir_476cfaf7cbe66e1ec423d3fc663ddd2f.html"]
+  subgraph clusterdir_965469e30c00765877c0bb3dc3271ac9 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_965469e30c00765877c0bb3dc3271ac9.html"];
+    dir_965469e30c00765877c0bb3dc3271ac9 [shape=plaintext label="include"];
+    dir_37ece1ddd3eee85022e189dbfdb44897 [shape=box label="deepsort" color="red" fillcolor="white" style="filled" URL="dir_37ece1ddd3eee85022e189dbfdb44897.html"];
+    dir_d72db6f9b16262d234de46bc36044bbd [shape=box label="deepvision" color="red" fillcolor="white" style="filled" URL="dir_d72db6f9b16262d234de46bc36044bbd.html"];
+    dir_10fa85060218a74579f66e385fca5f68 [shape=box label="streamproc" color="red" fillcolor="white" style="filled" URL="dir_10fa85060218a74579f66e385fca5f68.html"];
+    dir_1d2fbc76cd2f0ff1c26c651684d4875a [shape=box label="videoanalytics" color="red" fillcolor="white" style="filled" URL="dir_1d2fbc76cd2f0ff1c26c651684d4875a.html"];
+  }
+  }
+  dir_10fa85060218a74579f66e385fca5f68->dir_1d2fbc76cd2f0ff1c26c651684d4875a [headlabel="2", labeldistance=1.5 headhref="dir_000014_000009.html"];
+  dir_10fa85060218a74579f66e385fca5f68->dir_d72db6f9b16262d234de46bc36044bbd [headlabel="2", labeldistance=1.5 headhref="dir_000014_000004.html"];
+  dir_10fa85060218a74579f66e385fca5f68->dir_37ece1ddd3eee85022e189dbfdb44897 [headlabel="1", labeldistance=1.5 headhref="dir_000014_000003.html"];
+}

@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="../../logo-dark.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">streamproc
-   &#160;<span id="projectnumber">v.0.0.1</span>
+   &#160;<span id="projectnumber">v.1.1.0</span>
    </div>
    <div id="projectbrief">Distributed Computing for Machine Vision</div>
   </td>
@@ -99,10 +99,7 @@ $(document).ready(function(){initNavTree('d5/d55/classdeepvision_1_1Executor.htm
 Inheritance diagram for deepvision::Executor:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/db4/classdeepvision_1_1Executor__inherit__graph.png" border="0" usemap="#deepvision_1_1Executor_inherit__map" alt="Inheritance graph"/></div>
-<map name="deepvision_1_1Executor_inherit__map" id="deepvision_1_1Executor_inherit__map">
-<area shape="rect" id="node2" href="../../d2/d25/classdeepvision_1_1armnn_1_1ArmNNExecutor.html" title="deepvision::armnn::\lArmNNExecutor" alt="" coords="5,80,156,121"/>
-<area shape="rect" id="node3" href="../../d0/d20/classdeepvision_1_1tflite_1_1TfLiteExecutor.html" title="deepvision::tflite\l::TfLiteExecutor" alt="" coords="181,80,311,121"/>
-</map>
+<!-- MAP 0 -->
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -121,6 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeb113e80b26e6227dd1faf74b82eff21"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d55/classdeepvision_1_1Executor.html#aeb113e80b26e6227dd1faf74b82eff21">GetNumOutputs</a> () const =0</td></tr>
 <tr class="memdesc:aeb113e80b26e6227dd1faf74b82eff21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of output tensors.  <a href="#aeb113e80b26e6227dd1faf74b82eff21">More...</a><br /></td></tr>
 <tr class="separator:aeb113e80b26e6227dd1faf74b82eff21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb6e073920b6d280326f43092514a911"><td class="memItemLeft" align="right" valign="top">virtual uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d55/classdeepvision_1_1Executor.html#adb6e073920b6d280326f43092514a911">GetInferTime</a> () const =0</td></tr>
+<tr class="memdesc:adb6e073920b6d280326f43092514a911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the execution time of neural network.  <a href="#adb6e073920b6d280326f43092514a911">More...</a><br /></td></tr>
+<tr class="separator:adb6e073920b6d280326f43092514a911"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20013238601ad9b573ddf1dc0a7d9152"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../dd/d4a/classdeepvision_1_1Tensor.html">deepvision::Tensor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d55/classdeepvision_1_1Executor.html#a20013238601ad9b573ddf1dc0a7d9152">GetInput</a> (unsigned int i)=0</td></tr>
 <tr class="memdesc:a20013238601ad9b573ddf1dc0a7d9152"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain a reference to an input <a class="el" href="../../dd/d4a/classdeepvision_1_1Tensor.html" title="Abstract typed tensor with optional quantization. ">deepvision::Tensor</a> object.  <a href="#a20013238601ad9b573ddf1dc0a7d9152">More...</a><br /></td></tr>
 <tr class="separator:a20013238601ad9b573ddf1dc0a7d9152"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,6 +212,35 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="adb6e073920b6d280326f43092514a911"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb6e073920b6d280326f43092514a911">&#9670;&nbsp;</a></span>GetInferTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual uint64_t deepvision::Executor::GetInferTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the execution time of neural network. </p>
+
+<p>Implemented in <a class="el" href="../../d2/d25/classdeepvision_1_1armnn_1_1ArmNNExecutor.html#a91c71c072078d7e5c04f39bb1fb5964a">deepvision::armnn::ArmNNExecutor</a>, <a class="el" href="../../d0/d20/classdeepvision_1_1tflite_1_1TfLiteExecutor.html#abcc30c03bc46044c658be98c5fc3e4e4">deepvision::tflite::TfLiteExecutor</a>, and <a class="el" href="../../d0/d3d/classdeepvision_1_1tensorrt_1_1TensorRTExecutor.html#a014e1794cadbf6fbcd144071963982ee">deepvision::tensorrt::TensorRTExecutor</a>.</p>
+
+</div>
+</div>
 <a id="a20013238601ad9b573ddf1dc0a7d9152"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a20013238601ad9b573ddf1dc0a7d9152">&#9670;&nbsp;</a></span>GetInput()</h2>
 
@@ -239,7 +268,7 @@ Public Member Functions</h2></td></tr>
 <p>Obtain a reference to an input <a class="el" href="../../dd/d4a/classdeepvision_1_1Tensor.html" title="Abstract typed tensor with optional quantization. ">deepvision::Tensor</a> object. </p>
 <p>This object will describe the shape, type and quantization parameters of the model's inputs. It will also contain a pointer to the memory allocated for the tensor. </p>
 
-<p>Implemented in <a class="el" href="../../d2/d25/classdeepvision_1_1armnn_1_1ArmNNExecutor.html#a117c2de76ff097e8df0bac45b5727b36">deepvision::armnn::ArmNNExecutor</a>, and <a class="el" href="../../d0/d20/classdeepvision_1_1tflite_1_1TfLiteExecutor.html#a5a91369ae048c73b549180838eae6660">deepvision::tflite::TfLiteExecutor</a>.</p>
+<p>Implemented in <a class="el" href="../../d2/d25/classdeepvision_1_1armnn_1_1ArmNNExecutor.html#a117c2de76ff097e8df0bac45b5727b36">deepvision::armnn::ArmNNExecutor</a>, <a class="el" href="../../d0/d20/classdeepvision_1_1tflite_1_1TfLiteExecutor.html#a5a91369ae048c73b549180838eae6660">deepvision::tflite::TfLiteExecutor</a>, and <a class="el" href="../../d0/d3d/classdeepvision_1_1tensorrt_1_1TensorRTExecutor.html#a2d0118eedf2693acade2ee2cd2277dfe">deepvision::tensorrt::TensorRTExecutor</a>.</p>
 
 </div>
 </div>
@@ -268,7 +297,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the number of input tensors. </p>
 
-<p>Implemented in <a class="el" href="../../d2/d25/classdeepvision_1_1armnn_1_1ArmNNExecutor.html#a23acbfed4e1f58d2ac603698853e37d1">deepvision::armnn::ArmNNExecutor</a>, and <a class="el" href="../../d0/d20/classdeepvision_1_1tflite_1_1TfLiteExecutor.html#a20ba7099355b693f74c1bbf9582d7045">deepvision::tflite::TfLiteExecutor</a>.</p>
+<p>Implemented in <a class="el" href="../../d2/d25/classdeepvision_1_1armnn_1_1ArmNNExecutor.html#a23acbfed4e1f58d2ac603698853e37d1">deepvision::armnn::ArmNNExecutor</a>, <a class="el" href="../../d0/d20/classdeepvision_1_1tflite_1_1TfLiteExecutor.html#a20ba7099355b693f74c1bbf9582d7045">deepvision::tflite::TfLiteExecutor</a>, and <a class="el" href="../../d0/d3d/classdeepvision_1_1tensorrt_1_1TensorRTExecutor.html#a6a69dcd429a814a038f455c13beb3278">deepvision::tensorrt::TensorRTExecutor</a>.</p>
 
 </div>
 </div>
@@ -297,7 +326,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the number of output tensors. </p>
 
-<p>Implemented in <a class="el" href="../../d2/d25/classdeepvision_1_1armnn_1_1ArmNNExecutor.html#afb9ed7a2399c1283289738fb99a528d5">deepvision::armnn::ArmNNExecutor</a>, and <a class="el" href="../../d0/d20/classdeepvision_1_1tflite_1_1TfLiteExecutor.html#aa9192849b691326488a7850e797631b7">deepvision::tflite::TfLiteExecutor</a>.</p>
+<p>Implemented in <a class="el" href="../../d2/d25/classdeepvision_1_1armnn_1_1ArmNNExecutor.html#afb9ed7a2399c1283289738fb99a528d5">deepvision::armnn::ArmNNExecutor</a>, <a class="el" href="../../d0/d20/classdeepvision_1_1tflite_1_1TfLiteExecutor.html#aa9192849b691326488a7850e797631b7">deepvision::tflite::TfLiteExecutor</a>, and <a class="el" href="../../d0/d3d/classdeepvision_1_1tensorrt_1_1TensorRTExecutor.html#aed760999d73d5ed19a320bd83a3af7cd">deepvision::tensorrt::TensorRTExecutor</a>.</p>
 
 </div>
 </div>
@@ -328,7 +357,7 @@ Public Member Functions</h2></td></tr>
 <p>Obtain a reference to an output <a class="el" href="../../dd/d4a/classdeepvision_1_1Tensor.html" title="Abstract typed tensor with optional quantization. ">deepvision::Tensor</a> object. </p>
 <p>This object will describe the shape, type and quantization parameters of the model's outputs. It will also contain a pointer to the memory allocated for the tensor. </p>
 
-<p>Implemented in <a class="el" href="../../d2/d25/classdeepvision_1_1armnn_1_1ArmNNExecutor.html#a06ddfd7e430ffd9b6460e70324342b3d">deepvision::armnn::ArmNNExecutor</a>, and <a class="el" href="../../d0/d20/classdeepvision_1_1tflite_1_1TfLiteExecutor.html#af0b58d48c5b04267033eae5052a55c25">deepvision::tflite::TfLiteExecutor</a>.</p>
+<p>Implemented in <a class="el" href="../../d2/d25/classdeepvision_1_1armnn_1_1ArmNNExecutor.html#a06ddfd7e430ffd9b6460e70324342b3d">deepvision::armnn::ArmNNExecutor</a>, <a class="el" href="../../d0/d20/classdeepvision_1_1tflite_1_1TfLiteExecutor.html#af0b58d48c5b04267033eae5052a55c25">deepvision::tflite::TfLiteExecutor</a>, and <a class="el" href="../../d0/d3d/classdeepvision_1_1tensorrt_1_1TensorRTExecutor.html#a756d7be3941682880d6d62d36f1c4a87">deepvision::tensorrt::TensorRTExecutor</a>.</p>
 
 </div>
 </div>
@@ -384,7 +413,7 @@ Public Member Functions</h2></td></tr>
 <p>Run the neural network. </p>
 <p>After each call to this method, the output data can be read from the <a class="el" href="../../dd/d4a/classdeepvision_1_1Tensor.html" title="Abstract typed tensor with optional quantization. ">deepvision::Tensor</a> objects corresponding to the output tensors. </p>
 
-<p>Implemented in <a class="el" href="../../d2/d25/classdeepvision_1_1armnn_1_1ArmNNExecutor.html#ad2d31a82891ff7c9629ab82b3fdd1205">deepvision::armnn::ArmNNExecutor</a>, and <a class="el" href="../../d0/d20/classdeepvision_1_1tflite_1_1TfLiteExecutor.html#ac0f9400b9f667111efe1d3ca50549065">deepvision::tflite::TfLiteExecutor</a>.</p>
+<p>Implemented in <a class="el" href="../../d2/d25/classdeepvision_1_1armnn_1_1ArmNNExecutor.html#ad2d31a82891ff7c9629ab82b3fdd1205">deepvision::armnn::ArmNNExecutor</a>, <a class="el" href="../../d0/d20/classdeepvision_1_1tflite_1_1TfLiteExecutor.html#ac0f9400b9f667111efe1d3ca50549065">deepvision::tflite::TfLiteExecutor</a>, and <a class="el" href="../../d0/d3d/classdeepvision_1_1tensorrt_1_1TensorRTExecutor.html#af3bbea77903e88b866b765e1471d42b1">deepvision::tensorrt::TensorRTExecutor</a>.</p>
 
 </div>
 </div>

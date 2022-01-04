@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['datatype',['DataType',['../dd/dc9/namespacedeepvision.html#a60d7573d141d9e12a59e1b7a94de6160',1,'deepvision']]]
+  ['converttostring',['ConvertToString',['../de/d1c/classvideoanalytics_1_1ThrowError.html#a232a1f6dd29173327af11ba40abc229b',1,'videoanalytics::ThrowError']]]
 ];

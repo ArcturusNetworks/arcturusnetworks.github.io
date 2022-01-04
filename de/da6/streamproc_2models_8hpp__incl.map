@@ -1,6 +1,8 @@
 <map id="/usr/local/include/streamproc/models.hpp" name="/usr/local/include/streamproc/models.hpp">
-<area shape="rect" id="node4" href="$d8/d5b/streamproc_2utils_8hpp.html" title="streamproc/utils.hpp" alt="" coords="321,95,477,121"/>
-<area shape="rect" id="node10" href="$d1/d3c/frame_8hpp.html" title="streamproc/models/frame.hpp" alt="" coords="532,95,751,121"/>
+<area shape="rect" id="node4" href="$d8/d5b/streamproc_2utils_8hpp.html" title="streamproc/utils.hpp" alt="" coords="334,95,490,121"/>
+<area shape="rect" id="node10" href="$d1/d3c/frame_8hpp.html" title="streamproc/models/frame.hpp" alt="" coords="548,95,767,121"/>
 <area shape="rect" id="node12" href="$d6/da0/detections_8hpp.html" title="streamproc/models/detections.hpp" alt="" coords="791,95,1039,121"/>
-<area shape="rect" id="node14" href="$da/d4c/embeddings_8hpp.html" title="streamproc/models/embeddings.hpp" alt="" coords="1070,95,1330,121"/>
+<area shape="rect" id="node14" href="$d3/df3/characters_8hpp.html" title="streamproc/models/characters.hpp" alt="" coords="1063,95,1311,121"/>
+<area shape="rect" id="node16" href="$da/d4c/embeddings_8hpp.html" title="streamproc/models/embeddings.hpp" alt="" coords="1334,95,1594,121"/>
+<area shape="rect" id="node18" href="$d9/d90/analytics_8hpp.html" title="streamproc/models/analytics.hpp" alt="" coords="1618,95,1857,121"/>
 </map>

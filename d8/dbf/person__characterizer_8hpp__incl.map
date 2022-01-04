@@ -1,0 +1,9 @@
+<map id="/usr/local/include/deepvision/characterize/person_characterizer.hpp" name="/usr/local/include/deepvision/characterize/person_characterizer.hpp">
+<area shape="rect" id="node2" href="$d2/dfa/deepvision_2utils_8hpp.html" title="deepvision/utils.hpp" alt="" coords="806,206,959,233"/>
+<area shape="rect" id="node16" href="$d4/da5/segment_2labels_8hpp.html" title="deepvision/segment\l/labels.hpp" alt="" coords="1455,199,1609,240"/>
+<area shape="rect" id="node17" href="$d9/d21/deepvision_2characterize_2types_8hpp.html" title="deepvision/characterize\l/types.hpp" alt="" coords="2198,288,2375,329"/>
+<area shape="rect" id="node21" href="$de/dd0/color__characterizer_8hpp.html" title="deepvision/characterize\l/color_characterizer.hpp" alt="" coords="1634,109,1811,151"/>
+<area shape="rect" id="node19" href="$d5/daf/deepvision_2objdet_2types_8hpp.html" title="deepvision/objdet/types.hpp" alt="" coords="2183,377,2390,404"/>
+<area shape="rect" id="node22" href="$d4/db0/knn__custom_8hpp.html" title="deepvision/characterize\l/knn_custom.hpp" alt="" coords="1634,199,1811,240"/>
+<area shape="rect" id="node28" href="$d1/dbf/knn__opencv_8hpp.html" title="deepvision/characterize\l/knn_opencv.hpp" alt="" coords="2007,199,2185,240"/>
+</map>

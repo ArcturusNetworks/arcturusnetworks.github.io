@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="../../logo-dark.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">streamproc
-   &#160;<span id="projectnumber">v.0.0.1</span>
+   &#160;<span id="projectnumber">v.1.1.0</span>
    </div>
    <div id="projectbrief">Distributed Computing for Machine Vision</div>
   </td>
@@ -102,26 +102,13 @@ $(document).ready(function(){initNavTree('dd/d01/classstreamproc_1_1Node.html','
 Inheritance diagram for streamproc::Node:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/ded/classstreamproc_1_1Node__inherit__graph.png" border="0" usemap="#streamproc_1_1Node_inherit__map" alt="Inheritance graph"/></div>
-<map name="streamproc_1_1Node_inherit__map" id="streamproc_1_1Node_inherit__map">
-<area shape="rect" id="node2" href="../../d6/d49/classstreamproc_1_1Filter.html" title="Node which filters data. " alt="" coords="198,107,334,133"/>
-<area shape="rect" id="node7" href="../../d2/d2b/classstreamproc_1_1Sink.html" title="Node which consumes data. " alt="" coords="200,220,332,247"/>
-<area shape="rect" id="node10" href="../../db/d95/classstreamproc_1_1Source.html" title="Node which generates data. " alt="" coords="192,296,340,323"/>
-<area shape="rect" id="node3" href="../../d3/d64/classstreamproc_1_1EmbeddingFilter.html" title="Filter node performing neural network embeddings on video frames. " alt="" coords="388,5,597,32"/>
-<area shape="rect" id="node4" href="../../d7/d15/classstreamproc_1_1FaceRecFilter.html" title="streamproc::FaceRecFilter" alt="" coords="399,56,587,83"/>
-<area shape="rect" id="node5" href="../../d3/dc3/classstreamproc_1_1InferenceFilter.html" title="Filter node performing object detection on video frames. " alt="" coords="394,107,591,133"/>
-<area shape="rect" id="node6" href="../../d4/da9/classstreamproc_1_1TrackingFilter.html" title="streamproc::TrackingFilter" alt="" coords="397,157,588,184"/>
-<area shape="rect" id="node8" href="../../df/dfa/classstreamproc_1_1AnalyticsSink.html" title="streamproc::AnalyticsSink" alt="" coords="397,208,589,235"/>
-<area shape="rect" id="node9" href="../../da/db3/classstreamproc_1_1VideoSink.html" title="Sink node which consumes video frames. " alt="" coords="408,259,577,285"/>
-<area shape="rect" id="node11" href="../../d6/dba/classstreamproc_1_1VideoSource.html" title="Source node which generates video frames. " alt="" coords="400,309,585,336"/>
-</map>
+<!-- MAP 0 -->
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for streamproc::Node:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d0/d9c/classstreamproc_1_1Node__coll__graph.png" border="0" usemap="#streamproc_1_1Node_coll__map" alt="Collaboration graph"/></div>
-<map name="streamproc_1_1Node_coll__map" id="streamproc_1_1Node_coll__map">
-<area shape="rect" id="node2" href="../../d0/d42/classstreamproc_1_1ProcessProfiler.html" title="streamproc::ProcessProfiler" alt="" coords="5,5,205,32"/>
-</map>
+<!-- MAP 1 -->
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -153,6 +140,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ab40696442c7d82607f64940285ed5fb0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d01/classstreamproc_1_1Node.html#ab40696442c7d82607f64940285ed5fb0">SetUp</a> ()</td></tr>
 <tr class="memdesc:ab40696442c7d82607f64940285ed5fb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares the node for its worker routine.  <a href="#ab40696442c7d82607f64940285ed5fb0">More...</a><br /></td></tr>
 <tr class="separator:ab40696442c7d82607f64940285ed5fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1810904bed9a4c884543aa10dabe8fcb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d01/classstreamproc_1_1Node.html#a1810904bed9a4c884543aa10dabe8fcb">RecvData</a> ()</td></tr>
+<tr class="memdesc:a1810904bed9a4c884543aa10dabe8fcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receives data for processing.  <a href="#a1810904bed9a4c884543aa10dabe8fcb">More...</a><br /></td></tr>
+<tr class="separator:a1810904bed9a4c884543aa10dabe8fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9915c250c52703ba52f47a19b5444c65"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d01/classstreamproc_1_1Node.html#a9915c250c52703ba52f47a19b5444c65">Process</a> ()=0</td></tr>
 <tr class="memdesc:a9915c250c52703ba52f47a19b5444c65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes data.  <a href="#a9915c250c52703ba52f47a19b5444c65">More...</a><br /></td></tr>
 <tr class="separator:a9915c250c52703ba52f47a19b5444c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,6 +155,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ac4573828fc1d81e714b61964da8ab37f"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d01/classstreamproc_1_1Node.html#ac4573828fc1d81e714b61964da8ab37f">name</a></td></tr>
 <tr class="memdesc:ac4573828fc1d81e714b61964da8ab37f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique identifier for logging.  <a href="#ac4573828fc1d81e714b61964da8ab37f">More...</a><br /></td></tr>
 <tr class="separator:ac4573828fc1d81e714b61964da8ab37f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ef5e8800b4f20016df44d10510204ce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d01/classstreamproc_1_1Node.html#a2ef5e8800b4f20016df44d10510204ce">throttleFps</a> = 24</td></tr>
+<tr class="memdesc:a2ef5e8800b4f20016df44d10510204ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Throttle processing rate to this value.  <a href="#a2ef5e8800b4f20016df44d10510204ce">More...</a><br /></td></tr>
+<tr class="separator:a2ef5e8800b4f20016df44d10510204ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad43a406eee44c41b0b479363b1cab5a2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; logging::logger &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d01/classstreamproc_1_1Node.html#ad43a406eee44c41b0b479363b1cab5a2">logger</a></td></tr>
 <tr class="memdesc:ad43a406eee44c41b0b479363b1cab5a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log file for node This log file is also shared with the node's streams and bus.  <a href="#ad43a406eee44c41b0b479363b1cab5a2">More...</a><br /></td></tr>
 <tr class="separator:ad43a406eee44c41b0b479363b1cab5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -316,7 +309,37 @@ Bus: transmit signals, state transitions, statistics and other metadata about th
 <p>Processes data. </p>
 <p>Required virtual method for derived nodes. This is where a node should perform its required task. </p>
 
-<p>Implemented in <a class="el" href="../../d3/d64/classstreamproc_1_1EmbeddingFilter.html#aedd7c3f50e63fd84c79efa0ac8103055">streamproc::EmbeddingFilter</a>, <a class="el" href="../../da/db3/classstreamproc_1_1VideoSink.html#a6e0b56f3177abdba35a737e5e1aa4122">streamproc::VideoSink</a>, <a class="el" href="../../df/dfa/classstreamproc_1_1AnalyticsSink.html#aea858240b5246278b669f8fa46302a63">streamproc::AnalyticsSink</a>, <a class="el" href="../../d3/dc3/classstreamproc_1_1InferenceFilter.html#ad2b25a070033b3257b2dd0038029d974">streamproc::InferenceFilter</a>, <a class="el" href="../../d6/dba/classstreamproc_1_1VideoSource.html#a61b1e8c9b2c577b07388970741481d99">streamproc::VideoSource</a>, <a class="el" href="../../d4/da9/classstreamproc_1_1TrackingFilter.html#a74fb9e37a244a19224d2c727504ac199">streamproc::TrackingFilter</a>, and <a class="el" href="../../d7/d15/classstreamproc_1_1FaceRecFilter.html#adfca495be045d6a164373ba41090e082">streamproc::FaceRecFilter</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/d49/classstreamproc_1_1Filter.html#acab61755d09ef48582a930d32f01d088">streamproc::Filter</a>, <a class="el" href="../../da/dd3/classstreamproc_1_1AnalyticsFilter.html#a3c7b43588bdd76380c34fe342f96a80f">streamproc::AnalyticsFilter</a>, <a class="el" href="../../d3/d64/classstreamproc_1_1EmbeddingFilter.html#aedd7c3f50e63fd84c79efa0ac8103055">streamproc::EmbeddingFilter</a>, <a class="el" href="../../d3/dc3/classstreamproc_1_1InferenceFilter.html#ad2b25a070033b3257b2dd0038029d974">streamproc::InferenceFilter</a>, <a class="el" href="../../da/db3/classstreamproc_1_1VideoSink.html#a6e0b56f3177abdba35a737e5e1aa4122">streamproc::VideoSink</a>, <a class="el" href="../../dd/d6d/classstreamproc_1_1CharacterizeFilter.html#a7f3c96e6f0308e321a8d186b621a01b8">streamproc::CharacterizeFilter</a>, <a class="el" href="../../dc/dca/classstreamproc_1_1WatchlistFilter.html#a34f8646f280b974c910b9e86374849fd">streamproc::WatchlistFilter</a>, <a class="el" href="../../df/dfa/classstreamproc_1_1AnalyticsSink.html#aea858240b5246278b669f8fa46302a63">streamproc::AnalyticsSink</a>, <a class="el" href="../../d6/dba/classstreamproc_1_1VideoSource.html#a61b1e8c9b2c577b07388970741481d99">streamproc::VideoSource</a>, <a class="el" href="../../d7/d73/classstreamproc_1_1SnapshotFilter.html#af53e46890f4964e015e63dde1f90f1e1">streamproc::SnapshotFilter</a>, <a class="el" href="../../d3/d6f/classstreamproc_1_1DvNnFilter.html#a26f01453b3f1a157a6be5edd4cc5f51a">streamproc::DvNnFilter</a>, <a class="el" href="../../d4/da9/classstreamproc_1_1TrackingFilter.html#a74fb9e37a244a19224d2c727504ac199">streamproc::TrackingFilter</a>, <a class="el" href="../../da/d75/classstreamproc_1_1SegmentationFilter.html#a2a7a70b8302b77d6f797c43f1e948aca">streamproc::SegmentationFilter</a>, and <a class="el" href="../../d7/d15/classstreamproc_1_1FaceRecFilter.html#adfca495be045d6a164373ba41090e082">streamproc::FaceRecFilter</a>.</p>
+
+</div>
+</div>
+<a id="a1810904bed9a4c884543aa10dabe8fcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1810904bed9a4c884543aa10dabe8fcb">&#9670;&nbsp;</a></span>RecvData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void streamproc::Node::RecvData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Receives data for processing. </p>
+<p>Convenience virtual method for derived nodes. A node may receive data from streams here. This function can block indefinitely. </p>
+
+<p>Reimplemented in <a class="el" href="../../da/dd3/classstreamproc_1_1AnalyticsFilter.html#a567c7fb0871f41e8c5c463b06d7880bf">streamproc::AnalyticsFilter</a>, <a class="el" href="../../d3/dc3/classstreamproc_1_1InferenceFilter.html#a1616013454295e5ffb1432e55a60379a">streamproc::InferenceFilter</a>, <a class="el" href="../../da/db3/classstreamproc_1_1VideoSink.html#ac2abc0e15bd59ffd4598b5e695eeaada">streamproc::VideoSink</a>, <a class="el" href="../../dd/d6d/classstreamproc_1_1CharacterizeFilter.html#a9f65559da580982c6dbea42d027e8bf8">streamproc::CharacterizeFilter</a>, <a class="el" href="../../d3/d6f/classstreamproc_1_1DvNnFilter.html#ad139fafb3030092839b640185c07581a">streamproc::DvNnFilter</a>, <a class="el" href="../../d4/da9/classstreamproc_1_1TrackingFilter.html#a2e7c83099413cdcb629b5bb120ea6e9d">streamproc::TrackingFilter</a>, and <a class="el" href="../../da/d75/classstreamproc_1_1SegmentationFilter.html#a399d7a5960c03be3bd1093576e2fcbab">streamproc::SegmentationFilter</a>.</p>
 
 </div>
 </div>
@@ -436,7 +459,7 @@ Bus: transmit signals, state transitions, statistics and other metadata about th
 <p>Tears down the node after it stops running Convenience virtual method for derived nodes. </p>
 <p>Called after the node exits its worker routine. </p>
 
-<p>Reimplemented in <a class="el" href="../../da/db3/classstreamproc_1_1VideoSink.html#a93dd4d9cb4f42b335687cfe36b32adea">streamproc::VideoSink</a>.</p>
+<p>Reimplemented in <a class="el" href="../../da/db3/classstreamproc_1_1VideoSink.html#a93dd4d9cb4f42b335687cfe36b32adea">streamproc::VideoSink</a>, and <a class="el" href="../../d7/d73/classstreamproc_1_1SnapshotFilter.html#ab8bc077df4570e7fb93fbf71ad7fb491">streamproc::SnapshotFilter</a>.</p>
 
 </div>
 </div>
@@ -589,6 +612,30 @@ Bus: transmit signals, state transitions, statistics and other metadata about th
 
 <p>Profiles the performance of each process iteration. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d42/classstreamproc_1_1ProcessProfiler.html">streamproc::ProcessProfiler</a> </dd></dl>
+
+</div>
+</div>
+<a id="a2ef5e8800b4f20016df44d10510204ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ef5e8800b4f20016df44d10510204ce">&#9670;&nbsp;</a></span>throttleFps</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int streamproc::Node::throttleFps = 24</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Throttle processing rate to this value. </p>
 
 </div>
 </div>

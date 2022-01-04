@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="deepvision::objdet\l::Detector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d81/classdeepvision_1_1objdet_1_1Detector.html",tooltip="Generic interface for classes which perform object detection on an image. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="deepvision::objdet\l::GeneralSSD",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d3f/classdeepvision_1_1objdet_1_1GeneralSSD.html",tooltip="A Detector which can run any SSD model exported for Tensorflow Lite by https://github.com/tensorflow/models/blob/master/research/object_detection/export_tflite_ssd_graph.py with option &#39;–add_postprocessing_op=True&#39;. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="deepvision::objdet\l::TensorRT",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dca/classdeepvision_1_1objdet_1_1TensorRT.html"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="deepvision::objdet\l::YoloV3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d6e/classdeepvision_1_1objdet_1_1YoloV3.html"];
+}

@@ -1,10 +1,12 @@
 <map id="/usr/local/include/deepvision/objdet.hpp" name="/usr/local/include/deepvision/objdet.hpp">
-<area shape="rect" id="node2" href="$dd/d24/deepvision_2models_8hpp.html" title="/usr/local/include\l/deepvision/models.hpp" alt="" coords="294,95,471,136"/>
-<area shape="rect" id="node3" href="$d8/df4/dvconfig_8hpp.html" title="/usr/local/include\l/streamproc/dvconfig.hpp" alt="" coords="188,184,375,225"/>
-<area shape="rect" id="node9" href="$da/d7b/debug_8hpp.html" title="/usr/local/include\l/deepvision/debug.hpp" alt="" coords="399,184,569,225"/>
+<area shape="rect" id="node2" href="$dd/d24/deepvision_2models_8hpp.html" title="/usr/local/include\l/deepvision/models.hpp" alt="" coords="502,95,679,136"/>
+<area shape="rect" id="node3" href="$d8/df4/dvconfig_8hpp.html" title="/usr/local/include\l/streamproc/dvconfig.hpp" alt="" coords="396,184,583,225"/>
+<area shape="rect" id="node11" href="$dd/daa/deepvision_2debug_8hpp.html" title="/usr/local/include\l/deepvision/debug.hpp" alt="" coords="607,184,777,225"/>
 <area shape="rect" id="node4" href="$d4/de6/analytics__sink_8hpp.html" title="/usr/local/include\l/streamproc/analytics\l_sink.hpp" alt="" coords="5,273,168,329"/>
-<area shape="rect" id="node7" href="$d7/daf/embedding__filter_8hpp.html" title="/usr/local/include\l/streamproc/embedding\l_filter.hpp" alt="" coords="193,273,370,329"/>
-<area shape="rect" id="node8" href="$d6/d30/inference__filter_8hpp.html" title="/usr/local/include\l/streamproc/inference\l_filter.hpp" alt="" coords="395,273,560,329"/>
-<area shape="rect" id="node5" href="$de/dc1/streamproc_8hpp.html" title="/usr/local/include\l/streamproc/streamproc.hpp" alt="" coords="178,377,385,419"/>
-<area shape="rect" id="node6" href="$dc/dcd/builder_8hpp.html" title="/usr/local/include\l/streamproc/builder.hpp" alt="" coords="193,467,369,508"/>
+<area shape="rect" id="node5" href="$d6/de5/characterize__filter_8hpp.html" title="/usr/local/include\l/streamproc/characterize\l_filter.hpp" alt="" coords="192,273,376,329"/>
+<area shape="rect" id="node8" href="$d7/daf/embedding__filter_8hpp.html" title="/usr/local/include\l/streamproc/embedding\l_filter.hpp" alt="" coords="401,273,578,329"/>
+<area shape="rect" id="node9" href="$d6/d30/inference__filter_8hpp.html" title="/usr/local/include\l/streamproc/inference\l_filter.hpp" alt="" coords="603,273,768,329"/>
+<area shape="rect" id="node10" href="$d8/d7e/segmentation__filter_8hpp.html" title="/usr/local/include\l/streamproc/segmentation\l_filter.hpp" alt="" coords="792,273,987,329"/>
+<area shape="rect" id="node6" href="$de/dc1/streamproc_8hpp.html" title="/usr/local/include\l/streamproc/streamproc.hpp" alt="" coords="483,377,690,419"/>
+<area shape="rect" id="node7" href="$dc/dcd/builder_8hpp.html" title="/usr/local/include\l/streamproc/builder.hpp" alt="" coords="499,467,675,508"/>
 </map>

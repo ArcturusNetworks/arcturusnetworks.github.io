@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo-dark.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">streamproc
-   &#160;<span id="projectnumber">v.0.0.1</span>
+   &#160;<span id="projectnumber">v.1.1.0</span>
    </div>
    <div id="projectbrief">Distributed Computing for Machine Vision</div>
   </td>
@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('functions_t.html','');});
 </li>
 <li>TearDown()
 : <a class="el" href="dd/d01/classstreamproc_1_1Node.html#a2f05a5e8b6cded614cc6fc2d3ab5f860">streamproc::Node</a>
+, <a class="el" href="d7/d73/classstreamproc_1_1SnapshotFilter.html#ab8bc077df4570e7fb93fbf71ad7fb491">streamproc::SnapshotFilter</a>
 , <a class="el" href="da/db3/classstreamproc_1_1VideoSink.html#a93dd4d9cb4f42b335687cfe36b32adea">streamproc::VideoSink</a>
 , <a class="el" href="dd/d2c/classstreamproc_1_1videowriter_1_1VideoFile.html#a6812602b5c7dccf6732f39bae5b2f6d3">streamproc::videowriter::VideoFile</a>
 , <a class="el" href="dc/dbd/classstreamproc_1_1videowriter_1_1VideoWriter.html#aa59dc347d720bc61a2553d98ebbf1036">streamproc::videowriter::VideoWriter</a>
@@ -98,12 +99,21 @@ $(document).ready(function(){initNavTree('functions_t.html','');});
 <li>Tensor()
 : <a class="el" href="dd/d4a/classdeepvision_1_1Tensor.html#aa0ef37eac35ffc9e98f05717c28dde60">deepvision::Tensor</a>
 </li>
+<li>TensorRT()
+: <a class="el" href="d4/dca/classdeepvision_1_1objdet_1_1TensorRT.html#acb91015a0754a6edf56b3ef1f8c45918">deepvision::objdet::TensorRT</a>
+</li>
+<li>TensorRTExecutor()
+: <a class="el" href="d0/d3d/classdeepvision_1_1tensorrt_1_1TensorRTExecutor.html#a1aa17336bcc88022b5e47361fdc6d1ef">deepvision::tensorrt::TensorRTExecutor</a>
+</li>
 <li>TensorShape()
-: <a class="el" href="de/d1c/classdeepvision_1_1TensorShape.html#ab52e840407999abed61d99cee523e98e">deepvision::TensorShape</a>
+: <a class="el" href="de/d1c/classdeepvision_1_1TensorShape.html#a4984f761603b47dceefeb8a3a16c00bf">deepvision::TensorShape</a>
 </li>
 <li>Terminate()
 : <a class="el" href="d6/dbe/classstreamproc_1_1Bus.html#a57f10b3e6b0e7f0f2e7cba586aa65241">streamproc::Bus</a>
 , <a class="el" href="d6/d95/classstreamproc_1_1Stream.html#a7a49c93fe2c9aaa8c499c6993905f60c">streamproc::Stream</a>
+</li>
+<li>terminateFrameLoop
+: <a class="el" href="d7/d73/classstreamproc_1_1SnapshotFilter.html#a551549e67700ffc93390edf52af0da96">streamproc::SnapshotFilter</a>
 </li>
 <li>terminator
 : <a class="el" href="d6/d95/classstreamproc_1_1Stream.html#ad37a066bd6239cc1d32cfa4d00c7a76b">streamproc::Stream</a>
@@ -121,27 +131,74 @@ $(document).ready(function(){initNavTree('functions_t.html','');});
 : <a class="el" href="d5/d3b/classdeepvision_1_1tflite_1_1TfLiteTensor.html#a8459b0df8e6042c9c9e294b37c89c8f7">deepvision::tflite::TfLiteTensor</a>
 </li>
 <li>throttleFps
-: <a class="el" href="d6/dba/classstreamproc_1_1VideoSource.html#aa6568d87fbface03f99e4afa1fd6dd7d">streamproc::VideoSource</a>
+: <a class="el" href="dd/d01/classstreamproc_1_1Node.html#a2ef5e8800b4f20016df44d10510204ce">streamproc::Node</a>
+, <a class="el" href="d6/dba/classstreamproc_1_1VideoSource.html#aa6568d87fbface03f99e4afa1fd6dd7d">streamproc::VideoSource</a>
+</li>
+<li>ThrowError()
+: <a class="el" href="de/d1c/classvideoanalytics_1_1ThrowError.html#a49d2ec050dd03c880a7caad5471141cb">videoanalytics::ThrowError</a>
 </li>
 <li>Time()
 : <a class="el" href="d8/da8/classstreamproc_1_1influxdb_1_1Point.html#a6d9f45f76c37c4e73ac9dc331d2c2da9">streamproc::influxdb::Point</a>
 </li>
+<li>time_since_update
+: <a class="el" href="df/d0a/classdeepsort_1_1Track.html#a6475b09a2ead71a43c1bae224757f884">deepsort::Track</a>
+</li>
 <li>timestamp
-: <a class="el" href="d7/d89/structstreamproc_1_1models_1_1Detections.html#a01b0dac7d437d93c749bcbcd4c755fcf">streamproc::models::Detections</a>
+: <a class="el" href="d0/db2/structstreamproc_1_1models_1_1Characters.html#a6ace63cbed8562261da4408395cd79f8">streamproc::models::Characters</a>
+, <a class="el" href="d7/d89/structstreamproc_1_1models_1_1Detections.html#a01b0dac7d437d93c749bcbcd4c755fcf">streamproc::models::Detections</a>
 , <a class="el" href="dd/df6/structstreamproc_1_1models_1_1Embeddings.html#ab0a110c530f28788be06b82803ad3163">streamproc::models::Embeddings</a>
 , <a class="el" href="da/d06/structstreamproc_1_1models_1_1Frame.html#af44ad7d7f07eb1d2c4463da771e84376">streamproc::models::Frame</a>
+</li>
+<li>tlwh
+: <a class="el" href="dc/db3/classdeepsort_1_1Detection.html#a682a3394e60a4480a69026b573dba22b">deepsort::Detection</a>
+</li>
+<li>to_str
+: <a class="el" href="de/d1c/classvideoanalytics_1_1ThrowError.html#a232a1f6dd29173327af11ba40abc229baaa7cf448c19f1a07b536ad3c8e4fa93f">videoanalytics::ThrowError</a>
+</li>
+<li>to_tlbr()
+: <a class="el" href="dc/db3/classdeepsort_1_1Detection.html#ac37b9f886087d02db84852d3b44292bd">deepsort::Detection</a>
+</li>
+<li>to_tlwh()
+: <a class="el" href="df/d0a/classdeepsort_1_1Track.html#a03b42ed9996bc678ddc98c3389947807">deepsort::Track</a>
+</li>
+<li>to_xyah()
+: <a class="el" href="dc/db3/classdeepsort_1_1Detection.html#a8dadff64a36bd964a15040d225b3e1a1">deepsort::Detection</a>
+</li>
+<li>Track()
+: <a class="el" href="df/d0a/classdeepsort_1_1Track.html#a11bcebf732f24ee723aedb6365015592">deepsort::Track</a>
+</li>
+<li>track_id
+: <a class="el" href="df/d0a/classdeepsort_1_1Track.html#a0e7bb93f8ae90f043f92922be52cb6b4">deepsort::Track</a>
+</li>
+<li>track_ids
+: <a class="el" href="dc/dca/classstreamproc_1_1WatchlistFilter.html#a338830594632f60670e5f44160137f5a">streamproc::WatchlistFilter</a>
+</li>
+<li>TrackData()
+: <a class="el" href="d9/d3c/structvideoanalytics_1_1TrackData.html#abee90835d18ab778170a55c3d94126a7">videoanalytics::TrackData</a>
+</li>
+<li>Tracker()
+: <a class="el" href="d6/d12/classdeepsort_1_1Tracker.html#a3d9791122d2f56075cc197823085c65f">deepsort::Tracker</a>
 </li>
 <li>tracker
 : <a class="el" href="d4/da9/classstreamproc_1_1TrackingFilter.html#a7cb2c45c1df88f5dfecbc5af12e24855">streamproc::TrackingFilter</a>
 </li>
 <li>TrackingFilter()
-: <a class="el" href="d4/da9/classstreamproc_1_1TrackingFilter.html#aa63737aa686d3c465e5ff48ea946bfcb">streamproc::TrackingFilter</a>
+: <a class="el" href="d4/da9/classstreamproc_1_1TrackingFilter.html#a58bbfca300be53da77d0c1368338ff44">streamproc::TrackingFilter</a>
+</li>
+<li>tracklet
+: <a class="el" href="db/d53/classvideoanalytics_1_1Object.html#a3e6e75bcd099f4f8e012080a9ec607a3">videoanalytics::Object</a>
+</li>
+<li>tracks_
+: <a class="el" href="d6/d12/classdeepsort_1_1Tracker.html#aef4347508df8107f9b080989c0d4ddea">deepsort::Tracker</a>
 </li>
 <li>TryPop()
 : <a class="el" href="dc/dd6/classConcurrentQueue.html#aedfe999013320a40828d5d1e56dc972c">ConcurrentQueue&lt; ElementType &gt;</a>
 </li>
 <li>TryPush()
 : <a class="el" href="dc/dd6/classConcurrentQueue.html#a50f3d5ae8686a2e1a41fe6cee803e26f">ConcurrentQueue&lt; ElementType &gt;</a>
+</li>
+<li>type
+: <a class="el" href="d9/d3c/structvideoanalytics_1_1TrackData.html#a58b138b1f83dbecf20b7ab09d9d0f9bc">videoanalytics::TrackData</a>
 </li>
 </ul>
 </div><!-- contents -->

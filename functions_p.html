@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo-dark.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">streamproc
-   &#160;<span id="projectnumber">v.0.0.1</span>
+   &#160;<span id="projectnumber">v.1.1.0</span>
    </div>
    <div id="projectbrief">Distributed Computing for Machine Vision</div>
   </td>
@@ -86,8 +86,29 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_p"></a>- p -</h3><ul>
+<li>Package()
+: <a class="el" href="d6/da9/classvideoanalytics_1_1Package.html#a063b7288923a37f96717d14e2116c136">videoanalytics::Package</a>
+</li>
+<li>packageCount
+: <a class="el" href="d0/d02/structstreamproc_1_1models_1_1Analytics.html#a2ac0684ced47d072b41258e07d256964">streamproc::models::Analytics</a>
+</li>
+<li>PackageCounter()
+: <a class="el" href="d8/d48/classvideoanalytics_1_1count_1_1PackageCounter.html#a70e1badcc381aca6ef67bf42527795a6">videoanalytics::count::PackageCounter</a>
+</li>
+<li>packages
+: <a class="el" href="df/df5/structvideoanalytics_1_1AnalyticData.html#a0645b46f5d5a2e2a41a0e05c1714b25d">videoanalytics::AnalyticData</a>
+</li>
+<li>PartialFit()
+: <a class="el" href="dd/d4e/classdeepsort_1_1NearestNeighborDistanceMetric.html#ac48d3cf05e48c3da615ffc59bfea67bf">deepsort::NearestNeighborDistanceMetric</a>
+</li>
 <li>password
 : <a class="el" href="dd/dbb/structstreamproc_1_1influxdb_1_1DatabaseConfig.html#aa81b0158a81fb0436b2c8f6f53b28665">streamproc::influxdb::DatabaseConfig</a>
+</li>
+<li>peopleCount
+: <a class="el" href="d0/d02/structstreamproc_1_1models_1_1Analytics.html#a960b68b2ae63365dfcefc81bfe9fd1a7">streamproc::models::Analytics</a>
+</li>
+<li>PeopleCounter()
+: <a class="el" href="d1/d1b/classvideoanalytics_1_1count_1_1PeopleCounter.html#a405fa597d1bf2353d17180c13829b20d">videoanalytics::count::PeopleCounter</a>
 </li>
 <li>Point()
 : <a class="el" href="d8/da8/classstreamproc_1_1influxdb_1_1Point.html#a2f2cfc36670c4905014f0984b0d6f6f6">streamproc::influxdb::Point</a>
@@ -104,19 +125,34 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <li>precision
 : <a class="el" href="dd/dbb/structstreamproc_1_1influxdb_1_1DatabaseConfig.html#a2dcede9aa1a8aceb83e24f2d9b4f8610">streamproc::influxdb::DatabaseConfig</a>
 </li>
+<li>Predict()
+: <a class="el" href="d5/d8a/classdeepsort_1_1KalmanFilter.html#a1537476d8625742a3a50040f5ab801db">deepsort::KalmanFilter</a>
+, <a class="el" href="df/d0a/classdeepsort_1_1Track.html#aebd8df2aef32fc0a1249b6ce75cc2ee4">deepsort::Track</a>
+, <a class="el" href="d6/d12/classdeepsort_1_1Tracker.html#a4c0948680495e96062d33aa70ffacb35">deepsort::Tracker</a>
+</li>
+<li>PreProcess()
+: <a class="el" href="d0/d3d/classdeepvision_1_1tensorrt_1_1TensorRTExecutor.html#aa8061691917a653263d21fe527ddbc1d">deepvision::tensorrt::TensorRTExecutor</a>
+</li>
 <li>PrintResults()
 : <a class="el" href="dd/d01/classstreamproc_1_1Node.html#a586e04cfc72fcfb60b5a6eac5bd90f8c">streamproc::Node</a>
 </li>
 <li>Process()
-: <a class="el" href="df/dfa/classstreamproc_1_1AnalyticsSink.html#aea858240b5246278b669f8fa46302a63">streamproc::AnalyticsSink</a>
+: <a class="el" href="da/dd3/classstreamproc_1_1AnalyticsFilter.html#a3c7b43588bdd76380c34fe342f96a80f">streamproc::AnalyticsFilter</a>
+, <a class="el" href="df/dfa/classstreamproc_1_1AnalyticsSink.html#aea858240b5246278b669f8fa46302a63">streamproc::AnalyticsSink</a>
+, <a class="el" href="dd/d6d/classstreamproc_1_1CharacterizeFilter.html#a7f3c96e6f0308e321a8d186b621a01b8">streamproc::CharacterizeFilter</a>
+, <a class="el" href="d3/d6f/classstreamproc_1_1DvNnFilter.html#a26f01453b3f1a157a6be5edd4cc5f51a">streamproc::DvNnFilter</a>
 , <a class="el" href="d3/d64/classstreamproc_1_1EmbeddingFilter.html#aedd7c3f50e63fd84c79efa0ac8103055">streamproc::EmbeddingFilter</a>
 , <a class="el" href="d7/d15/classstreamproc_1_1FaceRecFilter.html#adfca495be045d6a164373ba41090e082">streamproc::FaceRecFilter</a>
+, <a class="el" href="d6/d49/classstreamproc_1_1Filter.html#acab61755d09ef48582a930d32f01d088">streamproc::Filter</a>
 , <a class="el" href="d3/dc3/classstreamproc_1_1InferenceFilter.html#ad2b25a070033b3257b2dd0038029d974">streamproc::InferenceFilter</a>
 , <a class="el" href="dd/d01/classstreamproc_1_1Node.html#a9915c250c52703ba52f47a19b5444c65">streamproc::Node</a>
+, <a class="el" href="da/d75/classstreamproc_1_1SegmentationFilter.html#a2a7a70b8302b77d6f797c43f1e948aca">streamproc::SegmentationFilter</a>
+, <a class="el" href="d7/d73/classstreamproc_1_1SnapshotFilter.html#af53e46890f4964e015e63dde1f90f1e1">streamproc::SnapshotFilter</a>
 , <a class="el" href="d6/d95/classstreamproc_1_1Stream.html#a0b478f0dc9520068cfce81861b43cd73">streamproc::Stream</a>
 , <a class="el" href="d4/da9/classstreamproc_1_1TrackingFilter.html#a74fb9e37a244a19224d2c727504ac199">streamproc::TrackingFilter</a>
 , <a class="el" href="da/db3/classstreamproc_1_1VideoSink.html#a6e0b56f3177abdba35a737e5e1aa4122">streamproc::VideoSink</a>
 , <a class="el" href="d6/dba/classstreamproc_1_1VideoSource.html#a61b1e8c9b2c577b07388970741481d99">streamproc::VideoSource</a>
+, <a class="el" href="dc/dca/classstreamproc_1_1WatchlistFilter.html#a34f8646f280b974c910b9e86374849fd">streamproc::WatchlistFilter</a>
 </li>
 <li>ProcessExternal()
 : <a class="el" href="d9/daa/classstreamproc_1_1IncomingStream.html#ac0cad9d39bbee8ce0c699beb7db562fb">streamproc::IncomingStream</a>
@@ -130,6 +166,9 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 </li>
 <li>processProfiler
 : <a class="el" href="dd/d01/classstreamproc_1_1Node.html#a71f6d8d5e6df0d5de37379fd623d942c">streamproc::Node</a>
+</li>
+<li>Project()
+: <a class="el" href="d5/d8a/classdeepsort_1_1KalmanFilter.html#a589a821a4cb5f87cf8fbded63b827bea">deepsort::KalmanFilter</a>
 </li>
 <li>proxy
 : <a class="el" href="d6/d95/classstreamproc_1_1Stream.html#a538cfc9ceeb0cd8b410fe2f60c796c1c">streamproc::Stream</a>

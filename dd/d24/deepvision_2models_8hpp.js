@@ -2,9 +2,13 @@ var deepvision_2models_8hpp =
 [
     [ "Backend", "dd/d24/deepvision_2models_8hpp.html#a367938fb63aba3973618e96024110e1a", [
       [ "ARMNN", "dd/d24/deepvision_2models_8hpp.html#a367938fb63aba3973618e96024110e1aa7097967d3062afba935069256e65200b", null ],
-      [ "TFLITE", "dd/d24/deepvision_2models_8hpp.html#a367938fb63aba3973618e96024110e1aac8870525f369b218cd652cd9f7e27868", null ]
+      [ "TFLITE", "dd/d24/deepvision_2models_8hpp.html#a367938fb63aba3973618e96024110e1aac8870525f369b218cd652cd9f7e27868", null ],
+      [ "TENSORRT", "dd/d24/deepvision_2models_8hpp.html#a367938fb63aba3973618e96024110e1aaa068bc4c46ed0030f5dfa3a4d4c92179", null ]
     ] ],
     [ "Model", "dd/d24/deepvision_2models_8hpp.html#ad87855215631097d441197efb42fd9a9", [
+      [ "GENERAL_TRT", "dd/d24/deepvision_2models_8hpp.html#ad87855215631097d441197efb42fd9a9ab545f12dda8b3a63e3834f0da2e1f33e", null ],
+      [ "YOLOV3_TRT", "dd/d24/deepvision_2models_8hpp.html#ad87855215631097d441197efb42fd9a9ab2b774bb2a0f5466dc81422364aa8ad4", null ],
+      [ "TENSORRT", "dd/d24/deepvision_2models_8hpp.html#ad87855215631097d441197efb42fd9a9aa068bc4c46ed0030f5dfa3a4d4c92179", null ],
       [ "YOLOV3", "dd/d24/deepvision_2models_8hpp.html#ad87855215631097d441197efb42fd9a9a9c66fc24c1637c405c751162c6fc90e1", null ],
       [ "GENERAL_SSD", "dd/d24/deepvision_2models_8hpp.html#ad87855215631097d441197efb42fd9a9ab71016790fb1d5a77c800045bf427a6f", null ],
       [ "SSD_MBNETV1", "dd/d24/deepvision_2models_8hpp.html#ad87855215631097d441197efb42fd9a9aafbcc3ff297251a56759424a392c7ba2", null ],

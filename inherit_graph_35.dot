@@ -1,0 +1,11 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="streamproc::Stream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d95/classstreamproc_1_1Stream.html",tooltip="Base clase for stream. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="streamproc::IncomingStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/daa/classstreamproc_1_1IncomingStream.html",tooltip="Interface to receive data from nodes in a network. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="streamproc::OutgoingStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dca/classstreamproc_1_1OutgoingStream.html",tooltip="Interface to send data to nodes in a network. "];
+}

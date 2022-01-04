@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d8/dde/classstreamproc_1_1influxdb_1_1Client.html" title="HTTP client which communicates with the InfluxDb HTTP server. " alt="" coords="5,5,161,47"/>
+<area shape="rect" id="node2" href="$d6/dbe/classstreamproc_1_1Bus.html" title="Interface for asynchronous communication between other nodes in a distributed network. " alt="" coords="209,13,337,39"/>
+</map>

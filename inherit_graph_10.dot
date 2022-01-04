@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="deepvision::classify\l::Classifier",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d07/classdeepvision_1_1classify_1_1Classifier.html",tooltip="Generic interface for classes which perform classification on an image. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="deepvision::classify\l::GeneralClassifier",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/df7/classdeepvision_1_1classify_1_1GeneralClassifier.html",tooltip="A Classifier which can run any classification model exported for Tensorflow Lite. ..."];
+}

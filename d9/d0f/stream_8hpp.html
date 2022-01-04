@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="../../logo-dark.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">streamproc
-   &#160;<span id="projectnumber">v.0.0.1</span>
+   &#160;<span id="projectnumber">v.1.1.0</span>
    </div>
    <div id="projectbrief">Distributed Computing for Machine Vision</div>
   </td>
@@ -92,42 +92,35 @@ $(document).ready(function(){initNavTree('d9/d0f/stream_8hpp.html','../../');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;thread&gt;</code><br />
-<code>#include &lt;zmq.hpp&gt;</code><br />
+<code>#include &lt;zmq_addon.hpp&gt;</code><br />
 <code>#include &lt;flatbuffers/flatbuffers.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d99/error_8hpp_source.html">streamproc/error.hpp</a>&quot;</code><br />
+<code>#include &lt;future&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d32/streamproc_2error_8hpp_source.html">streamproc/error.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/d6b/streamproc_2models_8hpp_source.html">streamproc/models.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/da9/logging_8hpp_source.html">streamproc/logging.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d24/streamproc_2logging_8hpp_source.html">streamproc/logging.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d5b/streamproc_2utils_8hpp_source.html">streamproc/utils.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for stream.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../da/df8/stream_8hpp__incl.png" border="0" usemap="#_2usr_2local_2include_2streamproc_2stream_8hpp" alt=""/></div>
 <map name="_2usr_2local_2include_2streamproc_2stream_8hpp" id="_2usr_2local_2include_2streamproc_2stream_8hpp">
-<area shape="rect" id="node5" href="../../d9/d99/error_8hpp.html" title="streamproc/error.hpp" alt="" coords="923,95,1082,121"/>
-<area shape="rect" id="node6" href="../../dc/d6b/streamproc_2models_8hpp.html" title="streamproc/models.hpp" alt="" coords="528,95,704,121"/>
-<area shape="rect" id="node8" href="../../d8/d5b/streamproc_2utils_8hpp.html" title="streamproc/utils.hpp" alt="" coords="413,177,569,203"/>
-<area shape="rect" id="node20" href="../../d0/da9/logging_8hpp.html" title="streamproc/logging.hpp" alt="" coords="1445,95,1621,121"/>
-<area shape="rect" id="node14" href="../../d1/d3c/frame_8hpp.html" title="streamproc/models/frame.hpp" alt="" coords="644,177,863,203"/>
-<area shape="rect" id="node16" href="../../d6/da0/detections_8hpp.html" title="streamproc/models/detections.hpp" alt="" coords="887,177,1135,203"/>
-<area shape="rect" id="node18" href="../../da/d4c/embeddings_8hpp.html" title="streamproc/models/embeddings.hpp" alt="" coords="1158,177,1418,203"/>
+<area shape="rect" id="node7" href="../../da/d32/streamproc_2error_8hpp.html" title="streamproc/error.hpp" alt="" coords="643,95,802,121"/>
+<area shape="rect" id="node8" href="../../dc/d6b/streamproc_2models_8hpp.html" title="streamproc/models.hpp" alt="" coords="877,95,1053,121"/>
+<area shape="rect" id="node11" href="../../d8/d5b/streamproc_2utils_8hpp.html" title="streamproc/utils.hpp" alt="" coords="279,177,435,203"/>
+<area shape="rect" id="node27" href="../../db/d24/streamproc_2logging_8hpp.html" title="streamproc/logging.hpp" alt="" coords="2051,95,2227,121"/>
+<area shape="rect" id="node17" href="../../d1/d3c/frame_8hpp.html" title="streamproc/models/frame.hpp" alt="" coords="1201,177,1420,203"/>
+<area shape="rect" id="node19" href="../../d6/da0/detections_8hpp.html" title="streamproc/models/detections.hpp" alt="" coords="1444,177,1692,203"/>
+<area shape="rect" id="node21" href="../../d3/df3/characters_8hpp.html" title="streamproc/models/characters.hpp" alt="" coords="1716,177,1964,203"/>
+<area shape="rect" id="node23" href="../../da/d4c/embeddings_8hpp.html" title="streamproc/models/embeddings.hpp" alt="" coords="551,177,811,203"/>
+<area shape="rect" id="node25" href="../../d9/d90/analytics_8hpp.html" title="streamproc/models/analytics.hpp" alt="" coords="938,177,1177,203"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../db/d59/stream_8hpp__dep__incl.png" border="0" usemap="#_2usr_2local_2include_2streamproc_2stream_8hppdep" alt=""/></div>
-<map name="_2usr_2local_2include_2streamproc_2stream_8hppdep" id="_2usr_2local_2include_2streamproc_2stream_8hppdep">
-<area shape="rect" id="node2" href="../../d3/d09/node_8hpp.html" title="/usr/local/include\l/streamproc/node.hpp" alt="" coords="578,95,742,136"/>
-<area shape="rect" id="node3" href="../../d4/de6/analytics__sink_8hpp.html" title="/usr/local/include\l/streamproc/analytics\l_sink.hpp" alt="" coords="5,184,168,240"/>
-<area shape="rect" id="node6" href="../../d7/daf/embedding__filter_8hpp.html" title="/usr/local/include\l/streamproc/embedding\l_filter.hpp" alt="" coords="193,184,370,240"/>
-<area shape="rect" id="node7" href="../../dc/db4/face__rec__filter_8hpp.html" title="/usr/local/include\l/streamproc/face_rec\l_filter.hpp" alt="" coords="394,184,553,240"/>
-<area shape="rect" id="node8" href="../../d6/d30/inference__filter_8hpp.html" title="/usr/local/include\l/streamproc/inference\l_filter.hpp" alt="" coords="577,184,743,240"/>
-<area shape="rect" id="node9" href="../../d1/d2c/tracking__filter_8hpp.html" title="/usr/local/include\l/streamproc/tracking\l_filter.hpp" alt="" coords="767,184,924,240"/>
-<area shape="rect" id="node10" href="../../da/d40/video__sink_8hpp.html" title="/usr/local/include\l/streamproc/video_sink.hpp" alt="" coords="948,191,1151,233"/>
-<area shape="rect" id="node11" href="../../d6/d3d/video__source_8hpp.html" title="/usr/local/include\l/streamproc/video_source.hpp" alt="" coords="1175,191,1393,233"/>
-<area shape="rect" id="node4" href="../../de/dc1/streamproc_8hpp.html" title="/usr/local/include\l/streamproc/streamproc.hpp" alt="" coords="649,288,855,329"/>
-<area shape="rect" id="node5" href="../../dc/dcd/builder_8hpp.html" title="/usr/local/include\l/streamproc/builder.hpp" alt="" coords="664,377,840,419"/>
-</map>
+<!-- MAP 0 -->
 </div>
 </div>
 <p><a href="../../d9/d0f/stream_8hpp_source.html">Go to the source code of this file.</a></p>

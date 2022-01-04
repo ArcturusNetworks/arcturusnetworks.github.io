@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="../../logo-dark.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">streamproc
-   &#160;<span id="projectnumber">v.0.0.1</span>
+   &#160;<span id="projectnumber">v.1.1.0</span>
    </div>
    <div id="projectbrief">Distributed Computing for Machine Vision</div>
   </td>
@@ -104,24 +104,30 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3f/classdeepvision_1_1objdet_1_1GeneralSSD.html">GeneralSSD</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="../../dc/d81/classdeepvision_1_1objdet_1_1Detector.html" title="Generic interface for classes which perform object detection on an image. ">Detector</a> which can run any SSD model exported for Tensorflow Lite by <a href="https://github.com/tensorflow/models/blob/master/research/object_detection/export_tflite_ssd_graph.py">https://github.com/tensorflow/models/blob/master/research/object_detection/export_tflite_ssd_graph.py</a> with option '&ndash;add_postprocessing_op=True'.  <a href="../../de/d3f/classdeepvision_1_1objdet_1_1GeneralSSD.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dca/classdeepvision_1_1objdet_1_1TensorRT.html">TensorRT</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d6e/classdeepvision_1_1objdet_1_1YoloV3.html">YoloV3</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:ad87855215631097d441197efb42fd9a9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9">Model</a> { <br />
-&#160;&#160;<a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9a9c66fc24c1637c405c751162c6fc90e1">Model::YOLOV3</a>, 
-<a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9ab71016790fb1d5a77c800045bf427a6f">Model::GENERAL_SSD</a>, 
+&#160;&#160;<a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9ab545f12dda8b3a63e3834f0da2e1f33e">Model::GENERAL_TRT</a>, 
+<a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9ab2b774bb2a0f5466dc81422364aa8ad4">Model::YOLOV3_TRT</a>, 
+<a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9aa068bc4c46ed0030f5dfa3a4d4c92179">Model::TENSORRT</a>, 
+<a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9a9c66fc24c1637c405c751162c6fc90e1">Model::YOLOV3</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9ab71016790fb1d5a77c800045bf427a6f">Model::GENERAL_SSD</a>, 
 <a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9aafbcc3ff297251a56759424a392c7ba2">Model::SSD_MBNETV1</a>, 
 <a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9a58eaba638ad262ef6353cf45b6399129">Model::SSD_MBNETV1_QUANT</a>, 
+<a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9ad20cd26e6f66be5bc2020b60a69c7602">Model::SSD_MBNETV2</a>, 
 <br />
-&#160;&#160;<a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9ad20cd26e6f66be5bc2020b60a69c7602">Model::SSD_MBNETV2</a>, 
-<a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9aa157a683ecfb9d1a57d6b0bce412a94c">Model::SSD_MBNETV2_QUANT</a>, 
+&#160;&#160;<a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9aa157a683ecfb9d1a57d6b0bce412a94c">Model::SSD_MBNETV2_QUANT</a>, 
 <a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9a819fe2810f95974a2505739b289e58be">Model::SSD_MBNETV3_SMALL</a>, 
 <a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9a9b69766bcbfeb89708e434c2e3d3759f">Model::SSD_INCEPTIONV2</a>, 
+<a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9a4ea7320c90160fd24158e4503f95a8bb">Model::SSDLITE_MBNETV2</a>, 
 <br />
-&#160;&#160;<a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9a4ea7320c90160fd24158e4503f95a8bb">Model::SSDLITE_MBNETV2</a>, 
-<a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9a505ce963965a0a4117eba417e46b00b7">Model::FACESSD_MBNETV2_QUANT</a>
+&#160;&#160;<a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9a505ce963965a0a4117eba417e46b00b7">Model::FACESSD_MBNETV2_QUANT</a>
 <br />
  }<tr class="memdesc:ad87855215631097d441197efb42fd9a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builtin detection models which may be instantiated by calling <a class="el" href="da/dc7/namespacedeepvision_1_1objdet.html#a4b469e5b41f891de9ca8d7f24580f960" title="TODO(j84guo): Config object insteaf of default parameters. ">deepvision::objdet::Create</a> with a valid backend.  <a href="../../da/dc7/namespacedeepvision_1_1objdet.html#ad87855215631097d441197efb42fd9a9">More...</a><br /></td></tr>
 </td></tr>
@@ -140,11 +146,16 @@ Variables</h2></td></tr>
 <tr class="memitem:ae8f4305a68e23c70ea70b2084fe2cf35"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; int, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#ae8f4305a68e23c70ea70b2084fe2cf35">COCO_ALL_CLASSES</a></td></tr>
 <tr class="memdesc:ae8f4305a68e23c70ea70b2084fe2cf35"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO(j84guo): COCO 2014 vs 2017.  <a href="#ae8f4305a68e23c70ea70b2084fe2cf35">More...</a><br /></td></tr>
 <tr class="separator:ae8f4305a68e23c70ea70b2084fe2cf35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa54835bfecc6dcc1367aa6b53ca49f1e"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; uint32_t, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#aa54835bfecc6dcc1367aa6b53ca49f1e">COCO_ALL_TRT_CLASSES</a></td></tr>
+<tr class="memdesc:aa54835bfecc6dcc1367aa6b53ca49f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d4/dca/classdeepvision_1_1objdet_1_1TensorRT.html">TensorRT</a> label map is slightly different for trained models.  <a href="#aa54835bfecc6dcc1367aa6b53ca49f1e">More...</a><br /></td></tr>
+<tr class="separator:aa54835bfecc6dcc1367aa6b53ca49f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58a5060a9066e355fce94eb6231f6f2f"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; int, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#a58a5060a9066e355fce94eb6231f6f2f">COCO_PERSON_ONLY</a></td></tr>
 <tr class="memdesc:a58a5060a9066e355fce94eb6231f6f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">For person detection only.  <a href="#a58a5060a9066e355fce94eb6231f6f2f">More...</a><br /></td></tr>
 <tr class="separator:a58a5060a9066e355fce94eb6231f6f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b3ae897a9b33c70ccc0b1948d9a2453"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; int, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#a9b3ae897a9b33c70ccc0b1948d9a2453">OID_PERSON_AND_PACKAGES</a></td></tr>
 <tr class="separator:a9b3ae897a9b33c70ccc0b1948d9a2453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69660b7f824191f59fc4a1f1d0734a9c"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; uint32_t, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#a69660b7f824191f59fc4a1f1d0734a9c">MULTIPED_PERSON_AND_BAGGAGE</a></td></tr>
+<tr class="separator:a69660b7f824191f59fc4a1f1d0734a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="ad87855215631097d441197efb42fd9a9"></a>
@@ -169,7 +180,10 @@ Variables</h2></td></tr>
 
 <p>Builtin detection models which may be instantiated by calling <a class="el" href="../../da/dc7/namespacedeepvision_1_1objdet.html#a4b469e5b41f891de9ca8d7f24580f960" title="TODO(j84guo): Config object insteaf of default parameters. ">deepvision::objdet::Create</a> with a valid backend. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad87855215631097d441197efb42fd9a9a9c66fc24c1637c405c751162c6fc90e1"></a>YOLOV3&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad87855215631097d441197efb42fd9a9ab545f12dda8b3a63e3834f0da2e1f33e"></a>GENERAL_TRT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad87855215631097d441197efb42fd9a9ab2b774bb2a0f5466dc81422364aa8ad4"></a>YOLOV3_TRT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad87855215631097d441197efb42fd9a9aa068bc4c46ed0030f5dfa3a4d4c92179"></a>TENSORRT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad87855215631097d441197efb42fd9a9a9c66fc24c1637c405c751162c6fc90e1"></a>YOLOV3&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad87855215631097d441197efb42fd9a9ab71016790fb1d5a77c800045bf427a6f"></a>GENERAL_SSD&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad87855215631097d441197efb42fd9a9aafbcc3ff297251a56759424a392c7ba2"></a>SSD_MBNETV1&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad87855215631097d441197efb42fd9a9a58eaba638ad262ef6353cf45b6399129"></a>SSD_MBNETV1_QUANT&#160;</td><td class="fielddoc"></td></tr>
@@ -300,6 +314,22 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aa54835bfecc6dcc1367aa6b53ca49f1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa54835bfecc6dcc1367aa6b53ca49f1e">&#9670;&nbsp;</a></span>COCO_ALL_TRT_CLASSES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::unordered_map&lt;uint32_t, std::string&gt; deepvision::objdet::COCO_ALL_TRT_CLASSES</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    { 0, <span class="stringliteral">&quot;unlabeled&quot;</span>}, { 1, <span class="stringliteral">&quot;person&quot;</span> }, { 2, <span class="stringliteral">&quot;bicycle&quot;</span> }, { 3, <span class="stringliteral">&quot;car&quot;</span> },</div><div class="line">    { 4, <span class="stringliteral">&quot;motorcycle&quot;</span> }, { 5, <span class="stringliteral">&quot;airplane&quot;</span> }, { 6, <span class="stringliteral">&quot;bus&quot;</span> }, { 7, <span class="stringliteral">&quot;train&quot;</span> },</div><div class="line">    { 8, <span class="stringliteral">&quot;truck&quot;</span> }, { 9, <span class="stringliteral">&quot;boat&quot;</span> }, { 10, <span class="stringliteral">&quot;traffic light&quot;</span> },</div><div class="line">    { 11, <span class="stringliteral">&quot;fire hydrant&quot;</span> }, { 12, <span class="stringliteral">&quot;street sign&quot;</span> }, { 13, <span class="stringliteral">&quot;stop sign&quot;</span> },</div><div class="line">    { 14, <span class="stringliteral">&quot;parking meter&quot;</span> }, { 15, <span class="stringliteral">&quot;bench&quot;</span> }, { 16, <span class="stringliteral">&quot;bird&quot;</span> }, { 17, <span class="stringliteral">&quot;cat&quot;</span> },</div><div class="line">    { 18, <span class="stringliteral">&quot;dog&quot;</span> }, { 19, <span class="stringliteral">&quot;horse&quot;</span> }, { 20, <span class="stringliteral">&quot;sheep&quot;</span> }, { 21, <span class="stringliteral">&quot;cow&quot;</span> },</div><div class="line">    { 22, <span class="stringliteral">&quot;elephant&quot;</span> }, { 23, <span class="stringliteral">&quot;bear&quot;</span> }, { 24, <span class="stringliteral">&quot;zebra&quot;</span> }, { 25, <span class="stringliteral">&quot;giraffe&quot;</span> },</div><div class="line">    { 26, <span class="stringliteral">&quot;hat&quot;</span> }, { 27, <span class="stringliteral">&quot;backpack&quot;</span> }, { 28, <span class="stringliteral">&quot;umbrella&quot;</span> }, { 29, <span class="stringliteral">&quot;shoe&quot;</span> },</div><div class="line">    { 30, <span class="stringliteral">&quot;eye glasses&quot;</span> }, { 31, <span class="stringliteral">&quot;handbag&quot;</span> }, { 32, <span class="stringliteral">&quot;tie&quot;</span> }, { 33, <span class="stringliteral">&quot;suitcase&quot;</span> },</div><div class="line">    { 34, <span class="stringliteral">&quot;frisbee&quot;</span> }, { 35, <span class="stringliteral">&quot;skis&quot;</span> }, { 36, <span class="stringliteral">&quot;snowboard&quot;</span> },</div><div class="line">    { 37, <span class="stringliteral">&quot;sports ball&quot;</span> }, { 38, <span class="stringliteral">&quot;kite&quot;</span> }, { 39, <span class="stringliteral">&quot;baseball bat&quot;</span> },</div><div class="line">    { 40, <span class="stringliteral">&quot;baseball glove&quot;</span> }, { 41, <span class="stringliteral">&quot;skateboard&quot;</span> }, { 42, <span class="stringliteral">&quot;surfboard&quot;</span> },</div><div class="line">    { 43, <span class="stringliteral">&quot;tennis racket&quot;</span> }, { 44, <span class="stringliteral">&quot;bottle&quot;</span> }, { 45, <span class="stringliteral">&quot;plate&quot;</span> },</div><div class="line">    { 46, <span class="stringliteral">&quot;wine glass&quot;</span> }, { 47, <span class="stringliteral">&quot;cup&quot;</span> }, { 48, <span class="stringliteral">&quot;fork&quot;</span> }, { 49, <span class="stringliteral">&quot;knife&quot;</span> },</div><div class="line">    { 50, <span class="stringliteral">&quot;spoon&quot;</span> }, { 51, <span class="stringliteral">&quot;bowl&quot;</span> }, { 52, <span class="stringliteral">&quot;banana&quot;</span> }, { 53, <span class="stringliteral">&quot;apple&quot;</span> },</div><div class="line">    { 54, <span class="stringliteral">&quot;sandwich&quot;</span> }, { 55, <span class="stringliteral">&quot;orange&quot;</span> }, { 56, <span class="stringliteral">&quot;broccoli&quot;</span> }, { 57, <span class="stringliteral">&quot;carrot&quot;</span> },</div><div class="line">    { 58, <span class="stringliteral">&quot;hot dog&quot;</span> }, { 59, <span class="stringliteral">&quot;pizza&quot;</span> }, { 60, <span class="stringliteral">&quot;donut&quot;</span> }, { 61, <span class="stringliteral">&quot;cake&quot;</span> },</div><div class="line">    { 62, <span class="stringliteral">&quot;chair&quot;</span> }, { 63, <span class="stringliteral">&quot;couch&quot;</span> }, { 64, <span class="stringliteral">&quot;potted plant&quot;</span> }, { 65, <span class="stringliteral">&quot;bed&quot;</span> },</div><div class="line">    { 66, <span class="stringliteral">&quot;mirror&quot;</span> }, { 67, <span class="stringliteral">&quot;dining table&quot;</span> }, { 68, <span class="stringliteral">&quot;window&quot;</span> }, { 69, <span class="stringliteral">&quot;desk&quot;</span> },</div><div class="line">    { 70, <span class="stringliteral">&quot;toilet&quot;</span> }, { 71, <span class="stringliteral">&quot;door&quot;</span> }, { 72, <span class="stringliteral">&quot;tv&quot;</span> }, { 73, <span class="stringliteral">&quot;laptop&quot;</span> },</div><div class="line">    { 74, <span class="stringliteral">&quot;mouse&quot;</span> }, { 75, <span class="stringliteral">&quot;remote&quot;</span> }, { 76, <span class="stringliteral">&quot;keyboard&quot;</span> }, { 77, <span class="stringliteral">&quot;cell phone&quot;</span> },</div><div class="line">    { 78, <span class="stringliteral">&quot;microwave&quot;</span> }, { 79, <span class="stringliteral">&quot;oven&quot;</span> }, { 80, <span class="stringliteral">&quot;toaster&quot;</span> }, { 81, <span class="stringliteral">&quot;sink&quot;</span> },</div><div class="line">    { 82, <span class="stringliteral">&quot;refrigerator&quot;</span> }, { 83, <span class="stringliteral">&quot;blender&quot;</span> }, { 84, <span class="stringliteral">&quot;book&quot;</span> }, { 85, <span class="stringliteral">&quot;clock&quot;</span> },</div><div class="line">    { 86, <span class="stringliteral">&quot;vase&quot;</span> }, { 87, <span class="stringliteral">&quot;scissors&quot;</span> }, { 88, <span class="stringliteral">&quot;teddy bear&quot;</span> },</div><div class="line">    { 89, <span class="stringliteral">&quot;hair drier&quot;</span> }, { 90, <span class="stringliteral">&quot;toothbrush&quot;</span> } }</div></div><!-- fragment -->
+<p><a class="el" href="../../d4/dca/classdeepvision_1_1objdet_1_1TensorRT.html">TensorRT</a> label map is slightly different for trained models. </p>
+
+</div>
+</div>
 <a id="a58a5060a9066e355fce94eb6231f6f2f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a58a5060a9066e355fce94eb6231f6f2f">&#9670;&nbsp;</a></span>COCO_PERSON_ONLY</h2>
 
@@ -314,6 +344,20 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">    { { 0, <span class="stringliteral">&quot;person&quot;</span> } }</div></div><!-- fragment -->
 <p>For person detection only. </p>
 
+</div>
+</div>
+<a id="a69660b7f824191f59fc4a1f1d0734a9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69660b7f824191f59fc4a1f1d0734a9c">&#9670;&nbsp;</a></span>MULTIPED_PERSON_AND_BAGGAGE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::unordered_map&lt;uint32_t, std::string&gt; deepvision::objdet::MULTIPED_PERSON_AND_BAGGAGE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= { { 0, <span class="stringliteral">&quot;Person&quot;</span> }, </div><div class="line">    { 1, <span class="stringliteral">&quot;Baggage&quot;</span> } }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a9b3ae897a9b33c70ccc0b1948d9a2453"></a>

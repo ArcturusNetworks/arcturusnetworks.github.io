@@ -1,0 +1,8 @@
+digraph "/usr/local/include/streamproc/streamproc.hpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node154 [label="/usr/local/include\l/streamproc/streamproc.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node154 -> Node155 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node155 [label="/usr/local/include\l/streamproc/builder.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dcd/builder_8hpp.html"];
+}

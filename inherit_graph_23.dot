@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="streamproc::influxdb\l::Client",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dde/classstreamproc_1_1influxdb_1_1Client.html",tooltip="HTTP client which communicates with the InfluxDb HTTP server. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="streamproc::Bus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dbe/classstreamproc_1_1Bus.html",tooltip="Interface for asynchronous communication between other nodes in a distributed network. "];
+}

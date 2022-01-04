@@ -1,0 +1,6 @@
+<map id="streamproc::SegmentationFilter" name="streamproc::SegmentationFilter">
+<area shape="rect" id="node2" href="$d6/d49/classstreamproc_1_1Filter.html" title="Node which filters data. " alt="" coords="37,178,173,205"/>
+<area shape="rect" id="node3" href="$dd/d01/classstreamproc_1_1Node.html" title="Base class for node. " alt="" coords="36,95,175,121"/>
+<area shape="rect" id="node4" href="$d0/d42/classstreamproc_1_1ProcessProfiler.html" title="streamproc::ProcessProfiler" alt="" coords="5,5,205,32"/>
+<area shape="rect" id="node5" href="$da/d06/structstreamproc_1_1models_1_1Frame.html" title="Model of a video frame. " alt="" coords="197,171,349,212"/>
+</map>

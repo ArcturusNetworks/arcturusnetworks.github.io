@@ -1,10 +1,10 @@
 <map id="/usr/local/include/streamproc/manager.hpp" name="/usr/local/include/streamproc/manager.hpp">
 <area shape="rect" id="node3" href="$d3/ddc/bus_8hpp.html" title="streamproc/bus.hpp" alt="" coords="145,95,295,121"/>
-<area shape="rect" id="node7" href="$d2/dfe/client_8hpp.html" title="streamproc/influxdb\l/client.hpp" alt="" coords="393,169,545,211"/>
-<area shape="rect" id="node9" href="$d9/d55/database__config_8hpp.html" title="streamproc/influxdb\l/database_config.hpp" alt="" coords="319,259,479,300"/>
-<area shape="rect" id="node16" href="$d0/de4/point_8hpp.html" title="streamproc/influxdb\l/point.hpp" alt="" coords="503,259,655,300"/>
-<area shape="rect" id="node19" href="$d4/d51/http_8hpp.html" title="streamproc/tools/http.hpp" alt="" coords="983,266,1174,293"/>
-<area shape="rect" id="node28" href="$d0/da9/logging_8hpp.html" title="streamproc/logging.hpp" alt="" coords="1677,266,1853,293"/>
-<area shape="rect" id="node10" href="$d8/d5b/streamproc_2utils_8hpp.html" title="streamproc/utils.hpp" alt="" coords="321,355,477,382"/>
-<area shape="rect" id="node18" href="$d9/d99/error_8hpp.html" title="streamproc/error.hpp" alt="" coords="577,355,735,382"/>
+<area shape="rect" id="node7" href="$d2/dfe/client_8hpp.html" title="streamproc/influxdb\l/client.hpp" alt="" coords="201,169,353,211"/>
+<area shape="rect" id="node9" href="$d9/d55/database__config_8hpp.html" title="streamproc/influxdb\l/database_config.hpp" alt="" coords="279,259,439,300"/>
+<area shape="rect" id="node16" href="$d0/de4/point_8hpp.html" title="streamproc/influxdb\l/point.hpp" alt="" coords="463,259,615,300"/>
+<area shape="rect" id="node19" href="$d4/d51/http_8hpp.html" title="streamproc/tools/http.hpp" alt="" coords="994,266,1185,293"/>
+<area shape="rect" id="node28" href="$db/d24/streamproc_2logging_8hpp.html" title="streamproc/logging.hpp" alt="" coords="1748,266,1924,293"/>
+<area shape="rect" id="node10" href="$d8/d5b/streamproc_2utils_8hpp.html" title="streamproc/utils.hpp" alt="" coords="331,355,487,382"/>
+<area shape="rect" id="node18" href="$da/d32/streamproc_2error_8hpp.html" title="streamproc/error.hpp" alt="" coords="587,355,746,382"/>
 </map>

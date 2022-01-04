@@ -1,6 +1,14 @@
 var searchData=
 [
-  ['name',['name',['../dd/d01/classstreamproc_1_1Node.html#ac4573828fc1d81e714b61964da8ab37f',1,'streamproc::Node']]],
-  ['net',['net',['../d3/d64/classstreamproc_1_1EmbeddingFilter.html#a0a9530c752a15429f9335f01b244e48b',1,'streamproc::EmbeddingFilter::net()'],['../d7/d15/classstreamproc_1_1FaceRecFilter.html#afc81a9ee289ea6db199472012f3e2f72',1,'streamproc::FaceRecFilter::net()'],['../d3/dc3/classstreamproc_1_1InferenceFilter.html#ad1705b21c974d880b1c3b0f93d78a608',1,'streamproc::InferenceFilter::net()']]],
-  ['numframes',['numFrames',['../da/db3/classstreamproc_1_1VideoSink.html#a342c5b39f4c2822bc83162eb194fd019',1,'streamproc::VideoSink']]]
+  ['label',['label',['../db/d2c/structstreamproc_1_1models_1_1Detection.html#a351c111521e307166ada73d80d112aa0',1,'streamproc::models::Detection::label()'],['../d5/d1d/structstreamproc_1_1WatchlistCharacter.html#aac9acc8507d3da20f3ec8e71672ba180',1,'streamproc::WatchlistCharacter::label()'],['../df/d27/structdeepvision_1_1classify_1_1Classification.html#a0e6fcaa2785b99deaf87a4f16134260e',1,'deepvision::classify::Classification::label()'],['../dc/d3d/structdeepvision_1_1objdet_1_1Detection.html#a7e7306867b7c310c83c97cc8cce4578e',1,'deepvision::objdet::Detection::label()'],['../dc/db3/classdeepsort_1_1Detection.html#a51cde41363ca916b6b654c43a3cc03df',1,'deepsort::Detection::label()'],['../df/d0a/classdeepsort_1_1Track.html#a426f9f6119decb0341ee86ae25605707',1,'deepsort::Track::label()'],['../db/d53/classvideoanalytics_1_1Object.html#a86cb9eb93050e6877d36149892549d50',1,'videoanalytics::Object::label()'],['../d6/da9/classvideoanalytics_1_1Package.html#a6fecefbf8705474671c677b0f52ea9d2',1,'videoanalytics::Package::label()'],['../d9/d3c/structvideoanalytics_1_1TrackData.html#a059de2971732fbecdaae5c3b9f091806',1,'videoanalytics::TrackData::label()']]],
+  ['labelsmap',['LabelsMap',['../d2/d92/namespacestreamproc_1_1dvconfig.html#aeb6e83a396cd9a39159f5d745dc00b76',1,'streamproc::dvconfig']]],
+  ['leaky',['leaky',['../d6/d95/classstreamproc_1_1Stream.html#ac637391285716de0907d94de665daf82',1,'streamproc::Stream']]],
+  ['localhost',['localhost',['../d2/d53/namespacestreamproc_1_1utils.html#aa5c2c4f15741e098d3ca362bfec34192',1,'streamproc::utils']]],
+  ['logger',['logger',['../dd/d01/classstreamproc_1_1Node.html#ad43a406eee44c41b0b479363b1cab5a2',1,'streamproc::Node::logger()'],['../d6/d95/classstreamproc_1_1Stream.html#af386011b18c36b68af04aae83266101f',1,'streamproc::Stream::logger()']]],
+  ['lognewevents',['logNewEvents',['../da/dd3/classstreamproc_1_1AnalyticsFilter.html#a12efb626ed5934cb03da88eaba5ac8b7',1,'streamproc::AnalyticsFilter']]],
+  ['loitering',['loitering',['../d2/de1/structvideoanalytics_1_1ObjectStatus.html#a1b528cce7f8aca0ab90c2ba58e9356f8',1,'videoanalytics::ObjectStatus::loitering()'],['../db/d53/classvideoanalytics_1_1Object.html#a01efba1fbb3ccfb39ad97bc9a985114b',1,'videoanalytics::Object::loitering()']]],
+  ['loitering_5fstart',['loitering_start',['../db/d53/classvideoanalytics_1_1Object.html#a4ced28f1b23e15fb55837c7e788cdf08',1,'videoanalytics::Object']]],
+  ['loitering_5ftriggered',['loitering_triggered',['../db/d53/classvideoanalytics_1_1Object.html#af788f5da23d84aae8011ccd02a1c969d',1,'videoanalytics::Object']]],
+  ['loiteringids',['loiteringIds',['../d0/d02/structstreamproc_1_1models_1_1Analytics.html#a2a376101d1653ccdecef2f726f09dfea',1,'streamproc::models::Analytics']]],
+  ['lower',['lower',['../d5/d1d/structstreamproc_1_1WatchlistCharacter.html#afdc8529b40f45185068e0f525db078f5',1,'streamproc::WatchlistCharacter']]]
 ];

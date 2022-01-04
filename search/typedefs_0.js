@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['json',['json',['../d2/dfe/client_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d',1,'json():&#160;client.hpp'],['../d3/d09/node_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d',1,'json():&#160;node.hpp'],['../d8/d5b/streamproc_2utils_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d',1,'json():&#160;utils.hpp']]]
+  ['detections_5ft',['detections_t',['../d9/df7/namespacedeepsort.html#a9a8b5ec7c3e0f026c3f1d5587774c327',1,'deepsort']]],
+  ['distmetricfunc',['DistMetricFunc',['../d9/df7/namespacedeepsort.html#ad5c5de7468ff561e3f112c3c8b0c24a5',1,'deepsort']]]
 ];

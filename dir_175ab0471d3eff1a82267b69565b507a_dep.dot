@@ -1,0 +1,13 @@
+digraph "/usr/local/include/deepvision/objdet" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d72db6f9b16262d234de46bc36044bbd {
+    graph [ bgcolor="#ddddee", pencolor="black", label="deepvision" fontname="Helvetica", fontsize="10", URL="dir_d72db6f9b16262d234de46bc36044bbd.html"]
+  dir_175ab0471d3eff1a82267b69565b507a [shape=box, label="objdet", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_175ab0471d3eff1a82267b69565b507a.html"];
+  }
+  dir_4a810b10d7bd29b4843818be068adaae [shape=box label="tensorrt" URL="dir_4a810b10d7bd29b4843818be068adaae.html"];
+  dir_d8985568f8ab439297a2bb70051aeca7 [shape=box label="armnn" URL="dir_d8985568f8ab439297a2bb70051aeca7.html"];
+  dir_175ab0471d3eff1a82267b69565b507a->dir_4a810b10d7bd29b4843818be068adaae [headlabel="1", labeldistance=1.5 headhref="dir_000007_000012.html"];
+  dir_175ab0471d3eff1a82267b69565b507a->dir_d8985568f8ab439297a2bb70051aeca7 [headlabel="1", labeldistance=1.5 headhref="dir_000007_000005.html"];
+}
